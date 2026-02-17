@@ -72,10 +72,9 @@ class Team{
             return goalsVisitor < team2.getGoalsVisitor();
 
         else
-            return name < team2.getName();
+            return name > team2.getName();
     }
 };
-
 
 void decodePartido(string partido, unordered_map<string,Team*> &mapaTeams){
     int posVs, golesInt1, golesInt2; 
@@ -107,7 +106,7 @@ void decodePartido(string partido, unordered_map<string,Team*> &mapaTeams){
             }
 
         golesStr1 = partido.substr(posVs -2 -digtsGolesTeam1 +1,  1 +digtsGolesTeam1 -1);
-        
+
         golesStr2 = partido.substr(posVs +4, digtsGolesTeam2 );
 
         golesInt1 = stoi(golesStr1);
@@ -116,9 +115,8 @@ void decodePartido(string partido, unordered_map<string,Team*> &mapaTeams){
         namet1 = partido.substr(0,posVs -2 -digtsGolesTeam1);
         namet2 = partido.substr(posVs + 5 +digtsGolesTeam2 ,partido.size() -posVs +4 );
 
-        cout <<  "posVs:" << posVs << " golesStr1:" << golesInt1 << " golesStr2:" << golesInt2 << " namet1:" << namet1 << " namet2:" << namet2 << endl;  
-        cout <<  "digtsGolesTeam1:" << digtsGolesTeam1 << " digtsGolesTeam2:" << digtsGolesTeam2 << endl;  
-
+        //cout <<  "posVs:" << posVs << " golesStr1:" << golesInt1 << " golesStr2:" << golesInt2 << " namet1:" << namet1 << " namet2:" << namet2 << endl;  
+        //cout <<  "digtsGolesTeam1:" << digtsGolesTeam1 << " digtsGolesTeam2:" << digtsGolesTeam2 << endl;  
 
     // Agregar equipos
         if (mapaTeams.find(namet1) == mapaTeams.end()){

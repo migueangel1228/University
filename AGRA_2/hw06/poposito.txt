@@ -1,0 +1,10000 @@
+Island Group: 1 Average 307.52
+
+Island Group: 2 Average 163.13
+
+Island Group: 3 Average 199.78
+
+Island Group: 4 Average 151.43
+
+Island Group: 5 Average 357.10
+
+Island Group: 6 Average 144.01
+
+Island Group: 7 Average 190.52
+
+Island Group: 8 Average 300.18
+
+Island Group: 9 Average 224.89
+
+Island Group: 10 Average 238.00
+
+Island Group: 11 Average 190.87
+
+Island Group: 12 Average 159.53
+
+Island Group: 13 Average 197.76
+
+Island Group: 14 Average 192.14
+
+Island Group: 15 Average 174.22
+
+Island Group: 16 Average 196.27
+
+Island Group: 17 Average 331.29
+
+Island Group: 18 Average 300.07
+
+Island Group: 19 Average 250.59
+
+Island Group: 20 Average 192.87
+
+Island Group: 21 Average 197.42
+
+Island Group: 22 Average 158.40
+
+Island Group: 23 Average 311.52
+
+Island Group: 24 Average 340.37
+
+Island Group: 25 Average 428.64
+
+Island Group: 26 Average 334.26
+
+Island Group: 27 Average 221.84
+
+Island Group: 28 Average 212.96
+
+Island Group: 29 Average 129.64
+
+Island Group: 30 Average 160.08
+
+Island Group: 31 Average 272.26
+
+Island Group: 32 Average 181.05
+
+Island Group: 33 Average 343.23
+
+Island Group: 34 Average 151.03
+
+Island Group: 35 Average 226.39
+
+Island Group: 36 Average 162.73
+
+Island Group: 37 Average 355.14
+
+Island Group: 38 Average 300.57
+
+Island Group: 39 Average 187.46
+
+Island Group: 40 Average 220.44
+
+Island Group: 41 Average 188.92
+
+Island Group: 42 Average 212.40
+
+Island Group: 43 Average 183.66
+
+Island Group: 44 Average 165.12
+
+Island Group: 45 Average 161.01
+
+Island Group: 46 Average 240.56
+
+Island Group: 47 Average 286.96
+
+Island Group: 48 Average 0.00
+
+Island Group: 49 Average 168.33
+
+Island Group: 50 Average 330.25
+
+Island Group: 51 Average 145.76
+
+Island Group: 52 Average 187.95
+
+Island Group: 53 Average 171.18
+
+Island Group: 54 Average 170.09
+
+Island Group: 55 Average 405.25
+
+Island Group: 56 Average 163.51
+
+Island Group: 57 Average 187.69
+
+Island Group: 58 Average 337.36
+
+Island Group: 59 Average 0.00
+
+Island Group: 60 Average 214.15
+
+Island Group: 61 Average 194.94
+
+Island Group: 62 Average 124.58
+
+Island Group: 63 Average 228.71
+
+Island Group: 64 Average 275.19
+
+Island Group: 65 Average 207.04
+
+Island Group: 66 Average 207.82
+
+Island Group: 67 Average 147.26
+
+Island Group: 68 Average 237.97
+
+Island Group: 69 Average 203.18
+
+Island Group: 70 Average 159.38
+
+Island Group: 71 Average 36.44
+
+Island Group: 72 Average 203.26
+
+Island Group: 73 Average 170.64
+
+Island Group: 74 Average 433.16
+
+Island Group: 75 Average 204.75
+
+Island Group: 76 Average 334.03
+
+Island Group: 77 Average 178.04
+
+Island Group: 78 Average 186.64
+
+Island Group: 79 Average 354.58
+
+Island Group: 80 Average 164.95
+
+Island Group: 81 Average 215.58
+
+Island Group: 82 Average 167.57
+
+Island Group: 83 Average 259.08
+
+Island Group: 84 Average 161.09
+
+Island Group: 85 Average 468.21
+
+Island Group: 86 Average 175.78
+
+Island Group: 87 Average 251.74
+
+Island Group: 88 Average 185.46
+
+Island Group: 89 Average 221.23
+
+Island Group: 90 Average 193.15
+
+Island Group: 91 Average 405.21
+
+Island Group: 92 Average 305.15
+
+Island Group: 93 Average 212.43
+
+Island Group: 94 Average 202.20
+
+Island Group: 95 Average 187.75
+
+Island Group: 96 Average 218.95
+
+Island Group: 97 Average 186.10
+
+Island Group: 98 Average 379.44
+
+Island Group: 99 Average 230.36
+
+Island Group: 100 Average 169.75
+
+Island Group: 101 Average 195.59
+
+Island Group: 102 Average 296.21
+
+Island Group: 103 Average 215.58
+
+Island Group: 104 Average 144.32
+
+Island Group: 105 Average 249.13
+
+Island Group: 106 Average 152.03
+
+Island Group: 107 Average 204.78
+
+Island Group: 108 Average 389.60
+
+Island Group: 109 Average 358.30
+
+Island Group: 110 Average 171.28
+
+Island Group: 111 Average 198.92
+
+Island Group: 112 Average 237.20
+
+Island Group: 113 Average 242.59
+
+Island Group: 114 Average 221.49
+
+Island Group: 115 Average 192.81
+
+Island Group: 116 Average 281.97
+
+Island Group: 117 Average 291.66
+
+Island Group: 118 Average 363.04
+
+Island Group: 119 Average 382.39
+
+Island Group: 120 Average 200.40
+
+Island Group: 121 Average 200.53
+
+Island Group: 122 Average 151.87
+
+Island Group: 123 Average 268.35
+
+Island Group: 124 Average 185.03
+
+Island Group: 125 Average 181.54
+
+Island Group: 126 Average 181.25
+
+Island Group: 127 Average 169.89
+
+Island Group: 128 Average 249.24
+
+Island Group: 129 Average 180.95
+
+Island Group: 130 Average 226.11
+
+Island Group: 131 Average 209.03
+
+Island Group: 132 Average 293.32
+
+Island Group: 133 Average 258.00
+
+Island Group: 134 Average 381.42
+
+Island Group: 135 Average 146.19
+
+Island Group: 136 Average 151.22
+
+Island Group: 137 Average 345.41
+
+Island Group: 138 Average 171.39
+
+Island Group: 139 Average 157.79
+
+Island Group: 140 Average 148.09
+
+Island Group: 141 Average 170.02
+
+Island Group: 142 Average 217.37
+
+Island Group: 143 Average 205.72
+
+Island Group: 144 Average 489.43
+
+Island Group: 145 Average 288.08
+
+Island Group: 146 Average 384.23
+
+Island Group: 147 Average 388.38
+
+Island Group: 148 Average 88.81
+
+Island Group: 149 Average 135.15
+
+Island Group: 150 Average 255.78
+
+Island Group: 151 Average 235.21
+
+Island Group: 152 Average 282.32
+
+Island Group: 153 Average 174.83
+
+Island Group: 154 Average 227.35
+
+Island Group: 155 Average 154.11
+
+Island Group: 156 Average 209.43
+
+Island Group: 157 Average 184.69
+
+Island Group: 158 Average 153.86
+
+Island Group: 159 Average 177.62
+
+Island Group: 160 Average 0.00
+
+Island Group: 161 Average 359.53
+
+Island Group: 162 Average 185.25
+
+Island Group: 163 Average 157.93
+
+Island Group: 164 Average 419.61
+
+Island Group: 165 Average 253.33
+
+Island Group: 166 Average 279.62
+
+Island Group: 167 Average 280.26
+
+Island Group: 168 Average 223.36
+
+Island Group: 169 Average 305.49
+
+Island Group: 170 Average 274.09
+
+Island Group: 171 Average 185.89
+
+Island Group: 172 Average 322.46
+
+Island Group: 173 Average 244.77
+
+Island Group: 174 Average 206.58
+
+Island Group: 175 Average 249.65
+
+Island Group: 176 Average 361.39
+
+Island Group: 177 Average 151.28
+
+Island Group: 178 Average 153.85
+
+Island Group: 179 Average 174.20
+
+Island Group: 180 Average 177.88
+
+Island Group: 181 Average 195.40
+
+Island Group: 182 Average 302.16
+
+Island Group: 183 Average 265.40
+
+Island Group: 184 Average 159.13
+
+Island Group: 185 Average 318.33
+
+Island Group: 186 Average 193.48
+
+Island Group: 187 Average 535.32
+
+Island Group: 188 Average 604.23
+
+Island Group: 189 Average 160.43
+
+Island Group: 190 Average 199.55
+
+Island Group: 191 Average 231.13
+
+Island Group: 192 Average 257.27
+
+Island Group: 193 Average 169.55
+
+Island Group: 194 Average 351.91
+
+Island Group: 195 Average 249.02
+
+Island Group: 196 Average 468.63
+
+Island Group: 197 Average 0.00
+
+Island Group: 198 Average 317.85
+
+Island Group: 199 Average 186.37
+
+Island Group: 200 Average 190.02
+
+Island Group: 201 Average 218.01
+
+Island Group: 202 Average 223.89
+
+Island Group: 203 Average 201.40
+
+Island Group: 204 Average 317.41
+
+Island Group: 205 Average 203.78
+
+Island Group: 206 Average 252.01
+
+Island Group: 207 Average 271.57
+
+Island Group: 208 Average 186.41
+
+Island Group: 209 Average 177.75
+
+Island Group: 210 Average 158.68
+
+Island Group: 211 Average 223.66
+
+Island Group: 212 Average 169.90
+
+Island Group: 213 Average 172.40
+
+Island Group: 214 Average 183.43
+
+Island Group: 215 Average 158.29
+
+Island Group: 216 Average 180.56
+
+Island Group: 217 Average 167.47
+
+Island Group: 218 Average 188.82
+
+Island Group: 219 Average 315.38
+
+Island Group: 220 Average 157.78
+
+Island Group: 221 Average 450.26
+
+Island Group: 222 Average 194.19
+
+Island Group: 223 Average 178.79
+
+Island Group: 224 Average 232.22
+
+Island Group: 225 Average 299.34
+
+Island Group: 226 Average 269.85
+
+Island Group: 227 Average 239.37
+
+Island Group: 228 Average 493.35
+
+Island Group: 229 Average 177.36
+
+Island Group: 230 Average 162.73
+
+Island Group: 231 Average 332.98
+
+Island Group: 232 Average 194.39
+
+Island Group: 233 Average 153.21
+
+Island Group: 234 Average 143.34
+
+Island Group: 235 Average 382.30
+
+Island Group: 236 Average 328.05
+
+Island Group: 237 Average 254.66
+
+Island Group: 238 Average 162.75
+
+Island Group: 239 Average 162.95
+
+Island Group: 240 Average 279.45
+
+Island Group: 241 Average 179.36
+
+Island Group: 242 Average 288.53
+
+Island Group: 243 Average 314.67
+
+Island Group: 244 Average 146.61
+
+Island Group: 245 Average 265.58
+
+Island Group: 246 Average 196.04
+
+Island Group: 247 Average 369.66
+
+Island Group: 248 Average 155.75
+
+Island Group: 249 Average 0.00
+
+Island Group: 250 Average 167.11
+
+Island Group: 251 Average 364.45
+
+Island Group: 252 Average 171.37
+
+Island Group: 253 Average 134.29
+
+Island Group: 254 Average 255.97
+
+Island Group: 255 Average 212.04
+
+Island Group: 256 Average 205.76
+
+Island Group: 257 Average 212.56
+
+Island Group: 258 Average 232.13
+
+Island Group: 259 Average 164.21
+
+Island Group: 260 Average 194.13
+
+Island Group: 261 Average 156.85
+
+Island Group: 262 Average 144.59
+
+Island Group: 263 Average 190.79
+
+Island Group: 264 Average 164.38
+
+Island Group: 265 Average 143.69
+
+Island Group: 266 Average 173.56
+
+Island Group: 267 Average 220.49
+
+Island Group: 268 Average 238.16
+
+Island Group: 269 Average 198.62
+
+Island Group: 270 Average 140.99
+
+Island Group: 271 Average 240.13
+
+Island Group: 272 Average 215.94
+
+Island Group: 273 Average 213.03
+
+Island Group: 274 Average 257.63
+
+Island Group: 275 Average 13.17
+
+Island Group: 276 Average 210.37
+
+Island Group: 277 Average 216.71
+
+Island Group: 278 Average 137.49
+
+Island Group: 279 Average 179.06
+
+Island Group: 280 Average 267.36
+
+Island Group: 281 Average 179.53
+
+Island Group: 282 Average 186.58
+
+Island Group: 283 Average 221.87
+
+Island Group: 284 Average 152.13
+
+Island Group: 285 Average 164.74
+
+Island Group: 286 Average 213.67
+
+Island Group: 287 Average 312.32
+
+Island Group: 288 Average 226.65
+
+Island Group: 289 Average 132.16
+
+Island Group: 290 Average 210.79
+
+Island Group: 291 Average 252.76
+
+Island Group: 292 Average 204.94
+
+Island Group: 293 Average 169.81
+
+Island Group: 294 Average 196.04
+
+Island Group: 295 Average 438.64
+
+Island Group: 296 Average 181.86
+
+Island Group: 297 Average 145.77
+
+Island Group: 298 Average 151.05
+
+Island Group: 299 Average 174.53
+
+Island Group: 300 Average 149.80
+
+Island Group: 301 Average 200.64
+
+Island Group: 302 Average 190.16
+
+Island Group: 303 Average 244.61
+
+Island Group: 304 Average 228.67
+
+Island Group: 305 Average 282.19
+
+Island Group: 306 Average 159.37
+
+Island Group: 307 Average 235.51
+
+Island Group: 308 Average 195.25
+
+Island Group: 309 Average 154.78
+
+Island Group: 310 Average 295.68
+
+Island Group: 311 Average 224.44
+
+Island Group: 312 Average 211.70
+
+Island Group: 313 Average 232.06
+
+Island Group: 314 Average 139.79
+
+Island Group: 315 Average 173.07
+
+Island Group: 316 Average 374.00
+
+Island Group: 317 Average 252.85
+
+Island Group: 318 Average 164.31
+
+Island Group: 319 Average 193.58
+
+Island Group: 320 Average 341.41
+
+Island Group: 321 Average 238.34
+
+Island Group: 322 Average 163.84
+
+Island Group: 323 Average 186.71
+
+Island Group: 324 Average 253.00
+
+Island Group: 325 Average 197.28
+
+Island Group: 326 Average 61.03
+
+Island Group: 327 Average 0.00
+
+Island Group: 328 Average 167.12
+
+Island Group: 329 Average 281.02
+
+Island Group: 330 Average 221.45
+
+Island Group: 331 Average 145.85
+
+Island Group: 332 Average 317.49
+
+Island Group: 333 Average 184.48
+
+Island Group: 334 Average 177.08
+
+Island Group: 335 Average 198.05
+
+Island Group: 336 Average 190.27
+
+Island Group: 337 Average 218.92
+
+Island Group: 338 Average 200.12
+
+Island Group: 339 Average 180.08
+
+Island Group: 340 Average 207.45
+
+Island Group: 341 Average 165.86
+
+Island Group: 342 Average 190.23
+
+Island Group: 343 Average 227.41
+
+Island Group: 344 Average 265.91
+
+Island Group: 345 Average 290.01
+
+Island Group: 346 Average 271.94
+
+Island Group: 347 Average 178.63
+
+Island Group: 348 Average 175.97
+
+Island Group: 349 Average 155.97
+
+Island Group: 350 Average 210.73
+
+Island Group: 351 Average 201.61
+
+Island Group: 352 Average 175.60
+
+Island Group: 353 Average 256.01
+
+Island Group: 354 Average 307.77
+
+Island Group: 355 Average 337.27
+
+Island Group: 356 Average 162.13
+
+Island Group: 357 Average 154.60
+
+Island Group: 358 Average 177.89
+
+Island Group: 359 Average 153.08
+
+Island Group: 360 Average 172.33
+
+Island Group: 361 Average 173.79
+
+Island Group: 362 Average 193.55
+
+Island Group: 363 Average 76.09
+
+Island Group: 364 Average 183.38
+
+Island Group: 365 Average 153.34
+
+Island Group: 366 Average 241.97
+
+Island Group: 367 Average 182.06
+
+Island Group: 368 Average 260.70
+
+Island Group: 369 Average 187.17
+
+Island Group: 370 Average 317.18
+
+Island Group: 371 Average 158.41
+
+Island Group: 372 Average 283.38
+
+Island Group: 373 Average 306.99
+
+Island Group: 374 Average 181.49
+
+Island Group: 375 Average 271.91
+
+Island Group: 376 Average 174.05
+
+Island Group: 377 Average 160.79
+
+Island Group: 378 Average 292.32
+
+Island Group: 379 Average 192.88
+
+Island Group: 380 Average 176.66
+
+Island Group: 381 Average 572.47
+
+Island Group: 382 Average 362.88
+
+Island Group: 383 Average 189.26
+
+Island Group: 384 Average 195.22
+
+Island Group: 385 Average 301.70
+
+Island Group: 386 Average 429.52
+
+Island Group: 387 Average 310.23
+
+Island Group: 388 Average 236.86
+
+Island Group: 389 Average 184.61
+
+Island Group: 390 Average 209.30
+
+Island Group: 391 Average 271.51
+
+Island Group: 392 Average 329.58
+
+Island Group: 393 Average 163.91
+
+Island Group: 394 Average 248.06
+
+Island Group: 395 Average 306.39
+
+Island Group: 396 Average 322.57
+
+Island Group: 397 Average 169.23
+
+Island Group: 398 Average 0.00
+
+Island Group: 399 Average 171.00
+
+Island Group: 400 Average 214.19
+
+Island Group: 401 Average 360.17
+
+Island Group: 402 Average 167.96
+
+Island Group: 403 Average 182.37
+
+Island Group: 404 Average 221.63
+
+Island Group: 405 Average 186.12
+
+Island Group: 406 Average 195.79
+
+Island Group: 407 Average 171.29
+
+Island Group: 408 Average 297.27
+
+Island Group: 409 Average 233.05
+
+Island Group: 410 Average 309.88
+
+Island Group: 411 Average 250.49
+
+Island Group: 412 Average 154.79
+
+Island Group: 413 Average 154.26
+
+Island Group: 414 Average 147.36
+
+Island Group: 415 Average 296.37
+
+Island Group: 416 Average 212.71
+
+Island Group: 417 Average 348.27
+
+Island Group: 418 Average 204.75
+
+Island Group: 419 Average 212.68
+
+Island Group: 420 Average 240.80
+
+Island Group: 421 Average 248.51
+
+Island Group: 422 Average 0.00
+
+Island Group: 423 Average 354.05
+
+Island Group: 424 Average 467.62
+
+Island Group: 425 Average 162.62
+
+Island Group: 426 Average 199.83
+
+Island Group: 427 Average 143.73
+
+Island Group: 428 Average 205.77
+
+Island Group: 429 Average 161.64
+
+Island Group: 430 Average 281.12
+
+Island Group: 431 Average 291.72
+
+Island Group: 432 Average 206.39
+
+Island Group: 433 Average 219.82
+
+Island Group: 434 Average 228.00
+
+Island Group: 435 Average 0.00
+
+Island Group: 436 Average 215.72
+
+Island Group: 437 Average 221.82
+
+Island Group: 438 Average 152.04
+
+Island Group: 439 Average 161.56
+
+Island Group: 440 Average 152.83
+
+Island Group: 441 Average 199.85
+
+Island Group: 442 Average 221.06
+
+Island Group: 443 Average 236.03
+
+Island Group: 444 Average 147.48
+
+Island Group: 445 Average 682.44
+
+Island Group: 446 Average 263.74
+
+Island Group: 447 Average 228.28
+
+Island Group: 448 Average 174.71
+
+Island Group: 449 Average 268.18
+
+Island Group: 450 Average 174.87
+
+Island Group: 451 Average 139.28
+
+Island Group: 452 Average 232.20
+
+Island Group: 453 Average 173.22
+
+Island Group: 454 Average 320.95
+
+Island Group: 455 Average 217.53
+
+Island Group: 456 Average 328.02
+
+Island Group: 457 Average 175.63
+
+Island Group: 458 Average 429.49
+
+Island Group: 459 Average 220.69
+
+Island Group: 460 Average 206.81
+
+Island Group: 461 Average 223.75
+
+Island Group: 462 Average 244.74
+
+Island Group: 463 Average 186.20
+
+Island Group: 464 Average 330.00
+
+Island Group: 465 Average 168.88
+
+Island Group: 466 Average 202.77
+
+Island Group: 467 Average 247.13
+
+Island Group: 468 Average 196.43
+
+Island Group: 469 Average 322.46
+
+Island Group: 470 Average 168.43
+
+Island Group: 471 Average 149.19
+
+Island Group: 472 Average 247.19
+
+Island Group: 473 Average 346.99
+
+Island Group: 474 Average 460.70
+
+Island Group: 475 Average 162.46
+
+Island Group: 476 Average 133.65
+
+Island Group: 477 Average 250.03
+
+Island Group: 478 Average 331.01
+
+Island Group: 479 Average 0.00
+
+Island Group: 480 Average 232.24
+
+Island Group: 481 Average 158.59
+
+Island Group: 482 Average 178.94
+
+Island Group: 483 Average 218.99
+
+Island Group: 484 Average 493.23
+
+Island Group: 485 Average 317.64
+
+Island Group: 486 Average 160.38
+
+Island Group: 487 Average 173.70
+
+Island Group: 488 Average 346.28
+
+Island Group: 489 Average 213.86
+
+Island Group: 490 Average 197.84
+
+Island Group: 491 Average 493.32
+
+Island Group: 492 Average 316.52
+
+Island Group: 493 Average 94.75
+
+Island Group: 494 Average 389.13
+
+Island Group: 495 Average 260.00
+
+Island Group: 496 Average 308.17
+
+Island Group: 497 Average 204.97
+
+Island Group: 498 Average 150.29
+
+Island Group: 499 Average 162.95
+
+Island Group: 500 Average 144.57
+
+Island Group: 501 Average 17.97
+
+Island Group: 502 Average 0.00
+
+Island Group: 503 Average 366.50
+
+Island Group: 504 Average 183.05
+
+Island Group: 505 Average 281.88
+
+Island Group: 506 Average 231.22
+
+Island Group: 507 Average 187.94
+
+Island Group: 508 Average 214.54
+
+Island Group: 509 Average 205.55
+
+Island Group: 510 Average 184.88
+
+Island Group: 511 Average 152.50
+
+Island Group: 512 Average 203.88
+
+Island Group: 513 Average 416.28
+
+Island Group: 514 Average 248.71
+
+Island Group: 515 Average 211.59
+
+Island Group: 516 Average 179.89
+
+Island Group: 517 Average 160.52
+
+Island Group: 518 Average 149.07
+
+Island Group: 519 Average 295.45
+
+Island Group: 520 Average 163.64
+
+Island Group: 521 Average 441.43
+
+Island Group: 522 Average 82.13
+
+Island Group: 523 Average 168.36
+
+Island Group: 524 Average 263.18
+
+Island Group: 525 Average 194.76
+
+Island Group: 526 Average 185.07
+
+Island Group: 527 Average 151.17
+
+Island Group: 528 Average 208.30
+
+Island Group: 529 Average 168.92
+
+Island Group: 530 Average 216.50
+
+Island Group: 531 Average 248.97
+
+Island Group: 532 Average 484.08
+
+Island Group: 533 Average 207.33
+
+Island Group: 534 Average 270.90
+
+Island Group: 535 Average 191.66
+
+Island Group: 536 Average 371.64
+
+Island Group: 537 Average 237.29
+
+Island Group: 538 Average 195.03
+
+Island Group: 539 Average 240.44
+
+Island Group: 540 Average 324.46
+
+Island Group: 541 Average 239.90
+
+Island Group: 542 Average 213.34
+
+Island Group: 543 Average 204.30
+
+Island Group: 544 Average 175.14
+
+Island Group: 545 Average 195.07
+
+Island Group: 546 Average 181.31
+
+Island Group: 547 Average 175.12
+
+Island Group: 548 Average 215.16
+
+Island Group: 549 Average 162.03
+
+Island Group: 550 Average 216.19
+
+Island Group: 551 Average 228.84
+
+Island Group: 552 Average 164.94
+
+Island Group: 553 Average 228.76
+
+Island Group: 554 Average 167.83
+
+Island Group: 555 Average 164.76
+
+Island Group: 556 Average 169.75
+
+Island Group: 557 Average 232.79
+
+Island Group: 558 Average 267.52
+
+Island Group: 559 Average 211.79
+
+Island Group: 560 Average 0.00
+
+Island Group: 561 Average 328.87
+
+Island Group: 562 Average 192.58
+
+Island Group: 563 Average 179.24
+
+Island Group: 564 Average 246.26
+
+Island Group: 565 Average 181.69
+
+Island Group: 566 Average 292.97
+
+Island Group: 567 Average 252.16
+
+Island Group: 568 Average 202.49
+
+Island Group: 569 Average 186.04
+
+Island Group: 570 Average 242.99
+
+Island Group: 571 Average 308.88
+
+Island Group: 572 Average 139.78
+
+Island Group: 573 Average 166.61
+
+Island Group: 574 Average 272.90
+
+Island Group: 575 Average 157.43
+
+Island Group: 576 Average 664.67
+
+Island Group: 577 Average 296.85
+
+Island Group: 578 Average 354.93
+
+Island Group: 579 Average 179.12
+
+Island Group: 580 Average 216.70
+
+Island Group: 581 Average 194.16
+
+Island Group: 582 Average 200.99
+
+Island Group: 583 Average 323.60
+
+Island Group: 584 Average 193.41
+
+Island Group: 585 Average 229.73
+
+Island Group: 586 Average 171.01
+
+Island Group: 587 Average 199.20
+
+Island Group: 588 Average 183.74
+
+Island Group: 589 Average 405.66
+
+Island Group: 590 Average 404.34
+
+Island Group: 591 Average 167.97
+
+Island Group: 592 Average 188.23
+
+Island Group: 593 Average 414.55
+
+Island Group: 594 Average 316.98
+
+Island Group: 595 Average 175.67
+
+Island Group: 596 Average 278.81
+
+Island Group: 597 Average 175.88
+
+Island Group: 598 Average 225.91
+
+Island Group: 599 Average 0.00
+
+Island Group: 600 Average 294.42
+
+Island Group: 601 Average 362.71
+
+Island Group: 602 Average 216.24
+
+Island Group: 603 Average 163.04
+
+Island Group: 604 Average 251.74
+
+Island Group: 605 Average 318.94
+
+Island Group: 606 Average 338.23
+
+Island Group: 607 Average 440.06
+
+Island Group: 608 Average 227.34
+
+Island Group: 609 Average 360.14
+
+Island Group: 610 Average 237.29
+
+Island Group: 611 Average 153.59
+
+Island Group: 612 Average 372.41
+
+Island Group: 613 Average 157.92
+
+Island Group: 614 Average 158.50
+
+Island Group: 615 Average 241.27
+
+Island Group: 616 Average 182.34
+
+Island Group: 617 Average 220.55
+
+Island Group: 618 Average 266.81
+
+Island Group: 619 Average 268.88
+
+Island Group: 620 Average 141.40
+
+Island Group: 621 Average 202.76
+
+Island Group: 622 Average 294.09
+
+Island Group: 623 Average 221.77
+
+Island Group: 624 Average 217.70
+
+Island Group: 625 Average 209.98
+
+Island Group: 626 Average 199.97
+
+Island Group: 627 Average 152.44
+
+Island Group: 628 Average 214.53
+
+Island Group: 629 Average 176.36
+
+Island Group: 630 Average 148.70
+
+Island Group: 631 Average 192.10
+
+Island Group: 632 Average 223.14
+
+Island Group: 633 Average 218.17
+
+Island Group: 634 Average 171.58
+
+Island Group: 635 Average 207.52
+
+Island Group: 636 Average 204.72
+
+Island Group: 637 Average 344.04
+
+Island Group: 638 Average 168.14
+
+Island Group: 639 Average 169.49
+
+Island Group: 640 Average 218.39
+
+Island Group: 641 Average 363.23
+
+Island Group: 642 Average 205.12
+
+Island Group: 643 Average 419.49
+
+Island Group: 644 Average 184.99
+
+Island Group: 645 Average 154.72
+
+Island Group: 646 Average 164.85
+
+Island Group: 647 Average 144.99
+
+Island Group: 648 Average 160.45
+
+Island Group: 649 Average 194.20
+
+Island Group: 650 Average 175.31
+
+Island Group: 651 Average 172.63
+
+Island Group: 652 Average 336.97
+
+Island Group: 653 Average 177.55
+
+Island Group: 654 Average 327.60
+
+Island Group: 655 Average 412.92
+
+Island Group: 656 Average 210.58
+
+Island Group: 657 Average 203.19
+
+Island Group: 658 Average 273.30
+
+Island Group: 659 Average 235.13
+
+Island Group: 660 Average 211.71
+
+Island Group: 661 Average 175.31
+
+Island Group: 662 Average 235.97
+
+Island Group: 663 Average 188.14
+
+Island Group: 664 Average 209.54
+
+Island Group: 665 Average 271.91
+
+Island Group: 666 Average 213.75
+
+Island Group: 667 Average 0.00
+
+Island Group: 668 Average 187.63
+
+Island Group: 669 Average 181.20
+
+Island Group: 670 Average 242.92
+
+Island Group: 671 Average 167.92
+
+Island Group: 672 Average 284.67
+
+Island Group: 673 Average 208.24
+
+Island Group: 674 Average 196.30
+
+Island Group: 675 Average 213.85
+
+Island Group: 676 Average 151.97
+
+Island Group: 677 Average 149.20
+
+Island Group: 678 Average 265.60
+
+Island Group: 679 Average 163.92
+
+Island Group: 680 Average 319.27
+
+Island Group: 681 Average 179.31
+
+Island Group: 682 Average 92.81
+
+Island Group: 683 Average 187.76
+
+Island Group: 684 Average 163.90
+
+Island Group: 685 Average 160.86
+
+Island Group: 686 Average 179.48
+
+Island Group: 687 Average 197.69
+
+Island Group: 688 Average 221.09
+
+Island Group: 689 Average 212.58
+
+Island Group: 690 Average 299.33
+
+Island Group: 691 Average 356.02
+
+Island Group: 692 Average 158.87
+
+Island Group: 693 Average 160.69
+
+Island Group: 694 Average 170.24
+
+Island Group: 695 Average 0.00
+
+Island Group: 696 Average 170.75
+
+Island Group: 697 Average 205.69
+
+Island Group: 698 Average 160.78
+
+Island Group: 699 Average 217.58
+
+Island Group: 700 Average 270.33
+
+Island Group: 701 Average 170.96
+
+Island Group: 702 Average 284.57
+
+Island Group: 703 Average 153.15
+
+Island Group: 704 Average 324.40
+
+Island Group: 705 Average 196.66
+
+Island Group: 706 Average 502.50
+
+Island Group: 707 Average 160.19
+
+Island Group: 708 Average 171.42
+
+Island Group: 709 Average 145.69
+
+Island Group: 710 Average 236.76
+
+Island Group: 711 Average 242.19
+
+Island Group: 712 Average 168.53
+
+Island Group: 713 Average 195.76
+
+Island Group: 714 Average 237.70
+
+Island Group: 715 Average 228.44
+
+Island Group: 716 Average 178.12
+
+Island Group: 717 Average 255.06
+
+Island Group: 718 Average 169.77
+
+Island Group: 719 Average 232.03
+
+Island Group: 720 Average 178.14
+
+Island Group: 721 Average 521.22
+
+Island Group: 722 Average 281.80
+
+Island Group: 723 Average 171.43
+
+Island Group: 724 Average 214.91
+
+Island Group: 725 Average 538.29
+
+Island Group: 726 Average 152.24
+
+Island Group: 727 Average 163.45
+
+Island Group: 728 Average 146.88
+
+Island Group: 729 Average 296.86
+
+Island Group: 730 Average 159.67
+
+Island Group: 731 Average 132.23
+
+Island Group: 732 Average 146.37
+
+Island Group: 733 Average 353.66
+
+Island Group: 734 Average 199.09
+
+Island Group: 735 Average 168.52
+
+Island Group: 736 Average 0.00
+
+Island Group: 737 Average 193.59
+
+Island Group: 738 Average 240.65
+
+Island Group: 739 Average 251.65
+
+Island Group: 740 Average 231.98
+
+Island Group: 741 Average 193.97
+
+Island Group: 742 Average 320.21
+
+Island Group: 743 Average 316.61
+
+Island Group: 744 Average 434.57
+
+Island Group: 745 Average 152.51
+
+Island Group: 746 Average 161.88
+
+Island Group: 747 Average 232.72
+
+Island Group: 748 Average 222.02
+
+Island Group: 749 Average 217.39
+
+Island Group: 750 Average 321.14
+
+Island Group: 751 Average 421.55
+
+Island Group: 752 Average 235.08
+
+Island Group: 753 Average 203.63
+
+Island Group: 754 Average 148.08
+
+Island Group: 755 Average 216.83
+
+Island Group: 756 Average 165.03
+
+Island Group: 757 Average 197.78
+
+Island Group: 758 Average 213.97
+
+Island Group: 759 Average 245.11
+
+Island Group: 760 Average 229.57
+
+Island Group: 761 Average 241.14
+
+Island Group: 762 Average 193.72
+
+Island Group: 763 Average 355.84
+
+Island Group: 764 Average 180.25
+
+Island Group: 765 Average 224.18
+
+Island Group: 766 Average 197.01
+
+Island Group: 767 Average 207.26
+
+Island Group: 768 Average 180.82
+
+Island Group: 769 Average 165.02
+
+Island Group: 770 Average 142.40
+
+Island Group: 771 Average 583.77
+
+Island Group: 772 Average 304.77
+
+Island Group: 773 Average 272.44
+
+Island Group: 774 Average 173.86
+
+Island Group: 775 Average 170.14
+
+Island Group: 776 Average 213.40
+
+Island Group: 777 Average 147.65
+
+Island Group: 778 Average 253.60
+
+Island Group: 779 Average 441.02
+
+Island Group: 780 Average 228.38
+
+Island Group: 781 Average 194.65
+
+Island Group: 782 Average 18.29
+
+Island Group: 783 Average 354.37
+
+Island Group: 784 Average 0.00
+
+Island Group: 785 Average 202.60
+
+Island Group: 786 Average 247.84
+
+Island Group: 787 Average 166.90
+
+Island Group: 788 Average 225.36
+
+Island Group: 789 Average 241.63
+
+Island Group: 790 Average 508.48
+
+Island Group: 791 Average 344.53
+
+Island Group: 792 Average 238.07
+
+Island Group: 793 Average 349.97
+
+Island Group: 794 Average 208.37
+
+Island Group: 795 Average 389.97
+
+Island Group: 796 Average 254.40
+
+Island Group: 797 Average 175.09
+
+Island Group: 798 Average 268.41
+
+Island Group: 799 Average 178.54
+
+Island Group: 800 Average 217.38
+
+Island Group: 801 Average 151.98
+
+Island Group: 802 Average 227.04
+
+Island Group: 803 Average 315.03
+
+Island Group: 804 Average 225.27
+
+Island Group: 805 Average 188.86
+
+Island Group: 806 Average 243.08
+
+Island Group: 807 Average 133.64
+
+Island Group: 808 Average 184.55
+
+Island Group: 809 Average 224.81
+
+Island Group: 810 Average 238.43
+
+Island Group: 811 Average 288.44
+
+Island Group: 812 Average 155.97
+
+Island Group: 813 Average 179.80
+
+Island Group: 814 Average 174.73
+
+Island Group: 815 Average 170.03
+
+Island Group: 816 Average 215.30
+
+Island Group: 817 Average 131.53
+
+Island Group: 818 Average 158.70
+
+Island Group: 819 Average 137.90
+
+Island Group: 820 Average 133.84
+
+Island Group: 821 Average 270.86
+
+Island Group: 822 Average 176.92
+
+Island Group: 823 Average 198.79
+
+Island Group: 824 Average 247.56
+
+Island Group: 825 Average 232.68
+
+Island Group: 826 Average 424.74
+
+Island Group: 827 Average 0.00
+
+Island Group: 828 Average 291.50
+
+Island Group: 829 Average 197.28
+
+Island Group: 830 Average 231.47
+
+Island Group: 831 Average 215.07
+
+Island Group: 832 Average 226.29
+
+Island Group: 833 Average 235.75
+
+Island Group: 834 Average 220.47
+
+Island Group: 835 Average 230.83
+
+Island Group: 836 Average 327.99
+
+Island Group: 837 Average 309.98
+
+Island Group: 838 Average 185.01
+
+Island Group: 839 Average 208.22
+
+Island Group: 840 Average 168.45
+
+Island Group: 841 Average 464.89
+
+Island Group: 842 Average 145.52
+
+Island Group: 843 Average 169.82
+
+Island Group: 844 Average 174.37
+
+Island Group: 845 Average 227.92
+
+Island Group: 846 Average 408.14
+
+Island Group: 847 Average 236.72
+
+Island Group: 848 Average 208.62
+
+Island Group: 849 Average 257.91
+
+Island Group: 850 Average 184.46
+
+Island Group: 851 Average 161.55
+
+Island Group: 852 Average 169.86
+
+Island Group: 853 Average 161.36
+
+Island Group: 854 Average 161.03
+
+Island Group: 855 Average 170.91
+
+Island Group: 856 Average 376.32
+
+Island Group: 857 Average 207.47
+
+Island Group: 858 Average 200.63
+
+Island Group: 859 Average 0.00
+
+Island Group: 860 Average 180.38
+
+Island Group: 861 Average 160.96
+
+Island Group: 862 Average 160.60
+
+Island Group: 863 Average 190.50
+
+Island Group: 864 Average 210.27
+
+Island Group: 865 Average 314.27
+
+Island Group: 866 Average 231.80
+
+Island Group: 867 Average 168.72
+
+Island Group: 868 Average 214.99
+
+Island Group: 869 Average 156.78
+
+Island Group: 870 Average 337.57
+
+Island Group: 871 Average 238.24
+
+Island Group: 872 Average 180.46
+
+Island Group: 873 Average 520.54
+
+Island Group: 874 Average 154.61
+
+Island Group: 875 Average 188.52
+
+Island Group: 876 Average 295.41
+
+Island Group: 877 Average 212.00
+
+Island Group: 878 Average 204.02
+
+Island Group: 879 Average 138.86
+
+Island Group: 880 Average 171.71
+
+Island Group: 881 Average 251.89
+
+Island Group: 882 Average 161.54
+
+Island Group: 883 Average 341.60
+
+Island Group: 884 Average 154.10
+
+Island Group: 885 Average 268.39
+
+Island Group: 886 Average 375.36
+
+Island Group: 887 Average 249.99
+
+Island Group: 888 Average 287.76
+
+Island Group: 889 Average 287.28
+
+Island Group: 890 Average 252.06
+
+Island Group: 891 Average 206.15
+
+Island Group: 892 Average 135.56
+
+Island Group: 893 Average 165.64
+
+Island Group: 894 Average 210.32
+
+Island Group: 895 Average 183.12
+
+Island Group: 896 Average 239.76
+
+Island Group: 897 Average 181.39
+
+Island Group: 898 Average 244.52
+
+Island Group: 899 Average 152.99
+
+Island Group: 900 Average 219.26
+
+Island Group: 901 Average 346.68
+
+Island Group: 902 Average 215.59
+
+Island Group: 903 Average 142.80
+
+Island Group: 904 Average 293.98
+
+Island Group: 905 Average 180.08
+
+Island Group: 906 Average 185.64
+
+Island Group: 907 Average 190.04
+
+Island Group: 908 Average 194.00
+
+Island Group: 909 Average 254.07
+
+Island Group: 910 Average 189.94
+
+Island Group: 911 Average 292.67
+
+Island Group: 912 Average 265.76
+
+Island Group: 913 Average 169.35
+
+Island Group: 914 Average 170.40
+
+Island Group: 915 Average 180.59
+
+Island Group: 916 Average 187.08
+
+Island Group: 917 Average 164.63
+
+Island Group: 918 Average 172.06
+
+Island Group: 919 Average 169.00
+
+Island Group: 920 Average 431.26
+
+Island Group: 921 Average 322.08
+
+Island Group: 922 Average 184.45
+
+Island Group: 923 Average 235.49
+
+Island Group: 924 Average 265.99
+
+Island Group: 925 Average 614.67
+
+Island Group: 926 Average 328.99
+
+Island Group: 927 Average 149.84
+
+Island Group: 928 Average 205.38
+
+Island Group: 929 Average 187.92
+
+Island Group: 930 Average 0.00
+
+Island Group: 931 Average 160.44
+
+Island Group: 932 Average 197.11
+
+Island Group: 933 Average 164.85
+
+Island Group: 934 Average 310.61
+
+Island Group: 935 Average 161.61
+
+Island Group: 936 Average 208.49
+
+Island Group: 937 Average 253.68
+
+Island Group: 938 Average 300.24
+
+Island Group: 939 Average 220.12
+
+Island Group: 940 Average 180.14
+
+Island Group: 941 Average 152.20
+
+Island Group: 942 Average 183.91
+
+Island Group: 943 Average 205.33
+
+Island Group: 944 Average 249.71
+
+Island Group: 945 Average 158.07
+
+Island Group: 946 Average 187.50
+
+Island Group: 947 Average 203.90
+
+Island Group: 948 Average 211.35
+
+Island Group: 949 Average 157.90
+
+Island Group: 950 Average 162.76
+
+Island Group: 951 Average 0.00
+
+Island Group: 952 Average 147.17
+
+Island Group: 953 Average 288.39
+
+Island Group: 954 Average 200.06
+
+Island Group: 955 Average 222.59
+
+Island Group: 956 Average 169.23
+
+Island Group: 957 Average 148.95
+
+Island Group: 958 Average 155.04
+
+Island Group: 959 Average 209.79
+
+Island Group: 960 Average 166.71
+
+Island Group: 961 Average 142.26
+
+Island Group: 962 Average 245.50
+
+Island Group: 963 Average 253.56
+
+Island Group: 964 Average 153.99
+
+Island Group: 965 Average 108.62
+
+Island Group: 966 Average 156.74
+
+Island Group: 967 Average 217.48
+
+Island Group: 968 Average 532.38
+
+Island Group: 969 Average 179.99
+
+Island Group: 970 Average 189.96
+
+Island Group: 971 Average 207.28
+
+Island Group: 972 Average 198.63
+
+Island Group: 973 Average 156.59
+
+Island Group: 974 Average 243.57
+
+Island Group: 975 Average 193.64
+
+Island Group: 976 Average 179.35
+
+Island Group: 977 Average 282.63
+
+Island Group: 978 Average 168.94
+
+Island Group: 979 Average 160.67
+
+Island Group: 980 Average 185.23
+
+Island Group: 981 Average 179.50
+
+Island Group: 982 Average 196.14
+
+Island Group: 983 Average 156.67
+
+Island Group: 984 Average 412.08
+
+Island Group: 985 Average 241.05
+
+Island Group: 986 Average 203.06
+
+Island Group: 987 Average 162.04
+
+Island Group: 988 Average 279.41
+
+Island Group: 989 Average 250.72
+
+Island Group: 990 Average 282.03
+
+Island Group: 991 Average 255.97
+
+Island Group: 992 Average 154.02
+
+Island Group: 993 Average 339.09
+
+Island Group: 994 Average 207.89
+
+Island Group: 995 Average 183.19
+
+Island Group: 996 Average 288.68
+
+Island Group: 997 Average 170.06
+
+Island Group: 998 Average 188.39
+
+Island Group: 999 Average 177.74
+
+Island Group: 1000 Average 202.05
+
+Island Group: 1001 Average 173.25
+
+Island Group: 1002 Average 191.74
+
+Island Group: 1003 Average 247.25
+
+Island Group: 1004 Average 354.54
+
+Island Group: 1005 Average 259.67
+
+Island Group: 1006 Average 197.41
+
+Island Group: 1007 Average 187.38
+
+Island Group: 1008 Average 251.01
+
+Island Group: 1009 Average 275.96
+
+Island Group: 1010 Average 241.87
+
+Island Group: 1011 Average 190.84
+
+Island Group: 1012 Average 150.81
+
+Island Group: 1013 Average 215.22
+
+Island Group: 1014 Average 169.27
+
+Island Group: 1015 Average 159.09
+
+Island Group: 1016 Average 291.00
+
+Island Group: 1017 Average 0.00
+
+Island Group: 1018 Average 172.04
+
+Island Group: 1019 Average 190.20
+
+Island Group: 1020 Average 174.45
+
+Island Group: 1021 Average 166.13
+
+Island Group: 1022 Average 141.96
+
+Island Group: 1023 Average 162.13
+
+Island Group: 1024 Average 235.98
+
+Island Group: 1025 Average 218.67
+
+Island Group: 1026 Average 209.62
+
+Island Group: 1027 Average 186.97
+
+Island Group: 1028 Average 272.63
+
+Island Group: 1029 Average 238.76
+
+Island Group: 1030 Average 211.67
+
+Island Group: 1031 Average 175.14
+
+Island Group: 1032 Average 212.39
+
+Island Group: 1033 Average 281.01
+
+Island Group: 1034 Average 235.77
+
+Island Group: 1035 Average 264.40
+
+Island Group: 1036 Average 378.06
+
+Island Group: 1037 Average 264.14
+
+Island Group: 1038 Average 186.82
+
+Island Group: 1039 Average 197.43
+
+Island Group: 1040 Average 244.96
+
+Island Group: 1041 Average 169.77
+
+Island Group: 1042 Average 198.37
+
+Island Group: 1043 Average 163.08
+
+Island Group: 1044 Average 272.82
+
+Island Group: 1045 Average 153.47
+
+Island Group: 1046 Average 304.49
+
+Island Group: 1047 Average 175.85
+
+Island Group: 1048 Average 174.82
+
+Island Group: 1049 Average 170.92
+
+Island Group: 1050 Average 266.44
+
+Island Group: 1051 Average 247.02
+
+Island Group: 1052 Average 183.96
+
+Island Group: 1053 Average 162.15
+
+Island Group: 1054 Average 152.58
+
+Island Group: 1055 Average 228.12
+
+Island Group: 1056 Average 171.02
+
+Island Group: 1057 Average 170.49
+
+Island Group: 1058 Average 175.83
+
+Island Group: 1059 Average 197.05
+
+Island Group: 1060 Average 164.62
+
+Island Group: 1061 Average 233.91
+
+Island Group: 1062 Average 282.07
+
+Island Group: 1063 Average 157.83
+
+Island Group: 1064 Average 158.32
+
+Island Group: 1065 Average 148.95
+
+Island Group: 1066 Average 261.85
+
+Island Group: 1067 Average 222.73
+
+Island Group: 1068 Average 168.76
+
+Island Group: 1069 Average 277.94
+
+Island Group: 1070 Average 170.78
+
+Island Group: 1071 Average 248.65
+
+Island Group: 1072 Average 207.34
+
+Island Group: 1073 Average 238.39
+
+Island Group: 1074 Average 183.18
+
+Island Group: 1075 Average 472.48
+
+Island Group: 1076 Average 229.16
+
+Island Group: 1077 Average 187.76
+
+Island Group: 1078 Average 207.73
+
+Island Group: 1079 Average 173.14
+
+Island Group: 1080 Average 181.30
+
+Island Group: 1081 Average 251.33
+
+Island Group: 1082 Average 393.19
+
+Island Group: 1083 Average 212.35
+
+Island Group: 1084 Average 335.01
+
+Island Group: 1085 Average 182.11
+
+Island Group: 1086 Average 149.73
+
+Island Group: 1087 Average 221.20
+
+Island Group: 1088 Average 218.27
+
+Island Group: 1089 Average 270.53
+
+Island Group: 1090 Average 191.30
+
+Island Group: 1091 Average 158.58
+
+Island Group: 1092 Average 202.95
+
+Island Group: 1093 Average 257.31
+
+Island Group: 1094 Average 205.93
+
+Island Group: 1095 Average 306.92
+
+Island Group: 1096 Average 152.22
+
+Island Group: 1097 Average 279.98
+
+Island Group: 1098 Average 320.37
+
+Island Group: 1099 Average 204.98
+
+Island Group: 1100 Average 208.37
+
+Island Group: 1101 Average 243.11
+
+Island Group: 1102 Average 166.23
+
+Island Group: 1103 Average 219.41
+
+Island Group: 1104 Average 211.33
+
+Island Group: 1105 Average 173.19
+
+Island Group: 1106 Average 148.46
+
+Island Group: 1107 Average 142.75
+
+Island Group: 1108 Average 470.48
+
+Island Group: 1109 Average 213.69
+
+Island Group: 1110 Average 380.46
+
+Island Group: 1111 Average 188.92
+
+Island Group: 1112 Average 172.81
+
+Island Group: 1113 Average 144.27
+
+Island Group: 1114 Average 236.21
+
+Island Group: 1115 Average 357.96
+
+Island Group: 1116 Average 277.01
+
+Island Group: 1117 Average 397.89
+
+Island Group: 1118 Average 157.27
+
+Island Group: 1119 Average 160.84
+
+Island Group: 1120 Average 198.19
+
+Island Group: 1121 Average 251.69
+
+Island Group: 1122 Average 213.24
+
+Island Group: 1123 Average 576.91
+
+Island Group: 1124 Average 212.40
+
+Island Group: 1125 Average 331.90
+
+Island Group: 1126 Average 204.02
+
+Island Group: 1127 Average 153.44
+
+Island Group: 1128 Average 201.48
+
+Island Group: 1129 Average 223.15
+
+Island Group: 1130 Average 341.13
+
+Island Group: 1131 Average 210.04
+
+Island Group: 1132 Average 186.71
+
+Island Group: 1133 Average 230.38
+
+Island Group: 1134 Average 190.43
+
+Island Group: 1135 Average 183.18
+
+Island Group: 1136 Average 178.79
+
+Island Group: 1137 Average 311.54
+
+Island Group: 1138 Average 304.16
+
+Island Group: 1139 Average 399.95
+
+Island Group: 1140 Average 216.36
+
+Island Group: 1141 Average 282.03
+
+Island Group: 1142 Average 239.10
+
+Island Group: 1143 Average 165.92
+
+Island Group: 1144 Average 169.07
+
+Island Group: 1145 Average 282.52
+
+Island Group: 1146 Average 168.00
+
+Island Group: 1147 Average 467.49
+
+Island Group: 1148 Average 327.88
+
+Island Group: 1149 Average 176.55
+
+Island Group: 1150 Average 251.67
+
+Island Group: 1151 Average 203.61
+
+Island Group: 1152 Average 225.22
+
+Island Group: 1153 Average 193.05
+
+Island Group: 1154 Average 175.31
+
+Island Group: 1155 Average 226.40
+
+Island Group: 1156 Average 202.28
+
+Island Group: 1157 Average 191.76
+
+Island Group: 1158 Average 168.77
+
+Island Group: 1159 Average 316.01
+
+Island Group: 1160 Average 172.29
+
+Island Group: 1161 Average 348.53
+
+Island Group: 1162 Average 288.61
+
+Island Group: 1163 Average 212.85
+
+Island Group: 1164 Average 181.70
+
+Island Group: 1165 Average 230.90
+
+Island Group: 1166 Average 231.95
+
+Island Group: 1167 Average 263.44
+
+Island Group: 1168 Average 183.42
+
+Island Group: 1169 Average 200.61
+
+Island Group: 1170 Average 0.00
+
+Island Group: 1171 Average 171.89
+
+Island Group: 1172 Average 381.24
+
+Island Group: 1173 Average 272.43
+
+Island Group: 1174 Average 240.45
+
+Island Group: 1175 Average 149.21
+
+Island Group: 1176 Average 255.81
+
+Island Group: 1177 Average 200.49
+
+Island Group: 1178 Average 220.19
+
+Island Group: 1179 Average 212.25
+
+Island Group: 1180 Average 174.13
+
+Island Group: 1181 Average 242.59
+
+Island Group: 1182 Average 182.23
+
+Island Group: 1183 Average 147.45
+
+Island Group: 1184 Average 195.07
+
+Island Group: 1185 Average 164.89
+
+Island Group: 1186 Average 500.14
+
+Island Group: 1187 Average 221.84
+
+Island Group: 1188 Average 186.35
+
+Island Group: 1189 Average 152.25
+
+Island Group: 1190 Average 187.13
+
+Island Group: 1191 Average 327.11
+
+Island Group: 1192 Average 374.48
+
+Island Group: 1193 Average 264.63
+
+Island Group: 1194 Average 197.07
+
+Island Group: 1195 Average 159.96
+
+Island Group: 1196 Average 194.22
+
+Island Group: 1197 Average 300.81
+
+Island Group: 1198 Average 171.84
+
+Island Group: 1199 Average 193.66
+
+Island Group: 1200 Average 309.18
+
+Island Group: 1201 Average 278.60
+
+Island Group: 1202 Average 203.04
+
+Island Group: 1203 Average 189.23
+
+Island Group: 1204 Average 205.20
+
+Island Group: 1205 Average 193.22
+
+Island Group: 1206 Average 247.64
+
+Island Group: 1207 Average 0.00
+
+Island Group: 1208 Average 185.79
+
+Island Group: 1209 Average 155.14
+
+Island Group: 1210 Average 258.17
+
+Island Group: 1211 Average 155.80
+
+Island Group: 1212 Average 188.23
+
+Island Group: 1213 Average 199.58
+
+Island Group: 1214 Average 235.85
+
+Island Group: 1215 Average 303.14
+
+Island Group: 1216 Average 194.45
+
+Island Group: 1217 Average 193.95
+
+Island Group: 1218 Average 203.12
+
+Island Group: 1219 Average 335.31
+
+Island Group: 1220 Average 208.90
+
+Island Group: 1221 Average 415.49
+
+Island Group: 1222 Average 283.02
+
+Island Group: 1223 Average 159.92
+
+Island Group: 1224 Average 178.96
+
+Island Group: 1225 Average 145.59
+
+Island Group: 1226 Average 266.10
+
+Island Group: 1227 Average 203.47
+
+Island Group: 1228 Average 257.73
+
+Island Group: 1229 Average 250.85
+
+Island Group: 1230 Average 366.37
+
+Island Group: 1231 Average 222.79
+
+Island Group: 1232 Average 228.59
+
+Island Group: 1233 Average 203.97
+
+Island Group: 1234 Average 262.34
+
+Island Group: 1235 Average 193.88
+
+Island Group: 1236 Average 169.35
+
+Island Group: 1237 Average 182.69
+
+Island Group: 1238 Average 207.61
+
+Island Group: 1239 Average 207.67
+
+Island Group: 1240 Average 259.94
+
+Island Group: 1241 Average 200.19
+
+Island Group: 1242 Average 371.03
+
+Island Group: 1243 Average 256.53
+
+Island Group: 1244 Average 160.85
+
+Island Group: 1245 Average 195.27
+
+Island Group: 1246 Average 273.84
+
+Island Group: 1247 Average 195.02
+
+Island Group: 1248 Average 210.86
+
+Island Group: 1249 Average 163.03
+
+Island Group: 1250 Average 152.38
+
+Island Group: 1251 Average 193.29
+
+Island Group: 1252 Average 217.18
+
+Island Group: 1253 Average 455.28
+
+Island Group: 1254 Average 174.86
+
+Island Group: 1255 Average 206.88
+
+Island Group: 1256 Average 523.04
+
+Island Group: 1257 Average 236.00
+
+Island Group: 1258 Average 672.70
+
+Island Group: 1259 Average 301.78
+
+Island Group: 1260 Average 189.79
+
+Island Group: 1261 Average 131.92
+
+Island Group: 1262 Average 178.51
+
+Island Group: 1263 Average 177.02
+
+Island Group: 1264 Average 187.22
+
+Island Group: 1265 Average 240.30
+
+Island Group: 1266 Average 161.42
+
+Island Group: 1267 Average 648.85
+
+Island Group: 1268 Average 184.47
+
+Island Group: 1269 Average 0.00
+
+Island Group: 1270 Average 283.20
+
+Island Group: 1271 Average 231.67
+
+Island Group: 1272 Average 178.07
+
+Island Group: 1273 Average 151.99
+
+Island Group: 1274 Average 180.54
+
+Island Group: 1275 Average 303.64
+
+Island Group: 1276 Average 213.14
+
+Island Group: 1277 Average 326.83
+
+Island Group: 1278 Average 186.93
+
+Island Group: 1279 Average 183.04
+
+Island Group: 1280 Average 219.29
+
+Island Group: 1281 Average 162.83
+
+Island Group: 1282 Average 324.75
+
+Island Group: 1283 Average 281.38
+
+Island Group: 1284 Average 147.61
+
+Island Group: 1285 Average 201.13
+
+Island Group: 1286 Average 162.67
+
+Island Group: 1287 Average 285.70
+
+Island Group: 1288 Average 159.98
+
+Island Group: 1289 Average 172.33
+
+Island Group: 1290 Average 194.43
+
+Island Group: 1291 Average 185.25
+
+Island Group: 1292 Average 258.05
+
+Island Group: 1293 Average 177.60
+
+Island Group: 1294 Average 193.53
+
+Island Group: 1295 Average 307.57
+
+Island Group: 1296 Average 223.42
+
+Island Group: 1297 Average 217.38
+
+Island Group: 1298 Average 254.08
+
+Island Group: 1299 Average 153.76
+
+Island Group: 1300 Average 224.86
+
+Island Group: 1301 Average 274.74
+
+Island Group: 1302 Average 191.54
+
+Island Group: 1303 Average 241.55
+
+Island Group: 1304 Average 601.81
+
+Island Group: 1305 Average 270.55
+
+Island Group: 1306 Average 336.15
+
+Island Group: 1307 Average 145.78
+
+Island Group: 1308 Average 233.90
+
+Island Group: 1309 Average 171.68
+
+Island Group: 1310 Average 296.69
+
+Island Group: 1311 Average 272.48
+
+Island Group: 1312 Average 491.74
+
+Island Group: 1313 Average 200.54
+
+Island Group: 1314 Average 237.10
+
+Island Group: 1315 Average 204.40
+
+Island Group: 1316 Average 201.93
+
+Island Group: 1317 Average 137.28
+
+Island Group: 1318 Average 208.95
+
+Island Group: 1319 Average 160.81
+
+Island Group: 1320 Average 161.96
+
+Island Group: 1321 Average 576.80
+
+Island Group: 1322 Average 155.36
+
+Island Group: 1323 Average 158.47
+
+Island Group: 1324 Average 276.22
+
+Island Group: 1325 Average 162.73
+
+Island Group: 1326 Average 293.30
+
+Island Group: 1327 Average 206.49
+
+Island Group: 1328 Average 233.77
+
+Island Group: 1329 Average 179.58
+
+Island Group: 1330 Average 228.54
+
+Island Group: 1331 Average 8.56
+
+Island Group: 1332 Average 191.95
+
+Island Group: 1333 Average 210.30
+
+Island Group: 1334 Average 157.92
+
+Island Group: 1335 Average 177.08
+
+Island Group: 1336 Average 299.82
+
+Island Group: 1337 Average 165.27
+
+Island Group: 1338 Average 142.07
+
+Island Group: 1339 Average 207.39
+
+Island Group: 1340 Average 210.14
+
+Island Group: 1341 Average 190.97
+
+Island Group: 1342 Average 204.88
+
+Island Group: 1343 Average 290.79
+
+Island Group: 1344 Average 196.11
+
+Island Group: 1345 Average 186.93
+
+Island Group: 1346 Average 207.32
+
+Island Group: 1347 Average 179.17
+
+Island Group: 1348 Average 259.41
+
+Island Group: 1349 Average 180.96
+
+Island Group: 1350 Average 169.06
+
+Island Group: 1351 Average 213.30
+
+Island Group: 1352 Average 0.00
+
+Island Group: 1353 Average 240.78
+
+Island Group: 1354 Average 231.74
+
+Island Group: 1355 Average 225.06
+
+Island Group: 1356 Average 285.95
+
+Island Group: 1357 Average 195.30
+
+Island Group: 1358 Average 152.71
+
+Island Group: 1359 Average 187.05
+
+Island Group: 1360 Average 147.21
+
+Island Group: 1361 Average 216.60
+
+Island Group: 1362 Average 156.92
+
+Island Group: 1363 Average 476.60
+
+Island Group: 1364 Average 171.75
+
+Island Group: 1365 Average 180.60
+
+Island Group: 1366 Average 221.07
+
+Island Group: 1367 Average 291.74
+
+Island Group: 1368 Average 329.47
+
+Island Group: 1369 Average 232.92
+
+Island Group: 1370 Average 165.44
+
+Island Group: 1371 Average 268.26
+
+Island Group: 1372 Average 313.38
+
+Island Group: 1373 Average 330.14
+
+Island Group: 1374 Average 245.52
+
+Island Group: 1375 Average 307.31
+
+Island Group: 1376 Average 164.96
+
+Island Group: 1377 Average 238.77
+
+Island Group: 1378 Average 326.91
+
+Island Group: 1379 Average 336.88
+
+Island Group: 1380 Average 211.15
+
+Island Group: 1381 Average 188.33
+
+Island Group: 1382 Average 166.63
+
+Island Group: 1383 Average 164.53
+
+Island Group: 1384 Average 257.65
+
+Island Group: 1385 Average 300.44
+
+Island Group: 1386 Average 246.31
+
+Island Group: 1387 Average 268.78
+
+Island Group: 1388 Average 180.50
+
+Island Group: 1389 Average 206.17
+
+Island Group: 1390 Average 409.60
+
+Island Group: 1391 Average 168.96
+
+Island Group: 1392 Average 219.93
+
+Island Group: 1393 Average 244.14
+
+Island Group: 1394 Average 334.91
+
+Island Group: 1395 Average 189.80
+
+Island Group: 1396 Average 263.70
+
+Island Group: 1397 Average 257.47
+
+Island Group: 1398 Average 181.10
+
+Island Group: 1399 Average 226.35
+
+Island Group: 1400 Average 203.45
+
+Island Group: 1401 Average 165.71
+
+Island Group: 1402 Average 275.25
+
+Island Group: 1403 Average 163.28
+
+Island Group: 1404 Average 174.79
+
+Island Group: 1405 Average 177.62
+
+Island Group: 1406 Average 195.20
+
+Island Group: 1407 Average 153.83
+
+Island Group: 1408 Average 175.55
+
+Island Group: 1409 Average 146.50
+
+Island Group: 1410 Average 100.75
+
+Island Group: 1411 Average 193.96
+
+Island Group: 1412 Average 258.32
+
+Island Group: 1413 Average 209.03
+
+Island Group: 1414 Average 205.46
+
+Island Group: 1415 Average 159.83
+
+Island Group: 1416 Average 174.34
+
+Island Group: 1417 Average 190.47
+
+Island Group: 1418 Average 156.29
+
+Island Group: 1419 Average 0.00
+
+Island Group: 1420 Average 289.19
+
+Island Group: 1421 Average 258.13
+
+Island Group: 1422 Average 257.05
+
+Island Group: 1423 Average 188.09
+
+Island Group: 1424 Average 248.94
+
+Island Group: 1425 Average 186.94
+
+Island Group: 1426 Average 166.39
+
+Island Group: 1427 Average 372.43
+
+Island Group: 1428 Average 187.31
+
+Island Group: 1429 Average 321.93
+
+Island Group: 1430 Average 166.72
+
+Island Group: 1431 Average 169.04
+
+Island Group: 1432 Average 629.32
+
+Island Group: 1433 Average 201.48
+
+Island Group: 1434 Average 139.32
+
+Island Group: 1435 Average 173.41
+
+Island Group: 1436 Average 219.30
+
+Island Group: 1437 Average 297.51
+
+Island Group: 1438 Average 156.00
+
+Island Group: 1439 Average 157.00
+
+Island Group: 1440 Average 145.04
+
+Island Group: 1441 Average 207.73
+
+Island Group: 1442 Average 201.01
+
+Island Group: 1443 Average 196.34
+
+Island Group: 1444 Average 289.95
+
+Island Group: 1445 Average 190.66
+
+Island Group: 1446 Average 225.41
+
+Island Group: 1447 Average 252.10
+
+Island Group: 1448 Average 146.21
+
+Island Group: 1449 Average 192.69
+
+Island Group: 1450 Average 163.61
+
+Island Group: 1451 Average 184.32
+
+Island Group: 1452 Average 266.54
+
+Island Group: 1453 Average 311.31
+
+Island Group: 1454 Average 153.01
+
+Island Group: 1455 Average 324.95
+
+Island Group: 1456 Average 155.61
+
+Island Group: 1457 Average 200.97
+
+Island Group: 1458 Average 208.49
+
+Island Group: 1459 Average 236.73
+
+Island Group: 1460 Average 170.59
+
+Island Group: 1461 Average 206.05
+
+Island Group: 1462 Average 176.37
+
+Island Group: 1463 Average 239.10
+
+Island Group: 1464 Average 184.06
+
+Island Group: 1465 Average 0.00
+
+Island Group: 1466 Average 129.96
+
+Island Group: 1467 Average 166.08
+
+Island Group: 1468 Average 188.84
+
+Island Group: 1469 Average 282.19
+
+Island Group: 1470 Average 171.54
+
+Island Group: 1471 Average 279.90
+
+Island Group: 1472 Average 279.42
+
+Island Group: 1473 Average 179.58
+
+Island Group: 1474 Average 209.75
+
+Island Group: 1475 Average 180.46
+
+Island Group: 1476 Average 182.22
+
+Island Group: 1477 Average 200.80
+
+Island Group: 1478 Average 193.78
+
+Island Group: 1479 Average 168.08
+
+Island Group: 1480 Average 160.10
+
+Island Group: 1481 Average 210.74
+
+Island Group: 1482 Average 160.33
+
+Island Group: 1483 Average 226.48
+
+Island Group: 1484 Average 336.77
+
+Island Group: 1485 Average 227.26
+
+Island Group: 1486 Average 210.54
+
+Island Group: 1487 Average 183.48
+
+Island Group: 1488 Average 143.78
+
+Island Group: 1489 Average 198.14
+
+Island Group: 1490 Average 206.12
+
+Island Group: 1491 Average 217.38
+
+Island Group: 1492 Average 194.67
+
+Island Group: 1493 Average 263.36
+
+Island Group: 1494 Average 223.81
+
+Island Group: 1495 Average 270.78
+
+Island Group: 1496 Average 395.47
+
+Island Group: 1497 Average 206.14
+
+Island Group: 1498 Average 0.00
+
+Island Group: 1499 Average 146.04
+
+Island Group: 1500 Average 192.04
+
+Island Group: 1501 Average 193.70
+
+Island Group: 1502 Average 217.56
+
+Island Group: 1503 Average 163.62
+
+Island Group: 1504 Average 183.62
+
+Island Group: 1505 Average 153.33
+
+Island Group: 1506 Average 181.13
+
+Island Group: 1507 Average 321.06
+
+Island Group: 1508 Average 252.13
+
+Island Group: 1509 Average 333.29
+
+Island Group: 1510 Average 156.36
+
+Island Group: 1511 Average 223.73
+
+Island Group: 1512 Average 291.28
+
+Island Group: 1513 Average 193.18
+
+Island Group: 1514 Average 202.68
+
+Island Group: 1515 Average 506.31
+
+Island Group: 1516 Average 283.05
+
+Island Group: 1517 Average 197.96
+
+Island Group: 1518 Average 189.18
+
+Island Group: 1519 Average 164.80
+
+Island Group: 1520 Average 234.39
+
+Island Group: 1521 Average 146.43
+
+Island Group: 1522 Average 253.33
+
+Island Group: 1523 Average 179.88
+
+Island Group: 1524 Average 172.31
+
+Island Group: 1525 Average 217.86
+
+Island Group: 1526 Average 277.63
+
+Island Group: 1527 Average 162.59
+
+Island Group: 1528 Average 225.80
+
+Island Group: 1529 Average 286.88
+
+Island Group: 1530 Average 218.52
+
+Island Group: 1531 Average 166.24
+
+Island Group: 1532 Average 282.34
+
+Island Group: 1533 Average 185.75
+
+Island Group: 1534 Average 528.00
+
+Island Group: 1535 Average 159.79
+
+Island Group: 1536 Average 264.74
+
+Island Group: 1537 Average 223.17
+
+Island Group: 1538 Average 207.40
+
+Island Group: 1539 Average 208.89
+
+Island Group: 1540 Average 715.00
+
+Island Group: 1541 Average 180.82
+
+Island Group: 1542 Average 175.70
+
+Island Group: 1543 Average 185.70
+
+Island Group: 1544 Average 186.25
+
+Island Group: 1545 Average 148.42
+
+Island Group: 1546 Average 193.11
+
+Island Group: 1547 Average 690.46
+
+Island Group: 1548 Average 216.03
+
+Island Group: 1549 Average 197.87
+
+Island Group: 1550 Average 186.60
+
+Island Group: 1551 Average 180.21
+
+Island Group: 1552 Average 198.29
+
+Island Group: 1553 Average 203.97
+
+Island Group: 1554 Average 203.20
+
+Island Group: 1555 Average 193.85
+
+Island Group: 1556 Average 352.87
+
+Island Group: 1557 Average 187.50
+
+Island Group: 1558 Average 154.77
+
+Island Group: 1559 Average 290.17
+
+Island Group: 1560 Average 295.54
+
+Island Group: 1561 Average 285.19
+
+Island Group: 1562 Average 175.77
+
+Island Group: 1563 Average 213.41
+
+Island Group: 1564 Average 165.43
+
+Island Group: 1565 Average 327.43
+
+Island Group: 1566 Average 153.51
+
+Island Group: 1567 Average 153.69
+
+Island Group: 1568 Average 217.11
+
+Island Group: 1569 Average 180.03
+
+Island Group: 1570 Average 234.82
+
+Island Group: 1571 Average 158.09
+
+Island Group: 1572 Average 207.43
+
+Island Group: 1573 Average 137.83
+
+Island Group: 1574 Average 256.84
+
+Island Group: 1575 Average 260.75
+
+Island Group: 1576 Average 258.29
+
+Island Group: 1577 Average 138.18
+
+Island Group: 1578 Average 361.07
+
+Island Group: 1579 Average 216.60
+
+Island Group: 1580 Average 240.36
+
+Island Group: 1581 Average 303.58
+
+Island Group: 1582 Average 282.05
+
+Island Group: 1583 Average 337.99
+
+Island Group: 1584 Average 201.36
+
+Island Group: 1585 Average 276.40
+
+Island Group: 1586 Average 214.81
+
+Island Group: 1587 Average 189.11
+
+Island Group: 1588 Average 187.65
+
+Island Group: 1589 Average 238.14
+
+Island Group: 1590 Average 260.33
+
+Island Group: 1591 Average 259.32
+
+Island Group: 1592 Average 232.95
+
+Island Group: 1593 Average 319.06
+
+Island Group: 1594 Average 291.51
+
+Island Group: 1595 Average 165.73
+
+Island Group: 1596 Average 211.29
+
+Island Group: 1597 Average 325.31
+
+Island Group: 1598 Average 185.63
+
+Island Group: 1599 Average 243.55
+
+Island Group: 1600 Average 216.08
+
+Island Group: 1601 Average 183.64
+
+Island Group: 1602 Average 266.26
+
+Island Group: 1603 Average 187.32
+
+Island Group: 1604 Average 194.55
+
+Island Group: 1605 Average 164.20
+
+Island Group: 1606 Average 211.51
+
+Island Group: 1607 Average 185.11
+
+Island Group: 1608 Average 151.22
+
+Island Group: 1609 Average 176.48
+
+Island Group: 1610 Average 227.13
+
+Island Group: 1611 Average 257.02
+
+Island Group: 1612 Average 192.37
+
+Island Group: 1613 Average 218.40
+
+Island Group: 1614 Average 206.28
+
+Island Group: 1615 Average 168.29
+
+Island Group: 1616 Average 429.04
+
+Island Group: 1617 Average 202.79
+
+Island Group: 1618 Average 169.97
+
+Island Group: 1619 Average 285.96
+
+Island Group: 1620 Average 172.37
+
+Island Group: 1621 Average 368.67
+
+Island Group: 1622 Average 172.72
+
+Island Group: 1623 Average 170.26
+
+Island Group: 1624 Average 292.74
+
+Island Group: 1625 Average 194.27
+
+Island Group: 1626 Average 163.39
+
+Island Group: 1627 Average 169.64
+
+Island Group: 1628 Average 229.12
+
+Island Group: 1629 Average 217.26
+
+Island Group: 1630 Average 430.68
+
+Island Group: 1631 Average 182.37
+
+Island Group: 1632 Average 178.44
+
+Island Group: 1633 Average 286.91
+
+Island Group: 1634 Average 250.34
+
+Island Group: 1635 Average 251.55
+
+Island Group: 1636 Average 234.00
+
+Island Group: 1637 Average 177.59
+
+Island Group: 1638 Average 224.27
+
+Island Group: 1639 Average 292.70
+
+Island Group: 1640 Average 159.34
+
+Island Group: 1641 Average 172.96
+
+Island Group: 1642 Average 178.59
+
+Island Group: 1643 Average 358.93
+
+Island Group: 1644 Average 198.64
+
+Island Group: 1645 Average 201.67
+
+Island Group: 1646 Average 218.60
+
+Island Group: 1647 Average 216.15
+
+Island Group: 1648 Average 229.78
+
+Island Group: 1649 Average 192.75
+
+Island Group: 1650 Average 159.41
+
+Island Group: 1651 Average 262.12
+
+Island Group: 1652 Average 251.33
+
+Island Group: 1653 Average 191.68
+
+Island Group: 1654 Average 226.91
+
+Island Group: 1655 Average 176.42
+
+Island Group: 1656 Average 188.56
+
+Island Group: 1657 Average 193.58
+
+Island Group: 1658 Average 196.50
+
+Island Group: 1659 Average 367.06
+
+Island Group: 1660 Average 221.65
+
+Island Group: 1661 Average 221.94
+
+Island Group: 1662 Average 333.31
+
+Island Group: 1663 Average 227.38
+
+Island Group: 1664 Average 170.89
+
+Island Group: 1665 Average 185.84
+
+Island Group: 1666 Average 142.22
+
+Island Group: 1667 Average 210.57
+
+Island Group: 1668 Average 402.91
+
+Island Group: 1669 Average 163.65
+
+Island Group: 1670 Average 222.37
+
+Island Group: 1671 Average 268.51
+
+Island Group: 1672 Average 379.10
+
+Island Group: 1673 Average 216.52
+
+Island Group: 1674 Average 165.05
+
+Island Group: 1675 Average 186.97
+
+Island Group: 1676 Average 153.97
+
+Island Group: 1677 Average 163.35
+
+Island Group: 1678 Average 157.46
+
+Island Group: 1679 Average 249.00
+
+Island Group: 1680 Average 218.64
+
+Island Group: 1681 Average 232.31
+
+Island Group: 1682 Average 164.46
+
+Island Group: 1683 Average 400.29
+
+Island Group: 1684 Average 150.18
+
+Island Group: 1685 Average 607.74
+
+Island Group: 1686 Average 185.19
+
+Island Group: 1687 Average 262.53
+
+Island Group: 1688 Average 205.22
+
+Island Group: 1689 Average 167.67
+
+Island Group: 1690 Average 240.18
+
+Island Group: 1691 Average 289.71
+
+Island Group: 1692 Average 231.73
+
+Island Group: 1693 Average 169.75
+
+Island Group: 1694 Average 182.60
+
+Island Group: 1695 Average 171.56
+
+Island Group: 1696 Average 234.53
+
+Island Group: 1697 Average 261.37
+
+Island Group: 1698 Average 184.03
+
+Island Group: 1699 Average 187.06
+
+Island Group: 1700 Average 172.45
+
+Island Group: 1701 Average 178.70
+
+Island Group: 1702 Average 470.70
+
+Island Group: 1703 Average 261.41
+
+Island Group: 1704 Average 178.45
+
+Island Group: 1705 Average 322.15
+
+Island Group: 1706 Average 144.27
+
+Island Group: 1707 Average 209.28
+
+Island Group: 1708 Average 201.36
+
+Island Group: 1709 Average 224.86
+
+Island Group: 1710 Average 408.00
+
+Island Group: 1711 Average 184.50
+
+Island Group: 1712 Average 249.99
+
+Island Group: 1713 Average 272.01
+
+Island Group: 1714 Average 165.10
+
+Island Group: 1715 Average 149.06
+
+Island Group: 1716 Average 252.27
+
+Island Group: 1717 Average 162.24
+
+Island Group: 1718 Average 187.84
+
+Island Group: 1719 Average 194.52
+
+Island Group: 1720 Average 275.66
+
+Island Group: 1721 Average 98.50
+
+Island Group: 1722 Average 266.29
+
+Island Group: 1723 Average 190.04
+
+Island Group: 1724 Average 194.91
+
+Island Group: 1725 Average 223.06
+
+Island Group: 1726 Average 160.63
+
+Island Group: 1727 Average 165.63
+
+Island Group: 1728 Average 362.50
+
+Island Group: 1729 Average 272.85
+
+Island Group: 1730 Average 199.48
+
+Island Group: 1731 Average 159.21
+
+Island Group: 1732 Average 181.88
+
+Island Group: 1733 Average 171.74
+
+Island Group: 1734 Average 67.98
+
+Island Group: 1735 Average 237.68
+
+Island Group: 1736 Average 196.54
+
+Island Group: 1737 Average 282.11
+
+Island Group: 1738 Average 180.14
+
+Island Group: 1739 Average 190.91
+
+Island Group: 1740 Average 183.08
+
+Island Group: 1741 Average 222.08
+
+Island Group: 1742 Average 155.06
+
+Island Group: 1743 Average 242.68
+
+Island Group: 1744 Average 254.27
+
+Island Group: 1745 Average 355.54
+
+Island Group: 1746 Average 161.75
+
+Island Group: 1747 Average 0.00
+
+Island Group: 1748 Average 225.32
+
+Island Group: 1749 Average 192.54
+
+Island Group: 1750 Average 248.52
+
+Island Group: 1751 Average 168.64
+
+Island Group: 1752 Average 486.04
+
+Island Group: 1753 Average 156.48
+
+Island Group: 1754 Average 334.80
+
+Island Group: 1755 Average 180.32
+
+Island Group: 1756 Average 163.43
+
+Island Group: 1757 Average 247.72
+
+Island Group: 1758 Average 224.44
+
+Island Group: 1759 Average 161.69
+
+Island Group: 1760 Average 156.33
+
+Island Group: 1761 Average 193.69
+
+Island Group: 1762 Average 0.00
+
+Island Group: 1763 Average 277.69
+
+Island Group: 1764 Average 207.27
+
+Island Group: 1765 Average 363.30
+
+Island Group: 1766 Average 204.15
+
+Island Group: 1767 Average 199.57
+
+Island Group: 1768 Average 170.01
+
+Island Group: 1769 Average 270.89
+
+Island Group: 1770 Average 160.30
+
+Island Group: 1771 Average 185.64
+
+Island Group: 1772 Average 295.10
+
+Island Group: 1773 Average 240.30
+
+Island Group: 1774 Average 313.76
+
+Island Group: 1775 Average 179.52
+
+Island Group: 1776 Average 191.67
+
+Island Group: 1777 Average 210.08
+
+Island Group: 1778 Average 435.39
+
+Island Group: 1779 Average 194.28
+
+Island Group: 1780 Average 167.17
+
+Island Group: 1781 Average 159.34
+
+Island Group: 1782 Average 197.35
+
+Island Group: 1783 Average 196.79
+
+Island Group: 1784 Average 158.88
+
+Island Group: 1785 Average 385.70
+
+Island Group: 1786 Average 180.68
+
+Island Group: 1787 Average 82.19
+
+Island Group: 1788 Average 357.18
+
+Island Group: 1789 Average 162.65
+
+Island Group: 1790 Average 246.10
+
+Island Group: 1791 Average 378.12
+
+Island Group: 1792 Average 163.00
+
+Island Group: 1793 Average 206.22
+
+Island Group: 1794 Average 195.31
+
+Island Group: 1795 Average 340.84
+
+Island Group: 1796 Average 222.36
+
+Island Group: 1797 Average 137.88
+
+Island Group: 1798 Average 394.52
+
+Island Group: 1799 Average 179.75
+
+Island Group: 1800 Average 257.09
+
+Island Group: 1801 Average 157.31
+
+Island Group: 1802 Average 188.84
+
+Island Group: 1803 Average 308.54
+
+Island Group: 1804 Average 168.35
+
+Island Group: 1805 Average 164.28
+
+Island Group: 1806 Average 189.89
+
+Island Group: 1807 Average 189.93
+
+Island Group: 1808 Average 143.01
+
+Island Group: 1809 Average 313.82
+
+Island Group: 1810 Average 232.21
+
+Island Group: 1811 Average 320.13
+
+Island Group: 1812 Average 272.78
+
+Island Group: 1813 Average 278.18
+
+Island Group: 1814 Average 299.92
+
+Island Group: 1815 Average 216.81
+
+Island Group: 1816 Average 161.50
+
+Island Group: 1817 Average 181.68
+
+Island Group: 1818 Average 344.13
+
+Island Group: 1819 Average 206.71
+
+Island Group: 1820 Average 165.00
+
+Island Group: 1821 Average 186.52
+
+Island Group: 1822 Average 165.51
+
+Island Group: 1823 Average 209.60
+
+Island Group: 1824 Average 177.84
+
+Island Group: 1825 Average 189.53
+
+Island Group: 1826 Average 237.85
+
+Island Group: 1827 Average 336.91
+
+Island Group: 1828 Average 230.97
+
+Island Group: 1829 Average 217.88
+
+Island Group: 1830 Average 163.55
+
+Island Group: 1831 Average 160.36
+
+Island Group: 1832 Average 156.55
+
+Island Group: 1833 Average 215.04
+
+Island Group: 1834 Average 184.86
+
+Island Group: 1835 Average 236.43
+
+Island Group: 1836 Average 296.98
+
+Island Group: 1837 Average 198.62
+
+Island Group: 1838 Average 168.80
+
+Island Group: 1839 Average 165.32
+
+Island Group: 1840 Average 186.90
+
+Island Group: 1841 Average 258.44
+
+Island Group: 1842 Average 231.86
+
+Island Group: 1843 Average 300.85
+
+Island Group: 1844 Average 178.61
+
+Island Group: 1845 Average 229.90
+
+Island Group: 1846 Average 627.05
+
+Island Group: 1847 Average 173.18
+
+Island Group: 1848 Average 173.62
+
+Island Group: 1849 Average 176.01
+
+Island Group: 1850 Average 308.49
+
+Island Group: 1851 Average 208.56
+
+Island Group: 1852 Average 429.81
+
+Island Group: 1853 Average 153.52
+
+Island Group: 1854 Average 189.41
+
+Island Group: 1855 Average 282.07
+
+Island Group: 1856 Average 210.34
+
+Island Group: 1857 Average 194.54
+
+Island Group: 1858 Average 189.81
+
+Island Group: 1859 Average 234.99
+
+Island Group: 1860 Average 245.34
+
+Island Group: 1861 Average 272.03
+
+Island Group: 1862 Average 199.98
+
+Island Group: 1863 Average 207.59
+
+Island Group: 1864 Average 177.25
+
+Island Group: 1865 Average 155.98
+
+Island Group: 1866 Average 216.28
+
+Island Group: 1867 Average 128.45
+
+Island Group: 1868 Average 152.01
+
+Island Group: 1869 Average 243.44
+
+Island Group: 1870 Average 166.71
+
+Island Group: 1871 Average 182.17
+
+Island Group: 1872 Average 263.11
+
+Island Group: 1873 Average 232.98
+
+Island Group: 1874 Average 0.00
+
+Island Group: 1875 Average 154.61
+
+Island Group: 1876 Average 173.35
+
+Island Group: 1877 Average 394.35
+
+Island Group: 1878 Average 143.28
+
+Island Group: 1879 Average 274.74
+
+Island Group: 1880 Average 232.63
+
+Island Group: 1881 Average 363.11
+
+Island Group: 1882 Average 204.15
+
+Island Group: 1883 Average 0.00
+
+Island Group: 1884 Average 246.04
+
+Island Group: 1885 Average 186.05
+
+Island Group: 1886 Average 226.73
+
+Island Group: 1887 Average 186.59
+
+Island Group: 1888 Average 217.24
+
+Island Group: 1889 Average 235.45
+
+Island Group: 1890 Average 275.62
+
+Island Group: 1891 Average 155.32
+
+Island Group: 1892 Average 176.76
+
+Island Group: 1893 Average 198.35
+
+Island Group: 1894 Average 175.18
+
+Island Group: 1895 Average 199.74
+
+Island Group: 1896 Average 211.86
+
+Island Group: 1897 Average 265.27
+
+Island Group: 1898 Average 440.91
+
+Island Group: 1899 Average 333.29
+
+Island Group: 1900 Average 157.66
+
+Island Group: 1901 Average 200.90
+
+Island Group: 1902 Average 191.51
+
+Island Group: 1903 Average 301.66
+
+Island Group: 1904 Average 228.80
+
+Island Group: 1905 Average 183.95
+
+Island Group: 1906 Average 182.80
+
+Island Group: 1907 Average 0.00
+
+Island Group: 1908 Average 240.35
+
+Island Group: 1909 Average 183.83
+
+Island Group: 1910 Average 165.13
+
+Island Group: 1911 Average 211.56
+
+Island Group: 1912 Average 167.65
+
+Island Group: 1913 Average 353.36
+
+Island Group: 1914 Average 50.04
+
+Island Group: 1915 Average 171.79
+
+Island Group: 1916 Average 307.75
+
+Island Group: 1917 Average 170.09
+
+Island Group: 1918 Average 144.95
+
+Island Group: 1919 Average 152.38
+
+Island Group: 1920 Average 230.01
+
+Island Group: 1921 Average 311.60
+
+Island Group: 1922 Average 216.56
+
+Island Group: 1923 Average 181.61
+
+Island Group: 1924 Average 218.18
+
+Island Group: 1925 Average 226.79
+
+Island Group: 1926 Average 208.83
+
+Island Group: 1927 Average 181.79
+
+Island Group: 1928 Average 222.59
+
+Island Group: 1929 Average 194.63
+
+Island Group: 1930 Average 186.12
+
+Island Group: 1931 Average 158.80
+
+Island Group: 1932 Average 217.32
+
+Island Group: 1933 Average 350.00
+
+Island Group: 1934 Average 215.98
+
+Island Group: 1935 Average 259.81
+
+Island Group: 1936 Average 162.44
+
+Island Group: 1937 Average 63.58
+
+Island Group: 1938 Average 168.33
+
+Island Group: 1939 Average 151.31
+
+Island Group: 1940 Average 213.29
+
+Island Group: 1941 Average 222.45
+
+Island Group: 1942 Average 184.43
+
+Island Group: 1943 Average 187.31
+
+Island Group: 1944 Average 233.18
+
+Island Group: 1945 Average 196.82
+
+Island Group: 1946 Average 147.42
+
+Island Group: 1947 Average 143.19
+
+Island Group: 1948 Average 55.71
+
+Island Group: 1949 Average 189.19
+
+Island Group: 1950 Average 184.36
+
+Island Group: 1951 Average 368.69
+
+Island Group: 1952 Average 216.50
+
+Island Group: 1953 Average 179.73
+
+Island Group: 1954 Average 194.95
+
+Island Group: 1955 Average 253.22
+
+Island Group: 1956 Average 272.99
+
+Island Group: 1957 Average 267.00
+
+Island Group: 1958 Average 235.79
+
+Island Group: 1959 Average 222.30
+
+Island Group: 1960 Average 228.03
+
+Island Group: 1961 Average 189.31
+
+Island Group: 1962 Average 211.56
+
+Island Group: 1963 Average 152.04
+
+Island Group: 1964 Average 185.21
+
+Island Group: 1965 Average 156.37
+
+Island Group: 1966 Average 221.89
+
+Island Group: 1967 Average 153.56
+
+Island Group: 1968 Average 290.39
+
+Island Group: 1969 Average 207.20
+
+Island Group: 1970 Average 207.49
+
+Island Group: 1971 Average 192.18
+
+Island Group: 1972 Average 140.51
+
+Island Group: 1973 Average 321.57
+
+Island Group: 1974 Average 151.09
+
+Island Group: 1975 Average 216.42
+
+Island Group: 1976 Average 381.50
+
+Island Group: 1977 Average 178.13
+
+Island Group: 1978 Average 186.12
+
+Island Group: 1979 Average 283.68
+
+Island Group: 1980 Average 190.77
+
+Island Group: 1981 Average 287.40
+
+Island Group: 1982 Average 220.65
+
+Island Group: 1983 Average 170.42
+
+Island Group: 1984 Average 106.92
+
+Island Group: 1985 Average 174.17
+
+Island Group: 1986 Average 213.96
+
+Island Group: 1987 Average 154.76
+
+Island Group: 1988 Average 188.03
+
+Island Group: 1989 Average 189.34
+
+Island Group: 1990 Average 245.72
+
+Island Group: 1991 Average 194.11
+
+Island Group: 1992 Average 179.57
+
+Island Group: 1993 Average 236.97
+
+Island Group: 1994 Average 212.75
+
+Island Group: 1995 Average 280.11
+
+Island Group: 1996 Average 177.90
+
+Island Group: 1997 Average 305.42
+
+Island Group: 1998 Average 232.44
+
+Island Group: 1999 Average 219.42
+
+Island Group: 2000 Average 164.57
+
+Island Group: 2001 Average 225.90
+
+Island Group: 2002 Average 228.31
+
+Island Group: 2003 Average 174.42
+
+Island Group: 2004 Average 342.23
+
+Island Group: 2005 Average 175.18
+
+Island Group: 2006 Average 222.54
+
+Island Group: 2007 Average 216.34
+
+Island Group: 2008 Average 154.79
+
+Island Group: 2009 Average 192.21
+
+Island Group: 2010 Average 218.79
+
+Island Group: 2011 Average 175.76
+
+Island Group: 2012 Average 196.48
+
+Island Group: 2013 Average 185.86
+
+Island Group: 2014 Average 193.16
+
+Island Group: 2015 Average 183.46
+
+Island Group: 2016 Average 227.98
+
+Island Group: 2017 Average 193.88
+
+Island Group: 2018 Average 343.80
+
+Island Group: 2019 Average 204.68
+
+Island Group: 2020 Average 209.97
+
+Island Group: 2021 Average 216.35
+
+Island Group: 2022 Average 177.20
+
+Island Group: 2023 Average 188.28
+
+Island Group: 2024 Average 155.82
+
+Island Group: 2025 Average 186.55
+
+Island Group: 2026 Average 166.63
+
+Island Group: 2027 Average 169.45
+
+Island Group: 2028 Average 173.27
+
+Island Group: 2029 Average 0.00
+
+Island Group: 2030 Average 185.09
+
+Island Group: 2031 Average 183.33
+
+Island Group: 2032 Average 312.15
+
+Island Group: 2033 Average 194.53
+
+Island Group: 2034 Average 342.72
+
+Island Group: 2035 Average 157.80
+
+Island Group: 2036 Average 231.45
+
+Island Group: 2037 Average 215.93
+
+Island Group: 2038 Average 186.57
+
+Island Group: 2039 Average 252.04
+
+Island Group: 2040 Average 175.94
+
+Island Group: 2041 Average 254.84
+
+Island Group: 2042 Average 230.76
+
+Island Group: 2043 Average 184.19
+
+Island Group: 2044 Average 171.79
+
+Island Group: 2045 Average 211.78
+
+Island Group: 2046 Average 488.99
+
+Island Group: 2047 Average 331.99
+
+Island Group: 2048 Average 167.55
+
+Island Group: 2049 Average 435.58
+
+Island Group: 2050 Average 292.73
+
+Island Group: 2051 Average 211.90
+
+Island Group: 2052 Average 158.13
+
+Island Group: 2053 Average 245.64
+
+Island Group: 2054 Average 166.45
+
+Island Group: 2055 Average 184.49
+
+Island Group: 2056 Average 261.17
+
+Island Group: 2057 Average 162.17
+
+Island Group: 2058 Average 332.84
+
+Island Group: 2059 Average 0.00
+
+Island Group: 2060 Average 160.29
+
+Island Group: 2061 Average 195.85
+
+Island Group: 2062 Average 123.20
+
+Island Group: 2063 Average 234.94
+
+Island Group: 2064 Average 175.04
+
+Island Group: 2065 Average 179.38
+
+Island Group: 2066 Average 231.76
+
+Island Group: 2067 Average 322.61
+
+Island Group: 2068 Average 166.13
+
+Island Group: 2069 Average 206.98
+
+Island Group: 2070 Average 269.19
+
+Island Group: 2071 Average 333.08
+
+Island Group: 2072 Average 356.08
+
+Island Group: 2073 Average 210.25
+
+Island Group: 2074 Average 210.01
+
+Island Group: 2075 Average 168.37
+
+Island Group: 2076 Average 191.96
+
+Island Group: 2077 Average 209.65
+
+Island Group: 2078 Average 179.81
+
+Island Group: 2079 Average 312.31
+
+Island Group: 2080 Average 276.89
+
+Island Group: 2081 Average 223.81
+
+Island Group: 2082 Average 0.00
+
+Island Group: 2083 Average 160.87
+
+Island Group: 2084 Average 221.32
+
+Island Group: 2085 Average 207.02
+
+Island Group: 2086 Average 163.48
+
+Island Group: 2087 Average 147.80
+
+Island Group: 2088 Average 291.48
+
+Island Group: 2089 Average 338.15
+
+Island Group: 2090 Average 177.49
+
+Island Group: 2091 Average 236.25
+
+Island Group: 2092 Average 342.57
+
+Island Group: 2093 Average 246.21
+
+Island Group: 2094 Average 158.82
+
+Island Group: 2095 Average 166.21
+
+Island Group: 2096 Average 174.34
+
+Island Group: 2097 Average 151.07
+
+Island Group: 2098 Average 223.23
+
+Island Group: 2099 Average 229.58
+
+Island Group: 2100 Average 214.51
+
+Island Group: 2101 Average 273.18
+
+Island Group: 2102 Average 251.64
+
+Island Group: 2103 Average 194.84
+
+Island Group: 2104 Average 207.84
+
+Island Group: 2105 Average 259.76
+
+Island Group: 2106 Average 180.25
+
+Island Group: 2107 Average 226.48
+
+Island Group: 2108 Average 291.23
+
+Island Group: 2109 Average 217.29
+
+Island Group: 2110 Average 466.33
+
+Island Group: 2111 Average 147.79
+
+Island Group: 2112 Average 254.45
+
+Island Group: 2113 Average 257.53
+
+Island Group: 2114 Average 209.85
+
+Island Group: 2115 Average 147.54
+
+Island Group: 2116 Average 280.56
+
+Island Group: 2117 Average 192.43
+
+Island Group: 2118 Average 181.92
+
+Island Group: 2119 Average 180.59
+
+Island Group: 2120 Average 153.10
+
+Island Group: 2121 Average 184.89
+
+Island Group: 2122 Average 205.34
+
+Island Group: 2123 Average 220.89
+
+Island Group: 2124 Average 218.71
+
+Island Group: 2125 Average 184.42
+
+Island Group: 2126 Average 263.92
+
+Island Group: 2127 Average 422.41
+
+Island Group: 2128 Average 186.59
+
+Island Group: 2129 Average 187.77
+
+Island Group: 2130 Average 178.81
+
+Island Group: 2131 Average 188.04
+
+Island Group: 2132 Average 205.19
+
+Island Group: 2133 Average 165.75
+
+Island Group: 2134 Average 290.38
+
+Island Group: 2135 Average 0.00
+
+Island Group: 2136 Average 157.71
+
+Island Group: 2137 Average 341.73
+
+Island Group: 2138 Average 177.36
+
+Island Group: 2139 Average 147.90
+
+Island Group: 2140 Average 178.81
+
+Island Group: 2141 Average 250.73
+
+Island Group: 2142 Average 170.61
+
+Island Group: 2143 Average 242.23
+
+Island Group: 2144 Average 174.81
+
+Island Group: 2145 Average 216.64
+
+Island Group: 2146 Average 296.01
+
+Island Group: 2147 Average 198.33
+
+Island Group: 2148 Average 225.74
+
+Island Group: 2149 Average 188.72
+
+Island Group: 2150 Average 206.62
+
+Island Group: 2151 Average 179.91
+
+Island Group: 2152 Average 191.37
+
+Island Group: 2153 Average 256.18
+
+Island Group: 2154 Average 273.25
+
+Island Group: 2155 Average 214.04
+
+Island Group: 2156 Average 156.31
+
+Island Group: 2157 Average 188.59
+
+Island Group: 2158 Average 162.35
+
+Island Group: 2159 Average 348.77
+
+Island Group: 2160 Average 163.57
+
+Island Group: 2161 Average 192.95
+
+Island Group: 2162 Average 164.13
+
+Island Group: 2163 Average 235.59
+
+Island Group: 2164 Average 205.67
+
+Island Group: 2165 Average 294.36
+
+Island Group: 2166 Average 210.13
+
+Island Group: 2167 Average 201.32
+
+Island Group: 2168 Average 201.58
+
+Island Group: 2169 Average 166.10
+
+Island Group: 2170 Average 134.90
+
+Island Group: 2171 Average 146.37
+
+Island Group: 2172 Average 179.81
+
+Island Group: 2173 Average 172.60
+
+Island Group: 2174 Average 260.25
+
+Island Group: 2175 Average 300.64
+
+Island Group: 2176 Average 209.49
+
+Island Group: 2177 Average 215.81
+
+Island Group: 2178 Average 250.69
+
+Island Group: 2179 Average 182.95
+
+Island Group: 2180 Average 236.46
+
+Island Group: 2181 Average 173.80
+
+Island Group: 2182 Average 274.46
+
+Island Group: 2183 Average 238.11
+
+Island Group: 2184 Average 205.91
+
+Island Group: 2185 Average 173.85
+
+Island Group: 2186 Average 212.97
+
+Island Group: 2187 Average 224.62
+
+Island Group: 2188 Average 230.50
+
+Island Group: 2189 Average 673.76
+
+Island Group: 2190 Average 169.22
+
+Island Group: 2191 Average 342.23
+
+Island Group: 2192 Average 251.36
+
+Island Group: 2193 Average 277.85
+
+Island Group: 2194 Average 161.59
+
+Island Group: 2195 Average 204.71
+
+Island Group: 2196 Average 191.49
+
+Island Group: 2197 Average 195.99
+
+Island Group: 2198 Average 187.90
+
+Island Group: 2199 Average 226.75
+
+Island Group: 2200 Average 181.21
+
+Island Group: 2201 Average 210.83
+
+Island Group: 2202 Average 199.10
+
+Island Group: 2203 Average 218.08
+
+Island Group: 2204 Average 183.87
+
+Island Group: 2205 Average 236.58
+
+Island Group: 2206 Average 187.76
+
+Island Group: 2207 Average 159.97
+
+Island Group: 2208 Average 210.04
+
+Island Group: 2209 Average 244.92
+
+Island Group: 2210 Average 256.11
+
+Island Group: 2211 Average 207.21
+
+Island Group: 2212 Average 203.01
+
+Island Group: 2213 Average 164.09
+
+Island Group: 2214 Average 406.44
+
+Island Group: 2215 Average 155.73
+
+Island Group: 2216 Average 165.22
+
+Island Group: 2217 Average 297.18
+
+Island Group: 2218 Average 205.15
+
+Island Group: 2219 Average 228.35
+
+Island Group: 2220 Average 221.39
+
+Island Group: 2221 Average 152.84
+
+Island Group: 2222 Average 193.53
+
+Island Group: 2223 Average 273.05
+
+Island Group: 2224 Average 247.93
+
+Island Group: 2225 Average 206.02
+
+Island Group: 2226 Average 265.87
+
+Island Group: 2227 Average 166.28
+
+Island Group: 2228 Average 286.45
+
+Island Group: 2229 Average 143.04
+
+Island Group: 2230 Average 46.90
+
+Island Group: 2231 Average 333.25
+
+Island Group: 2232 Average 213.31
+
+Island Group: 2233 Average 154.54
+
+Island Group: 2234 Average 584.90
+
+Island Group: 2235 Average 244.92
+
+Island Group: 2236 Average 264.37
+
+Island Group: 2237 Average 243.20
+
+Island Group: 2238 Average 204.11
+
+Island Group: 2239 Average 548.91
+
+Island Group: 2240 Average 191.73
+
+Island Group: 2241 Average 167.06
+
+Island Group: 2242 Average 181.61
+
+Island Group: 2243 Average 199.30
+
+Island Group: 2244 Average 183.93
+
+Island Group: 2245 Average 379.47
+
+Island Group: 2246 Average 376.49
+
+Island Group: 2247 Average 204.73
+
+Island Group: 2248 Average 156.46
+
+Island Group: 2249 Average 315.00
+
+Island Group: 2250 Average 165.31
+
+Island Group: 2251 Average 261.36
+
+Island Group: 2252 Average 239.56
+
+Island Group: 2253 Average 245.16
+
+Island Group: 2254 Average 213.20
+
+Island Group: 2255 Average 173.13
+
+Island Group: 2256 Average 168.50
+
+Island Group: 2257 Average 161.26
+
+Island Group: 2258 Average 177.94
+
+Island Group: 2259 Average 181.74
+
+Island Group: 2260 Average 222.67
+
+Island Group: 2261 Average 255.87
+
+Island Group: 2262 Average 206.59
+
+Island Group: 2263 Average 305.67
+
+Island Group: 2264 Average 218.54
+
+Island Group: 2265 Average 366.69
+
+Island Group: 2266 Average 361.69
+
+Island Group: 2267 Average 185.77
+
+Island Group: 2268 Average 243.97
+
+Island Group: 2269 Average 151.99
+
+Island Group: 2270 Average 153.33
+
+Island Group: 2271 Average 188.93
+
+Island Group: 2272 Average 319.45
+
+Island Group: 2273 Average 201.75
+
+Island Group: 2274 Average 310.96
+
+Island Group: 2275 Average 153.72
+
+Island Group: 2276 Average 229.31
+
+Island Group: 2277 Average 208.16
+
+Island Group: 2278 Average 181.68
+
+Island Group: 2279 Average 218.53
+
+Island Group: 2280 Average 154.18
+
+Island Group: 2281 Average 162.85
+
+Island Group: 2282 Average 176.89
+
+Island Group: 2283 Average 172.71
+
+Island Group: 2284 Average 242.21
+
+Island Group: 2285 Average 274.53
+
+Island Group: 2286 Average 204.68
+
+Island Group: 2287 Average 198.94
+
+Island Group: 2288 Average 235.02
+
+Island Group: 2289 Average 239.11
+
+Island Group: 2290 Average 240.32
+
+Island Group: 2291 Average 218.23
+
+Island Group: 2292 Average 160.07
+
+Island Group: 2293 Average 403.87
+
+Island Group: 2294 Average 214.85
+
+Island Group: 2295 Average 0.00
+
+Island Group: 2296 Average 211.70
+
+Island Group: 2297 Average 152.24
+
+Island Group: 2298 Average 170.56
+
+Island Group: 2299 Average 210.31
+
+Island Group: 2300 Average 186.61
+
+Island Group: 2301 Average 214.65
+
+Island Group: 2302 Average 168.05
+
+Island Group: 2303 Average 148.50
+
+Island Group: 2304 Average 211.76
+
+Island Group: 2305 Average 162.21
+
+Island Group: 2306 Average 192.03
+
+Island Group: 2307 Average 283.68
+
+Island Group: 2308 Average 231.79
+
+Island Group: 2309 Average 279.08
+
+Island Group: 2310 Average 211.68
+
+Island Group: 2311 Average 185.07
+
+Island Group: 2312 Average 287.25
+
+Island Group: 2313 Average 192.98
+
+Island Group: 2314 Average 295.68
+
+Island Group: 2315 Average 210.14
+
+Island Group: 2316 Average 261.48
+
+Island Group: 2317 Average 191.40
+
+Island Group: 2318 Average 172.63
+
+Island Group: 2319 Average 313.71
+
+Island Group: 2320 Average 205.78
+
+Island Group: 2321 Average 155.54
+
+Island Group: 2322 Average 133.30
+
+Island Group: 2323 Average 194.78
+
+Island Group: 2324 Average 189.77
+
+Island Group: 2325 Average 181.41
+
+Island Group: 2326 Average 291.52
+
+Island Group: 2327 Average 156.34
+
+Island Group: 2328 Average 164.90
+
+Island Group: 2329 Average 296.20
+
+Island Group: 2330 Average 306.58
+
+Island Group: 2331 Average 273.98
+
+Island Group: 2332 Average 228.13
+
+Island Group: 2333 Average 221.66
+
+Island Group: 2334 Average 493.64
+
+Island Group: 2335 Average 234.93
+
+Island Group: 2336 Average 168.63
+
+Island Group: 2337 Average 199.20
+
+Island Group: 2338 Average 122.08
+
+Island Group: 2339 Average 207.62
+
+Island Group: 2340 Average 190.28
+
+Island Group: 2341 Average 178.69
+
+Island Group: 2342 Average 0.00
+
+Island Group: 2343 Average 208.16
+
+Island Group: 2344 Average 199.15
+
+Island Group: 2345 Average 348.96
+
+Island Group: 2346 Average 312.55
+
+Island Group: 2347 Average 208.23
+
+Island Group: 2348 Average 283.52
+
+Island Group: 2349 Average 394.68
+
+Island Group: 2350 Average 154.85
+
+Island Group: 2351 Average 157.44
+
+Island Group: 2352 Average 184.55
+
+Island Group: 2353 Average 157.10
+
+Island Group: 2354 Average 233.32
+
+Island Group: 2355 Average 171.86
+
+Island Group: 2356 Average 182.43
+
+Island Group: 2357 Average 250.28
+
+Island Group: 2358 Average 218.83
+
+Island Group: 2359 Average 240.59
+
+Island Group: 2360 Average 169.91
+
+Island Group: 2361 Average 232.73
+
+Island Group: 2362 Average 211.50
+
+Island Group: 2363 Average 577.84
+
+Island Group: 2364 Average 515.04
+
+Island Group: 2365 Average 237.27
+
+Island Group: 2366 Average 227.32
+
+Island Group: 2367 Average 161.48
+
+Island Group: 2368 Average 284.10
+
+Island Group: 2369 Average 198.74
+
+Island Group: 2370 Average 196.47
+
+Island Group: 2371 Average 141.27
+
+Island Group: 2372 Average 244.84
+
+Island Group: 2373 Average 396.47
+
+Island Group: 2374 Average 196.78
+
+Island Group: 2375 Average 343.38
+
+Island Group: 2376 Average 239.62
+
+Island Group: 2377 Average 177.64
+
+Island Group: 2378 Average 131.57
+
+Island Group: 2379 Average 231.44
+
+Island Group: 2380 Average 162.07
+
+Island Group: 2381 Average 226.60
+
+Island Group: 2382 Average 161.90
+
+Island Group: 2383 Average 195.59
+
+Island Group: 2384 Average 431.44
+
+Island Group: 2385 Average 164.53
+
+Island Group: 2386 Average 202.63
+
+Island Group: 2387 Average 168.56
+
+Island Group: 2388 Average 119.78
+
+Island Group: 2389 Average 191.56
+
+Island Group: 2390 Average 257.56
+
+Island Group: 2391 Average 167.48
+
+Island Group: 2392 Average 374.54
+
+Island Group: 2393 Average 241.13
+
+Island Group: 2394 Average 200.91
+
+Island Group: 2395 Average 160.47
+
+Island Group: 2396 Average 325.71
+
+Island Group: 2397 Average 190.04
+
+Island Group: 2398 Average 320.10
+
+Island Group: 2399 Average 200.52
+
+Island Group: 2400 Average 219.13
+
+Island Group: 2401 Average 190.24
+
+Island Group: 2402 Average 159.75
+
+Island Group: 2403 Average 204.38
+
+Island Group: 2404 Average 243.04
+
+Island Group: 2405 Average 207.15
+
+Island Group: 2406 Average 193.25
+
+Island Group: 2407 Average 209.40
+
+Island Group: 2408 Average 311.98
+
+Island Group: 2409 Average 192.40
+
+Island Group: 2410 Average 162.07
+
+Island Group: 2411 Average 331.25
+
+Island Group: 2412 Average 210.62
+
+Island Group: 2413 Average 217.07
+
+Island Group: 2414 Average 240.24
+
+Island Group: 2415 Average 139.68
+
+Island Group: 2416 Average 413.86
+
+Island Group: 2417 Average 159.35
+
+Island Group: 2418 Average 204.66
+
+Island Group: 2419 Average 152.69
+
+Island Group: 2420 Average 287.41
+
+Island Group: 2421 Average 154.30
+
+Island Group: 2422 Average 0.00
+
+Island Group: 2423 Average 239.09
+
+Island Group: 2424 Average 201.26
+
+Island Group: 2425 Average 231.28
+
+Island Group: 2426 Average 299.42
+
+Island Group: 2427 Average 234.45
+
+Island Group: 2428 Average 167.56
+
+Island Group: 2429 Average 220.87
+
+Island Group: 2430 Average 351.02
+
+Island Group: 2431 Average 272.07
+
+Island Group: 2432 Average 182.07
+
+Island Group: 2433 Average 175.02
+
+Island Group: 2434 Average 191.25
+
+Island Group: 2435 Average 172.84
+
+Island Group: 2436 Average 174.62
+
+Island Group: 2437 Average 167.72
+
+Island Group: 2438 Average 159.05
+
+Island Group: 2439 Average 226.68
+
+Island Group: 2440 Average 333.33
+
+Island Group: 2441 Average 223.37
+
+Island Group: 2442 Average 187.92
+
+Island Group: 2443 Average 0.00
+
+Island Group: 2444 Average 210.43
+
+Island Group: 2445 Average 164.96
+
+Island Group: 2446 Average 149.37
+
+Island Group: 2447 Average 198.17
+
+Island Group: 2448 Average 274.37
+
+Island Group: 2449 Average 177.70
+
+Island Group: 2450 Average 235.84
+
+Island Group: 2451 Average 253.50
+
+Island Group: 2452 Average 312.04
+
+Island Group: 2453 Average 300.13
+
+Island Group: 2454 Average 273.90
+
+Island Group: 2455 Average 175.85
+
+Island Group: 2456 Average 286.87
+
+Island Group: 2457 Average 206.36
+
+Island Group: 2458 Average 214.49
+
+Island Group: 2459 Average 182.30
+
+Island Group: 2460 Average 180.67
+
+Island Group: 2461 Average 510.23
+
+Island Group: 2462 Average 174.61
+
+Island Group: 2463 Average 171.46
+
+Island Group: 2464 Average 143.28
+
+Island Group: 2465 Average 163.50
+
+Island Group: 2466 Average 187.90
+
+Island Group: 2467 Average 222.82
+
+Island Group: 2468 Average 154.80
+
+Island Group: 2469 Average 180.47
+
+Island Group: 2470 Average 240.81
+
+Island Group: 2471 Average 208.32
+
+Island Group: 2472 Average 192.47
+
+Island Group: 2473 Average 246.74
+
+Island Group: 2474 Average 207.13
+
+Island Group: 2475 Average 150.74
+
+Island Group: 2476 Average 192.02
+
+Island Group: 2477 Average 159.84
+
+Island Group: 2478 Average 154.73
+
+Island Group: 2479 Average 165.45
+
+Island Group: 2480 Average 179.39
+
+Island Group: 2481 Average 155.76
+
+Island Group: 2482 Average 199.65
+
+Island Group: 2483 Average 290.32
+
+Island Group: 2484 Average 201.49
+
+Island Group: 2485 Average 246.07
+
+Island Group: 2486 Average 280.93
+
+Island Group: 2487 Average 173.41
+
+Island Group: 2488 Average 178.78
+
+Island Group: 2489 Average 381.88
+
+Island Group: 2490 Average 138.68
+
+Island Group: 2491 Average 183.48
+
+Island Group: 2492 Average 287.30
+
+Island Group: 2493 Average 208.08
+
+Island Group: 2494 Average 172.60
+
+Island Group: 2495 Average 172.13
+
+Island Group: 2496 Average 0.00
+
+Island Group: 2497 Average 337.94
+
+Island Group: 2498 Average 188.43
+
+Island Group: 2499 Average 262.46
+
+Island Group: 2500 Average 186.41
+
+Island Group: 2501 Average 236.42
+
+Island Group: 2502 Average 219.84
+
+Island Group: 2503 Average 203.30
+
+Island Group: 2504 Average 160.19
+
+Island Group: 2505 Average 223.99
+
+Island Group: 2506 Average 226.79
+
+Island Group: 2507 Average 162.41
+
+Island Group: 2508 Average 334.77
+
+Island Group: 2509 Average 290.94
+
+Island Group: 2510 Average 169.39
+
+Island Group: 2511 Average 202.26
+
+Island Group: 2512 Average 87.59
+
+Island Group: 2513 Average 213.68
+
+Island Group: 2514 Average 364.41
+
+Island Group: 2515 Average 235.20
+
+Island Group: 2516 Average 198.52
+
+Island Group: 2517 Average 148.71
+
+Island Group: 2518 Average 308.87
+
+Island Group: 2519 Average 190.63
+
+Island Group: 2520 Average 165.27
+
+Island Group: 2521 Average 157.72
+
+Island Group: 2522 Average 282.02
+
+Island Group: 2523 Average 296.64
+
+Island Group: 2524 Average 151.76
+
+Island Group: 2525 Average 224.01
+
+Island Group: 2526 Average 181.96
+
+Island Group: 2527 Average 247.92
+
+Island Group: 2528 Average 187.85
+
+Island Group: 2529 Average 0.00
+
+Island Group: 2530 Average 309.02
+
+Island Group: 2531 Average 206.06
+
+Island Group: 2532 Average 165.28
+
+Island Group: 2533 Average 169.68
+
+Island Group: 2534 Average 0.00
+
+Island Group: 2535 Average 160.04
+
+Island Group: 2536 Average 374.96
+
+Island Group: 2537 Average 179.90
+
+Island Group: 2538 Average 206.24
+
+Island Group: 2539 Average 517.73
+
+Island Group: 2540 Average 177.09
+
+Island Group: 2541 Average 266.28
+
+Island Group: 2542 Average 204.92
+
+Island Group: 2543 Average 321.17
+
+Island Group: 2544 Average 182.29
+
+Island Group: 2545 Average 339.80
+
+Island Group: 2546 Average 305.30
+
+Island Group: 2547 Average 156.80
+
+Island Group: 2548 Average 207.87
+
+Island Group: 2549 Average 169.90
+
+Island Group: 2550 Average 413.33
+
+Island Group: 2551 Average 205.68
+
+Island Group: 2552 Average 460.90
+
+Island Group: 2553 Average 202.26
+
+Island Group: 2554 Average 207.19
+
+Island Group: 2555 Average 177.86
+
+Island Group: 2556 Average 263.11
+
+Island Group: 2557 Average 186.33
+
+Island Group: 2558 Average 158.20
+
+Island Group: 2559 Average 353.14
+
+Island Group: 2560 Average 177.99
+
+Island Group: 2561 Average 191.64
+
+Island Group: 2562 Average 217.09
+
+Island Group: 2563 Average 211.00
+
+Island Group: 2564 Average 328.21
+
+Island Group: 2565 Average 265.69
+
+Island Group: 2566 Average 256.40
+
+Island Group: 2567 Average 305.73
+
+Island Group: 2568 Average 156.40
+
+Island Group: 2569 Average 311.35
+
+Island Group: 2570 Average 0.00
+
+Island Group: 2571 Average 183.00
+
+Island Group: 2572 Average 294.99
+
+Island Group: 2573 Average 145.92
+
+Island Group: 2574 Average 171.94
+
+Island Group: 2575 Average 204.68
+
+Island Group: 2576 Average 169.25
+
+Island Group: 2577 Average 200.72
+
+Island Group: 2578 Average 206.83
+
+Island Group: 2579 Average 184.57
+
+Island Group: 2580 Average 224.66
+
+Island Group: 2581 Average 226.14
+
+Island Group: 2582 Average 357.57
+
+Island Group: 2583 Average 177.13
+
+Island Group: 2584 Average 258.38
+
+Island Group: 2585 Average 252.87
+
+Island Group: 2586 Average 465.24
+
+Island Group: 2587 Average 239.34
+
+Island Group: 2588 Average 246.23
+
+Island Group: 2589 Average 203.77
+
+Island Group: 2590 Average 197.32
+
+Island Group: 2591 Average 155.27
+
+Island Group: 2592 Average 304.57
+
+Island Group: 2593 Average 292.15
+
+Island Group: 2594 Average 160.62
+
+Island Group: 2595 Average 241.81
+
+Island Group: 2596 Average 145.94
+
+Island Group: 2597 Average 184.49
+
+Island Group: 2598 Average 183.89
+
+Island Group: 2599 Average 231.98
+
+Island Group: 2600 Average 144.35
+
+Island Group: 2601 Average 259.07
+
+Island Group: 2602 Average 243.19
+
+Island Group: 2603 Average 179.49
+
+Island Group: 2604 Average 206.95
+
+Island Group: 2605 Average 192.26
+
+Island Group: 2606 Average 245.71
+
+Island Group: 2607 Average 206.93
+
+Island Group: 2608 Average 230.07
+
+Island Group: 2609 Average 269.35
+
+Island Group: 2610 Average 154.06
+
+Island Group: 2611 Average 170.77
+
+Island Group: 2612 Average 190.37
+
+Island Group: 2613 Average 217.78
+
+Island Group: 2614 Average 177.84
+
+Island Group: 2615 Average 238.61
+
+Island Group: 2616 Average 154.38
+
+Island Group: 2617 Average 183.08
+
+Island Group: 2618 Average 229.21
+
+Island Group: 2619 Average 254.88
+
+Island Group: 2620 Average 240.68
+
+Island Group: 2621 Average 269.73
+
+Island Group: 2622 Average 160.42
+
+Island Group: 2623 Average 138.64
+
+Island Group: 2624 Average 170.45
+
+Island Group: 2625 Average 287.53
+
+Island Group: 2626 Average 449.52
+
+Island Group: 2627 Average 238.37
+
+Island Group: 2628 Average 215.01
+
+Island Group: 2629 Average 197.54
+
+Island Group: 2630 Average 0.00
+
+Island Group: 2631 Average 235.63
+
+Island Group: 2632 Average 177.74
+
+Island Group: 2633 Average 185.05
+
+Island Group: 2634 Average 147.37
+
+Island Group: 2635 Average 136.97
+
+Island Group: 2636 Average 190.31
+
+Island Group: 2637 Average 191.48
+
+Island Group: 2638 Average 277.02
+
+Island Group: 2639 Average 275.37
+
+Island Group: 2640 Average 272.08
+
+Island Group: 2641 Average 174.62
+
+Island Group: 2642 Average 226.68
+
+Island Group: 2643 Average 158.73
+
+Island Group: 2644 Average 197.74
+
+Island Group: 2645 Average 138.34
+
+Island Group: 2646 Average 216.15
+
+Island Group: 2647 Average 269.49
+
+Island Group: 2648 Average 205.80
+
+Island Group: 2649 Average 164.12
+
+Island Group: 2650 Average 146.15
+
+Island Group: 2651 Average 169.01
+
+Island Group: 2652 Average 160.49
+
+Island Group: 2653 Average 173.84
+
+Island Group: 2654 Average 206.97
+
+Island Group: 2655 Average 198.53
+
+Island Group: 2656 Average 278.04
+
+Island Group: 2657 Average 209.42
+
+Island Group: 2658 Average 251.99
+
+Island Group: 2659 Average 403.23
+
+Island Group: 2660 Average 220.09
+
+Island Group: 2661 Average 161.63
+
+Island Group: 2662 Average 264.10
+
+Island Group: 2663 Average 168.70
+
+Island Group: 2664 Average 194.82
+
+Island Group: 2665 Average 172.45
+
+Island Group: 2666 Average 222.18
+
+Island Group: 2667 Average 168.30
+
+Island Group: 2668 Average 156.66
+
+Island Group: 2669 Average 199.56
+
+Island Group: 2670 Average 188.44
+
+Island Group: 2671 Average 0.00
+
+Island Group: 2672 Average 158.91
+
+Island Group: 2673 Average 556.76
+
+Island Group: 2674 Average 260.85
+
+Island Group: 2675 Average 102.16
+
+Island Group: 2676 Average 181.97
+
+Island Group: 2677 Average 160.66
+
+Island Group: 2678 Average 166.04
+
+Island Group: 2679 Average 330.75
+
+Island Group: 2680 Average 463.81
+
+Island Group: 2681 Average 503.40
+
+Island Group: 2682 Average 228.99
+
+Island Group: 2683 Average 268.66
+
+Island Group: 2684 Average 185.64
+
+Island Group: 2685 Average 157.63
+
+Island Group: 2686 Average 149.03
+
+Island Group: 2687 Average 234.01
+
+Island Group: 2688 Average 186.72
+
+Island Group: 2689 Average 145.49
+
+Island Group: 2690 Average 258.73
+
+Island Group: 2691 Average 175.78
+
+Island Group: 2692 Average 245.92
+
+Island Group: 2693 Average 197.45
+
+Island Group: 2694 Average 496.21
+
+Island Group: 2695 Average 274.05
+
+Island Group: 2696 Average 176.07
+
+Island Group: 2697 Average 193.00
+
+Island Group: 2698 Average 158.13
+
+Island Group: 2699 Average 180.68
+
+Island Group: 2700 Average 244.87
+
+Island Group: 2701 Average 435.20
+
+Island Group: 2702 Average 171.62
+
+Island Group: 2703 Average 299.42
+
+Island Group: 2704 Average 184.57
+
+Island Group: 2705 Average 219.43
+
+Island Group: 2706 Average 154.73
+
+Island Group: 2707 Average 148.29
+
+Island Group: 2708 Average 152.99
+
+Island Group: 2709 Average 158.54
+
+Island Group: 2710 Average 178.65
+
+Island Group: 2711 Average 196.18
+
+Island Group: 2712 Average 217.61
+
+Island Group: 2713 Average 157.61
+
+Island Group: 2714 Average 188.25
+
+Island Group: 2715 Average 252.59
+
+Island Group: 2716 Average 195.11
+
+Island Group: 2717 Average 175.41
+
+Island Group: 2718 Average 252.37
+
+Island Group: 2719 Average 200.66
+
+Island Group: 2720 Average 261.05
+
+Island Group: 2721 Average 288.85
+
+Island Group: 2722 Average 242.53
+
+Island Group: 2723 Average 288.49
+
+Island Group: 2724 Average 167.50
+
+Island Group: 2725 Average 150.30
+
+Island Group: 2726 Average 224.20
+
+Island Group: 2727 Average 203.98
+
+Island Group: 2728 Average 135.14
+
+Island Group: 2729 Average 223.39
+
+Island Group: 2730 Average 185.91
+
+Island Group: 2731 Average 285.34
+
+Island Group: 2732 Average 190.54
+
+Island Group: 2733 Average 136.48
+
+Island Group: 2734 Average 276.00
+
+Island Group: 2735 Average 268.73
+
+Island Group: 2736 Average 180.11
+
+Island Group: 2737 Average 0.00
+
+Island Group: 2738 Average 225.44
+
+Island Group: 2739 Average 172.63
+
+Island Group: 2740 Average 165.18
+
+Island Group: 2741 Average 300.76
+
+Island Group: 2742 Average 207.21
+
+Island Group: 2743 Average 241.61
+
+Island Group: 2744 Average 314.39
+
+Island Group: 2745 Average 280.72
+
+Island Group: 2746 Average 273.93
+
+Island Group: 2747 Average 143.56
+
+Island Group: 2748 Average 221.14
+
+Island Group: 2749 Average 333.92
+
+Island Group: 2750 Average 176.42
+
+Island Group: 2751 Average 175.22
+
+Island Group: 2752 Average 213.06
+
+Island Group: 2753 Average 291.42
+
+Island Group: 2754 Average 234.35
+
+Island Group: 2755 Average 202.10
+
+Island Group: 2756 Average 229.80
+
+Island Group: 2757 Average 248.57
+
+Island Group: 2758 Average 473.58
+
+Island Group: 2759 Average 250.95
+
+Island Group: 2760 Average 311.25
+
+Island Group: 2761 Average 275.40
+
+Island Group: 2762 Average 274.16
+
+Island Group: 2763 Average 194.34
+
+Island Group: 2764 Average 146.78
+
+Island Group: 2765 Average 247.15
+
+Island Group: 2766 Average 207.14
+
+Island Group: 2767 Average 200.77
+
+Island Group: 2768 Average 244.63
+
+Island Group: 2769 Average 181.71
+
+Island Group: 2770 Average 208.47
+
+Island Group: 2771 Average 181.84
+
+Island Group: 2772 Average 173.50
+
+Island Group: 2773 Average 176.68
+
+Island Group: 2774 Average 237.04
+
+Island Group: 2775 Average 255.00
+
+Island Group: 2776 Average 163.42
+
+Island Group: 2777 Average 146.14
+
+Island Group: 2778 Average 173.69
+
+Island Group: 2779 Average 157.38
+
+Island Group: 2780 Average 231.59
+
+Island Group: 2781 Average 173.85
+
+Island Group: 2782 Average 329.36
+
+Island Group: 2783 Average 218.89
+
+Island Group: 2784 Average 165.65
+
+Island Group: 2785 Average 205.33
+
+Island Group: 2786 Average 181.43
+
+Island Group: 2787 Average 175.64
+
+Island Group: 2788 Average 168.16
+
+Island Group: 2789 Average 249.01
+
+Island Group: 2790 Average 171.33
+
+Island Group: 2791 Average 0.00
+
+Island Group: 2792 Average 194.09
+
+Island Group: 2793 Average 182.31
+
+Island Group: 2794 Average 183.05
+
+Island Group: 2795 Average 191.68
+
+Island Group: 2796 Average 244.45
+
+Island Group: 2797 Average 209.24
+
+Island Group: 2798 Average 136.38
+
+Island Group: 2799 Average 167.30
+
+Island Group: 2800 Average 146.60
+
+Island Group: 2801 Average 205.77
+
+Island Group: 2802 Average 322.72
+
+Island Group: 2803 Average 298.28
+
+Island Group: 2804 Average 182.46
+
+Island Group: 2805 Average 168.01
+
+Island Group: 2806 Average 222.11
+
+Island Group: 2807 Average 153.08
+
+Island Group: 2808 Average 227.95
+
+Island Group: 2809 Average 157.14
+
+Island Group: 2810 Average 183.94
+
+Island Group: 2811 Average 228.64
+
+Island Group: 2812 Average 202.85
+
+Island Group: 2813 Average 319.89
+
+Island Group: 2814 Average 290.41
+
+Island Group: 2815 Average 416.91
+
+Island Group: 2816 Average 139.36
+
+Island Group: 2817 Average 208.60
+
+Island Group: 2818 Average 188.63
+
+Island Group: 2819 Average 162.41
+
+Island Group: 2820 Average 157.20
+
+Island Group: 2821 Average 280.06
+
+Island Group: 2822 Average 159.43
+
+Island Group: 2823 Average 208.49
+
+Island Group: 2824 Average 182.35
+
+Island Group: 2825 Average 176.53
+
+Island Group: 2826 Average 220.41
+
+Island Group: 2827 Average 172.25
+
+Island Group: 2828 Average 328.53
+
+Island Group: 2829 Average 162.08
+
+Island Group: 2830 Average 156.94
+
+Island Group: 2831 Average 260.89
+
+Island Group: 2832 Average 408.97
+
+Island Group: 2833 Average 168.86
+
+Island Group: 2834 Average 172.59
+
+Island Group: 2835 Average 319.17
+
+Island Group: 2836 Average 559.29
+
+Island Group: 2837 Average 178.02
+
+Island Group: 2838 Average 117.14
+
+Island Group: 2839 Average 154.86
+
+Island Group: 2840 Average 0.00
+
+Island Group: 2841 Average 228.64
+
+Island Group: 2842 Average 187.31
+
+Island Group: 2843 Average 209.35
+
+Island Group: 2844 Average 289.15
+
+Island Group: 2845 Average 150.10
+
+Island Group: 2846 Average 266.17
+
+Island Group: 2847 Average 158.68
+
+Island Group: 2848 Average 183.92
+
+Island Group: 2849 Average 180.44
+
+Island Group: 2850 Average 169.40
+
+Island Group: 2851 Average 283.35
+
+Island Group: 2852 Average 264.93
+
+Island Group: 2853 Average 288.34
+
+Island Group: 2854 Average 156.75
+
+Island Group: 2855 Average 420.78
+
+Island Group: 2856 Average 210.45
+
+Island Group: 2857 Average 190.16
+
+Island Group: 2858 Average 313.70
+
+Island Group: 2859 Average 286.94
+
+Island Group: 2860 Average 479.77
+
+Island Group: 2861 Average 180.29
+
+Island Group: 2862 Average 213.34
+
+Island Group: 2863 Average 160.84
+
+Island Group: 2864 Average 394.86
+
+Island Group: 2865 Average 548.39
+
+Island Group: 2866 Average 268.88
+
+Island Group: 2867 Average 232.99
+
+Island Group: 2868 Average 203.61
+
+Island Group: 2869 Average 202.55
+
+Island Group: 2870 Average 202.38
+
+Island Group: 2871 Average 164.74
+
+Island Group: 2872 Average 243.47
+
+Island Group: 2873 Average 183.14
+
+Island Group: 2874 Average 297.02
+
+Island Group: 2875 Average 340.98
+
+Island Group: 2876 Average 226.37
+
+Island Group: 2877 Average 187.95
+
+Island Group: 2878 Average 243.01
+
+Island Group: 2879 Average 136.49
+
+Island Group: 2880 Average 236.25
+
+Island Group: 2881 Average 195.13
+
+Island Group: 2882 Average 369.61
+
+Island Group: 2883 Average 320.97
+
+Island Group: 2884 Average 165.36
+
+Island Group: 2885 Average 635.46
+
+Island Group: 2886 Average 180.27
+
+Island Group: 2887 Average 322.69
+
+Island Group: 2888 Average 249.91
+
+Island Group: 2889 Average 165.75
+
+Island Group: 2890 Average 385.91
+
+Island Group: 2891 Average 207.88
+
+Island Group: 2892 Average 220.19
+
+Island Group: 2893 Average 198.92
+
+Island Group: 2894 Average 419.35
+
+Island Group: 2895 Average 149.07
+
+Island Group: 2896 Average 173.97
+
+Island Group: 2897 Average 358.28
+
+Island Group: 2898 Average 190.48
+
+Island Group: 2899 Average 321.85
+
+Island Group: 2900 Average 266.44
+
+Island Group: 2901 Average 174.43
+
+Island Group: 2902 Average 183.93
+
+Island Group: 2903 Average 205.39
+
+Island Group: 2904 Average 279.82
+
+Island Group: 2905 Average 254.69
+
+Island Group: 2906 Average 164.78
+
+Island Group: 2907 Average 172.04
+
+Island Group: 2908 Average 204.05
+
+Island Group: 2909 Average 317.42
+
+Island Group: 2910 Average 173.44
+
+Island Group: 2911 Average 176.15
+
+Island Group: 2912 Average 309.41
+
+Island Group: 2913 Average 286.88
+
+Island Group: 2914 Average 174.32
+
+Island Group: 2915 Average 147.80
+
+Island Group: 2916 Average 289.39
+
+Island Group: 2917 Average 222.48
+
+Island Group: 2918 Average 201.76
+
+Island Group: 2919 Average 253.62
+
+Island Group: 2920 Average 181.35
+
+Island Group: 2921 Average 158.86
+
+Island Group: 2922 Average 332.79
+
+Island Group: 2923 Average 401.53
+
+Island Group: 2924 Average 209.15
+
+Island Group: 2925 Average 193.74
+
+Island Group: 2926 Average 158.55
+
+Island Group: 2927 Average 169.10
+
+Island Group: 2928 Average 198.71
+
+Island Group: 2929 Average 196.06
+
+Island Group: 2930 Average 275.40
+
+Island Group: 2931 Average 248.17
+
+Island Group: 2932 Average 434.52
+
+Island Group: 2933 Average 296.69
+
+Island Group: 2934 Average 190.83
+
+Island Group: 2935 Average 173.94
+
+Island Group: 2936 Average 134.43
+
+Island Group: 2937 Average 291.05
+
+Island Group: 2938 Average 363.62
+
+Island Group: 2939 Average 162.80
+
+Island Group: 2940 Average 207.95
+
+Island Group: 2941 Average 185.42
+
+Island Group: 2942 Average 293.09
+
+Island Group: 2943 Average 168.29
+
+Island Group: 2944 Average 177.52
+
+Island Group: 2945 Average 168.20
+
+Island Group: 2946 Average 385.64
+
+Island Group: 2947 Average 355.60
+
+Island Group: 2948 Average 286.60
+
+Island Group: 2949 Average 235.19
+
+Island Group: 2950 Average 265.59
+
+Island Group: 2951 Average 368.96
+
+Island Group: 2952 Average 173.16
+
+Island Group: 2953 Average 242.42
+
+Island Group: 2954 Average 199.41
+
+Island Group: 2955 Average 243.62
+
+Island Group: 2956 Average 549.52
+
+Island Group: 2957 Average 223.72
+
+Island Group: 2958 Average 132.76
+
+Island Group: 2959 Average 279.08
+
+Island Group: 2960 Average 236.34
+
+Island Group: 2961 Average 207.36
+
+Island Group: 2962 Average 203.39
+
+Island Group: 2963 Average 183.71
+
+Island Group: 2964 Average 214.68
+
+Island Group: 2965 Average 173.30
+
+Island Group: 2966 Average 189.71
+
+Island Group: 2967 Average 214.24
+
+Island Group: 2968 Average 178.30
+
+Island Group: 2969 Average 225.21
+
+Island Group: 2970 Average 209.00
+
+Island Group: 2971 Average 158.27
+
+Island Group: 2972 Average 166.31
+
+Island Group: 2973 Average 178.51
+
+Island Group: 2974 Average 226.62
+
+Island Group: 2975 Average 190.50
+
+Island Group: 2976 Average 222.36
+
+Island Group: 2977 Average 300.26
+
+Island Group: 2978 Average 158.41
+
+Island Group: 2979 Average 13.09
+
+Island Group: 2980 Average 127.73
+
+Island Group: 2981 Average 0.00
+
+Island Group: 2982 Average 250.97
+
+Island Group: 2983 Average 267.74
+
+Island Group: 2984 Average 160.23
+
+Island Group: 2985 Average 262.50
+
+Island Group: 2986 Average 163.10
+
+Island Group: 2987 Average 194.55
+
+Island Group: 2988 Average 172.38
+
+Island Group: 2989 Average 167.32
+
+Island Group: 2990 Average 347.17
+
+Island Group: 2991 Average 196.63
+
+Island Group: 2992 Average 323.34
+
+Island Group: 2993 Average 151.50
+
+Island Group: 2994 Average 400.93
+
+Island Group: 2995 Average 167.37
+
+Island Group: 2996 Average 170.93
+
+Island Group: 2997 Average 175.18
+
+Island Group: 2998 Average 241.86
+
+Island Group: 2999 Average 209.05
+
+Island Group: 3000 Average 244.59
+
+Island Group: 3001 Average 236.37
+
+Island Group: 3002 Average 238.10
+
+Island Group: 3003 Average 252.49
+
+Island Group: 3004 Average 212.10
+
+Island Group: 3005 Average 216.89
+
+Island Group: 3006 Average 207.36
+
+Island Group: 3007 Average 158.19
+
+Island Group: 3008 Average 193.02
+
+Island Group: 3009 Average 164.94
+
+Island Group: 3010 Average 252.62
+
+Island Group: 3011 Average 170.29
+
+Island Group: 3012 Average 265.49
+
+Island Group: 3013 Average 174.91
+
+Island Group: 3014 Average 256.29
+
+Island Group: 3015 Average 333.28
+
+Island Group: 3016 Average 141.37
+
+Island Group: 3017 Average 194.06
+
+Island Group: 3018 Average 244.06
+
+Island Group: 3019 Average 474.19
+
+Island Group: 3020 Average 453.86
+
+Island Group: 3021 Average 210.48
+
+Island Group: 3022 Average 234.25
+
+Island Group: 3023 Average 136.33
+
+Island Group: 3024 Average 171.53
+
+Island Group: 3025 Average 173.11
+
+Island Group: 3026 Average 259.33
+
+Island Group: 3027 Average 216.44
+
+Island Group: 3028 Average 165.05
+
+Island Group: 3029 Average 173.57
+
+Island Group: 3030 Average 254.31
+
+Island Group: 3031 Average 149.61
+
+Island Group: 3032 Average 165.57
+
+Island Group: 3033 Average 307.08
+
+Island Group: 3034 Average 164.29
+
+Island Group: 3035 Average 310.94
+
+Island Group: 3036 Average 211.08
+
+Island Group: 3037 Average 236.77
+
+Island Group: 3038 Average 186.11
+
+Island Group: 3039 Average 181.56
+
+Island Group: 3040 Average 228.01
+
+Island Group: 3041 Average 200.56
+
+Island Group: 3042 Average 147.07
+
+Island Group: 3043 Average 198.84
+
+Island Group: 3044 Average 149.87
+
+Island Group: 3045 Average 213.57
+
+Island Group: 3046 Average 182.30
+
+Island Group: 3047 Average 192.59
+
+Island Group: 3048 Average 304.68
+
+Island Group: 3049 Average 244.64
+
+Island Group: 3050 Average 230.55
+
+Island Group: 3051 Average 173.35
+
+Island Group: 3052 Average 228.84
+
+Island Group: 3053 Average 160.95
+
+Island Group: 3054 Average 556.99
+
+Island Group: 3055 Average 166.62
+
+Island Group: 3056 Average 139.66
+
+Island Group: 3057 Average 135.32
+
+Island Group: 3058 Average 196.78
+
+Island Group: 3059 Average 157.40
+
+Island Group: 3060 Average 346.79
+
+Island Group: 3061 Average 298.80
+
+Island Group: 3062 Average 171.31
+
+Island Group: 3063 Average 182.83
+
+Island Group: 3064 Average 211.14
+
+Island Group: 3065 Average 285.78
+
+Island Group: 3066 Average 269.98
+
+Island Group: 3067 Average 49.78
+
+Island Group: 3068 Average 288.05
+
+Island Group: 3069 Average 261.15
+
+Island Group: 3070 Average 175.17
+
+Island Group: 3071 Average 191.03
+
+Island Group: 3072 Average 186.30
+
+Island Group: 3073 Average 219.45
+
+Island Group: 3074 Average 189.15
+
+Island Group: 3075 Average 292.19
+
+Island Group: 3076 Average 212.76
+
+Island Group: 3077 Average 166.84
+
+Island Group: 3078 Average 0.00
+
+Island Group: 3079 Average 149.36
+
+Island Group: 3080 Average 166.23
+
+Island Group: 3081 Average 188.71
+
+Island Group: 3082 Average 228.48
+
+Island Group: 3083 Average 244.86
+
+Island Group: 3084 Average 210.40
+
+Island Group: 3085 Average 180.72
+
+Island Group: 3086 Average 145.46
+
+Island Group: 3087 Average 199.69
+
+Island Group: 3088 Average 178.91
+
+Island Group: 3089 Average 210.17
+
+Island Group: 3090 Average 248.27
+
+Island Group: 3091 Average 176.71
+
+Island Group: 3092 Average 167.97
+
+Island Group: 3093 Average 157.15
+
+Island Group: 3094 Average 250.25
+
+Island Group: 3095 Average 152.93
+
+Island Group: 3096 Average 207.14
+
+Island Group: 3097 Average 151.12
+
+Island Group: 3098 Average 199.01
+
+Island Group: 3099 Average 201.81
+
+Island Group: 3100 Average 366.09
+
+Island Group: 3101 Average 166.15
+
+Island Group: 3102 Average 160.26
+
+Island Group: 3103 Average 247.49
+
+Island Group: 3104 Average 162.48
+
+Island Group: 3105 Average 225.43
+
+Island Group: 3106 Average 187.30
+
+Island Group: 3107 Average 176.91
+
+Island Group: 3108 Average 320.26
+
+Island Group: 3109 Average 231.68
+
+Island Group: 3110 Average 291.59
+
+Island Group: 3111 Average 156.72
+
+Island Group: 3112 Average 250.49
+
+Island Group: 3113 Average 323.43
+
+Island Group: 3114 Average 210.63
+
+Island Group: 3115 Average 158.20
+
+Island Group: 3116 Average 286.13
+
+Island Group: 3117 Average 213.31
+
+Island Group: 3118 Average 270.47
+
+Island Group: 3119 Average 131.66
+
+Island Group: 3120 Average 508.08
+
+Island Group: 3121 Average 271.53
+
+Island Group: 3122 Average 188.14
+
+Island Group: 3123 Average 183.91
+
+Island Group: 3124 Average 132.20
+
+Island Group: 3125 Average 170.43
+
+Island Group: 3126 Average 151.70
+
+Island Group: 3127 Average 206.09
+
+Island Group: 3128 Average 212.18
+
+Island Group: 3129 Average 300.12
+
+Island Group: 3130 Average 231.06
+
+Island Group: 3131 Average 264.08
+
+Island Group: 3132 Average 286.73
+
+Island Group: 3133 Average 201.04
+
+Island Group: 3134 Average 231.50
+
+Island Group: 3135 Average 369.59
+
+Island Group: 3136 Average 133.37
+
+Island Group: 3137 Average 190.23
+
+Island Group: 3138 Average 205.26
+
+Island Group: 3139 Average 234.62
+
+Island Group: 3140 Average 282.49
+
+Island Group: 3141 Average 229.59
+
+Island Group: 3142 Average 226.00
+
+Island Group: 3143 Average 139.48
+
+Island Group: 3144 Average 275.66
+
+Island Group: 3145 Average 288.45
+
+Island Group: 3146 Average 161.55
+
+Island Group: 3147 Average 243.58
+
+Island Group: 3148 Average 216.44
+
+Island Group: 3149 Average 238.50
+
+Island Group: 3150 Average 345.45
+
+Island Group: 3151 Average 321.29
+
+Island Group: 3152 Average 216.10
+
+Island Group: 3153 Average 86.05
+
+Island Group: 3154 Average 181.36
+
+Island Group: 3155 Average 187.77
+
+Island Group: 3156 Average 283.75
+
+Island Group: 3157 Average 195.53
+
+Island Group: 3158 Average 158.18
+
+Island Group: 3159 Average 334.44
+
+Island Group: 3160 Average 244.77
+
+Island Group: 3161 Average 146.67
+
+Island Group: 3162 Average 343.30
+
+Island Group: 3163 Average 200.16
+
+Island Group: 3164 Average 260.63
+
+Island Group: 3165 Average 228.61
+
+Island Group: 3166 Average 313.61
+
+Island Group: 3167 Average 199.43
+
+Island Group: 3168 Average 259.57
+
+Island Group: 3169 Average 188.23
+
+Island Group: 3170 Average 233.68
+
+Island Group: 3171 Average 194.22
+
+Island Group: 3172 Average 308.36
+
+Island Group: 3173 Average 287.15
+
+Island Group: 3174 Average 274.05
+
+Island Group: 3175 Average 214.00
+
+Island Group: 3176 Average 186.33
+
+Island Group: 3177 Average 267.34
+
+Island Group: 3178 Average 197.17
+
+Island Group: 3179 Average 178.13
+
+Island Group: 3180 Average 305.49
+
+Island Group: 3181 Average 212.72
+
+Island Group: 3182 Average 196.85
+
+Island Group: 3183 Average 193.16
+
+Island Group: 3184 Average 255.30
+
+Island Group: 3185 Average 195.43
+
+Island Group: 3186 Average 160.36
+
+Island Group: 3187 Average 140.59
+
+Island Group: 3188 Average 219.13
+
+Island Group: 3189 Average 532.17
+
+Island Group: 3190 Average 174.79
+
+Island Group: 3191 Average 206.35
+
+Island Group: 3192 Average 235.98
+
+Island Group: 3193 Average 142.15
+
+Island Group: 3194 Average 179.87
+
+Island Group: 3195 Average 231.59
+
+Island Group: 3196 Average 147.82
+
+Island Group: 3197 Average 169.44
+
+Island Group: 3198 Average 275.52
+
+Island Group: 3199 Average 205.90
+
+Island Group: 3200 Average 372.06
+
+Island Group: 3201 Average 0.00
+
+Island Group: 3202 Average 222.20
+
+Island Group: 3203 Average 264.45
+
+Island Group: 3204 Average 211.53
+
+Island Group: 3205 Average 159.43
+
+Island Group: 3206 Average 197.63
+
+Island Group: 3207 Average 137.18
+
+Island Group: 3208 Average 359.92
+
+Island Group: 3209 Average 204.97
+
+Island Group: 3210 Average 206.61
+
+Island Group: 3211 Average 188.09
+
+Island Group: 3212 Average 254.44
+
+Island Group: 3213 Average 213.34
+
+Island Group: 3214 Average 244.08
+
+Island Group: 3215 Average 211.10
+
+Island Group: 3216 Average 405.97
+
+Island Group: 3217 Average 264.24
+
+Island Group: 3218 Average 201.77
+
+Island Group: 3219 Average 265.26
+
+Island Group: 3220 Average 133.09
+
+Island Group: 3221 Average 238.53
+
+Island Group: 3222 Average 0.00
+
+Island Group: 3223 Average 224.04
+
+Island Group: 3224 Average 192.78
+
+Island Group: 3225 Average 205.00
+
+Island Group: 3226 Average 239.81
+
+Island Group: 3227 Average 232.76
+
+Island Group: 3228 Average 184.83
+
+Island Group: 3229 Average 241.37
+
+Island Group: 3230 Average 204.24
+
+Island Group: 3231 Average 165.27
+
+Island Group: 3232 Average 170.56
+
+Island Group: 3233 Average 162.80
+
+Island Group: 3234 Average 224.98
+
+Island Group: 3235 Average 275.74
+
+Island Group: 3236 Average 192.43
+
+Island Group: 3237 Average 280.01
+
+Island Group: 3238 Average 185.40
+
+Island Group: 3239 Average 190.68
+
+Island Group: 3240 Average 214.56
+
+Island Group: 3241 Average 203.19
+
+Island Group: 3242 Average 202.95
+
+Island Group: 3243 Average 158.26
+
+Island Group: 3244 Average 173.04
+
+Island Group: 3245 Average 172.12
+
+Island Group: 3246 Average 230.47
+
+Island Group: 3247 Average 219.07
+
+Island Group: 3248 Average 179.01
+
+Island Group: 3249 Average 241.31
+
+Island Group: 3250 Average 144.83
+
+Island Group: 3251 Average 284.62
+
+Island Group: 3252 Average 337.82
+
+Island Group: 3253 Average 174.52
+
+Island Group: 3254 Average 188.65
+
+Island Group: 3255 Average 248.62
+
+Island Group: 3256 Average 278.09
+
+Island Group: 3257 Average 211.30
+
+Island Group: 3258 Average 299.12
+
+Island Group: 3259 Average 151.44
+
+Island Group: 3260 Average 218.85
+
+Island Group: 3261 Average 239.07
+
+Island Group: 3262 Average 169.17
+
+Island Group: 3263 Average 307.78
+
+Island Group: 3264 Average 192.72
+
+Island Group: 3265 Average 204.52
+
+Island Group: 3266 Average 182.02
+
+Island Group: 3267 Average 176.29
+
+Island Group: 3268 Average 143.67
+
+Island Group: 3269 Average 207.74
+
+Island Group: 3270 Average 165.36
+
+Island Group: 3271 Average 167.37
+
+Island Group: 3272 Average 198.66
+
+Island Group: 3273 Average 195.87
+
+Island Group: 3274 Average 151.05
+
+Island Group: 3275 Average 208.74
+
+Island Group: 3276 Average 120.44
+
+Island Group: 3277 Average 165.04
+
+Island Group: 3278 Average 160.78
+
+Island Group: 3279 Average 181.26
+
+Island Group: 3280 Average 224.75
+
+Island Group: 3281 Average 136.45
+
+Island Group: 3282 Average 214.71
+
+Island Group: 3283 Average 160.75
+
+Island Group: 3284 Average 0.00
+
+Island Group: 3285 Average 221.36
+
+Island Group: 3286 Average 212.85
+
+Island Group: 3287 Average 580.71
+
+Island Group: 3288 Average 34.62
+
+Island Group: 3289 Average 306.99
+
+Island Group: 3290 Average 163.01
+
+Island Group: 3291 Average 230.45
+
+Island Group: 3292 Average 186.06
+
+Island Group: 3293 Average 167.42
+
+Island Group: 3294 Average 285.42
+
+Island Group: 3295 Average 220.97
+
+Island Group: 3296 Average 164.01
+
+Island Group: 3297 Average 215.61
+
+Island Group: 3298 Average 128.76
+
+Island Group: 3299 Average 185.39
+
+Island Group: 3300 Average 171.68
+
+Island Group: 3301 Average 183.42
+
+Island Group: 3302 Average 211.34
+
+Island Group: 3303 Average 286.16
+
+Island Group: 3304 Average 210.06
+
+Island Group: 3305 Average 206.57
+
+Island Group: 3306 Average 185.89
+
+Island Group: 3307 Average 186.12
+
+Island Group: 3308 Average 373.18
+
+Island Group: 3309 Average 266.26
+
+Island Group: 3310 Average 204.16
+
+Island Group: 3311 Average 304.66
+
+Island Group: 3312 Average 193.99
+
+Island Group: 3313 Average 258.88
+
+Island Group: 3314 Average 193.57
+
+Island Group: 3315 Average 265.53
+
+Island Group: 3316 Average 188.03
+
+Island Group: 3317 Average 166.75
+
+Island Group: 3318 Average 204.61
+
+Island Group: 3319 Average 235.16
+
+Island Group: 3320 Average 427.78
+
+Island Group: 3321 Average 325.48
+
+Island Group: 3322 Average 207.18
+
+Island Group: 3323 Average 209.66
+
+Island Group: 3324 Average 287.73
+
+Island Group: 3325 Average 317.47
+
+Island Group: 3326 Average 148.50
+
+Island Group: 3327 Average 280.85
+
+Island Group: 3328 Average 261.42
+
+Island Group: 3329 Average 154.69
+
+Island Group: 3330 Average 188.76
+
+Island Group: 3331 Average 156.41
+
+Island Group: 3332 Average 210.57
+
+Island Group: 3333 Average 292.62
+
+Island Group: 3334 Average 274.55
+
+Island Group: 3335 Average 222.80
+
+Island Group: 3336 Average 160.42
+
+Island Group: 3337 Average 219.41
+
+Island Group: 3338 Average 153.60
+
+Island Group: 3339 Average 210.46
+
+Island Group: 3340 Average 236.59
+
+Island Group: 3341 Average 131.76
+
+Island Group: 3342 Average 169.59
+
+Island Group: 3343 Average 374.58
+
+Island Group: 3344 Average 161.89
+
+Island Group: 3345 Average 218.67
+
+Island Group: 3346 Average 215.24
+
+Island Group: 3347 Average 174.27
+
+Island Group: 3348 Average 383.02
+
+Island Group: 3349 Average 149.80
+
+Island Group: 3350 Average 176.57
+
+Island Group: 3351 Average 270.75
+
+Island Group: 3352 Average 283.62
+
+Island Group: 3353 Average 257.83
+
+Island Group: 3354 Average 629.98
+
+Island Group: 3355 Average 246.58
+
+Island Group: 3356 Average 155.97
+
+Island Group: 3357 Average 162.65
+
+Island Group: 3358 Average 274.98
+
+Island Group: 3359 Average 257.06
+
+Island Group: 3360 Average 204.34
+
+Island Group: 3361 Average 222.52
+
+Island Group: 3362 Average 192.06
+
+Island Group: 3363 Average 345.51
+
+Island Group: 3364 Average 211.63
+
+Island Group: 3365 Average 204.75
+
+Island Group: 3366 Average 149.02
+
+Island Group: 3367 Average 331.88
+
+Island Group: 3368 Average 182.12
+
+Island Group: 3369 Average 190.05
+
+Island Group: 3370 Average 288.63
+
+Island Group: 3371 Average 186.07
+
+Island Group: 3372 Average 236.26
+
+Island Group: 3373 Average 172.83
+
+Island Group: 3374 Average 149.70
+
+Island Group: 3375 Average 203.27
+
+Island Group: 3376 Average 168.36
+
+Island Group: 3377 Average 146.49
+
+Island Group: 3378 Average 201.06
+
+Island Group: 3379 Average 234.01
+
+Island Group: 3380 Average 157.08
+
+Island Group: 3381 Average 263.23
+
+Island Group: 3382 Average 269.09
+
+Island Group: 3383 Average 210.86
+
+Island Group: 3384 Average 258.16
+
+Island Group: 3385 Average 142.28
+
+Island Group: 3386 Average 245.82
+
+Island Group: 3387 Average 156.68
+
+Island Group: 3388 Average 0.00
+
+Island Group: 3389 Average 255.34
+
+Island Group: 3390 Average 291.38
+
+Island Group: 3391 Average 148.48
+
+Island Group: 3392 Average 187.01
+
+Island Group: 3393 Average 153.07
+
+Island Group: 3394 Average 203.02
+
+Island Group: 3395 Average 173.45
+
+Island Group: 3396 Average 167.60
+
+Island Group: 3397 Average 173.08
+
+Island Group: 3398 Average 425.63
+
+Island Group: 3399 Average 195.53
+
+Island Group: 3400 Average 279.36
+
+Island Group: 3401 Average 164.74
+
+Island Group: 3402 Average 210.85
+
+Island Group: 3403 Average 250.87
+
+Island Group: 3404 Average 277.86
+
+Island Group: 3405 Average 307.50
+
+Island Group: 3406 Average 181.49
+
+Island Group: 3407 Average 217.94
+
+Island Group: 3408 Average 213.36
+
+Island Group: 3409 Average 202.23
+
+Island Group: 3410 Average 133.66
+
+Island Group: 3411 Average 193.79
+
+Island Group: 3412 Average 192.21
+
+Island Group: 3413 Average 154.30
+
+Island Group: 3414 Average 231.02
+
+Island Group: 3415 Average 221.25
+
+Island Group: 3416 Average 410.15
+
+Island Group: 3417 Average 254.62
+
+Island Group: 3418 Average 141.99
+
+Island Group: 3419 Average 175.48
+
+Island Group: 3420 Average 237.14
+
+Island Group: 3421 Average 181.61
+
+Island Group: 3422 Average 221.75
+
+Island Group: 3423 Average 272.12
+
+Island Group: 3424 Average 249.67
+
+Island Group: 3425 Average 178.32
+
+Island Group: 3426 Average 264.94
+
+Island Group: 3427 Average 174.65
+
+Island Group: 3428 Average 226.11
+
+Island Group: 3429 Average 194.73
+
+Island Group: 3430 Average 222.37
+
+Island Group: 3431 Average 326.20
+
+Island Group: 3432 Average 273.90
+
+Island Group: 3433 Average 262.11
+
+Island Group: 3434 Average 388.38
+
+Island Group: 3435 Average 205.60
+
+Island Group: 3436 Average 178.68
+
+Island Group: 3437 Average 196.69
+
+Island Group: 3438 Average 288.08
+
+Island Group: 3439 Average 425.92
+
+Island Group: 3440 Average 162.21
+
+Island Group: 3441 Average 210.72
+
+Island Group: 3442 Average 366.67
+
+Island Group: 3443 Average 200.24
+
+Island Group: 3444 Average 201.83
+
+Island Group: 3445 Average 255.87
+
+Island Group: 3446 Average 164.68
+
+Island Group: 3447 Average 226.37
+
+Island Group: 3448 Average 238.62
+
+Island Group: 3449 Average 238.40
+
+Island Group: 3450 Average 320.11
+
+Island Group: 3451 Average 267.90
+
+Island Group: 3452 Average 216.92
+
+Island Group: 3453 Average 328.41
+
+Island Group: 3454 Average 240.14
+
+Island Group: 3455 Average 181.54
+
+Island Group: 3456 Average 149.44
+
+Island Group: 3457 Average 213.87
+
+Island Group: 3458 Average 201.42
+
+Island Group: 3459 Average 0.00
+
+Island Group: 3460 Average 215.92
+
+Island Group: 3461 Average 378.24
+
+Island Group: 3462 Average 241.87
+
+Island Group: 3463 Average 376.02
+
+Island Group: 3464 Average 198.73
+
+Island Group: 3465 Average 157.27
+
+Island Group: 3466 Average 341.62
+
+Island Group: 3467 Average 164.00
+
+Island Group: 3468 Average 347.46
+
+Island Group: 3469 Average 152.65
+
+Island Group: 3470 Average 215.41
+
+Island Group: 3471 Average 194.30
+
+Island Group: 3472 Average 177.48
+
+Island Group: 3473 Average 235.00
+
+Island Group: 3474 Average 235.43
+
+Island Group: 3475 Average 280.37
+
+Island Group: 3476 Average 149.74
+
+Island Group: 3477 Average 168.16
+
+Island Group: 3478 Average 203.79
+
+Island Group: 3479 Average 277.22
+
+Island Group: 3480 Average 227.92
+
+Island Group: 3481 Average 219.65
+
+Island Group: 3482 Average 175.21
+
+Island Group: 3483 Average 161.40
+
+Island Group: 3484 Average 308.07
+
+Island Group: 3485 Average 154.34
+
+Island Group: 3486 Average 163.01
+
+Island Group: 3487 Average 160.76
+
+Island Group: 3488 Average 251.62
+
+Island Group: 3489 Average 200.02
+
+Island Group: 3490 Average 171.48
+
+Island Group: 3491 Average 258.70
+
+Island Group: 3492 Average 119.35
+
+Island Group: 3493 Average 210.57
+
+Island Group: 3494 Average 185.87
+
+Island Group: 3495 Average 201.42
+
+Island Group: 3496 Average 137.18
+
+Island Group: 3497 Average 180.64
+
+Island Group: 3498 Average 220.46
+
+Island Group: 3499 Average 328.73
+
+Island Group: 3500 Average 263.86
+
+Island Group: 3501 Average 419.01
+
+Island Group: 3502 Average 301.85
+
+Island Group: 3503 Average 237.51
+
+Island Group: 3504 Average 207.68
+
+Island Group: 3505 Average 175.02
+
+Island Group: 3506 Average 209.52
+
+Island Group: 3507 Average 234.76
+
+Island Group: 3508 Average 144.74
+
+Island Group: 3509 Average 469.53
+
+Island Group: 3510 Average 163.65
+
+Island Group: 3511 Average 255.36
+
+Island Group: 3512 Average 239.02
+
+Island Group: 3513 Average 283.42
+
+Island Group: 3514 Average 156.86
+
+Island Group: 3515 Average 182.66
+
+Island Group: 3516 Average 267.50
+
+Island Group: 3517 Average 154.65
+
+Island Group: 3518 Average 139.72
+
+Island Group: 3519 Average 288.84
+
+Island Group: 3520 Average 230.14
+
+Island Group: 3521 Average 250.49
+
+Island Group: 3522 Average 159.22
+
+Island Group: 3523 Average 211.20
+
+Island Group: 3524 Average 195.24
+
+Island Group: 3525 Average 165.74
+
+Island Group: 3526 Average 167.74
+
+Island Group: 3527 Average 216.34
+
+Island Group: 3528 Average 162.40
+
+Island Group: 3529 Average 256.04
+
+Island Group: 3530 Average 223.74
+
+Island Group: 3531 Average 340.59
+
+Island Group: 3532 Average 165.61
+
+Island Group: 3533 Average 224.69
+
+Island Group: 3534 Average 207.46
+
+Island Group: 3535 Average 182.36
+
+Island Group: 3536 Average 155.13
+
+Island Group: 3537 Average 312.00
+
+Island Group: 3538 Average 161.49
+
+Island Group: 3539 Average 157.15
+
+Island Group: 3540 Average 248.10
+
+Island Group: 3541 Average 249.53
+
+Island Group: 3542 Average 162.65
+
+Island Group: 3543 Average 236.58
+
+Island Group: 3544 Average 156.63
+
+Island Group: 3545 Average 385.35
+
+Island Group: 3546 Average 372.79
+
+Island Group: 3547 Average 185.75
+
+Island Group: 3548 Average 218.69
+
+Island Group: 3549 Average 0.00
+
+Island Group: 3550 Average 230.01
+
+Island Group: 3551 Average 290.96
+
+Island Group: 3552 Average 238.48
+
+Island Group: 3553 Average 180.80
+
+Island Group: 3554 Average 279.35
+
+Island Group: 3555 Average 264.85
+
+Island Group: 3556 Average 205.11
+
+Island Group: 3557 Average 297.74
+
+Island Group: 3558 Average 200.22
+
+Island Group: 3559 Average 208.82
+
+Island Group: 3560 Average 212.92
+
+Island Group: 3561 Average 237.47
+
+Island Group: 3562 Average 236.29
+
+Island Group: 3563 Average 209.25
+
+Island Group: 3564 Average 246.36
+
+Island Group: 3565 Average 329.89
+
+Island Group: 3566 Average 214.11
+
+Island Group: 3567 Average 153.15
+
+Island Group: 3568 Average 176.77
+
+Island Group: 3569 Average 662.99
+
+Island Group: 3570 Average 159.12
+
+Island Group: 3571 Average 192.68
+
+Island Group: 3572 Average 210.04
+
+Island Group: 3573 Average 232.13
+
+Island Group: 3574 Average 168.00
+
+Island Group: 3575 Average 214.10
+
+Island Group: 3576 Average 285.58
+
+Island Group: 3577 Average 242.96
+
+Island Group: 3578 Average 199.73
+
+Island Group: 3579 Average 171.35
+
+Island Group: 3580 Average 190.77
+
+Island Group: 3581 Average 164.20
+
+Island Group: 3582 Average 361.15
+
+Island Group: 3583 Average 309.52
+
+Island Group: 3584 Average 270.39
+
+Island Group: 3585 Average 251.67
+
+Island Group: 3586 Average 192.22
+
+Island Group: 3587 Average 175.40
+
+Island Group: 3588 Average 192.63
+
+Island Group: 3589 Average 201.42
+
+Island Group: 3590 Average 298.19
+
+Island Group: 3591 Average 206.85
+
+Island Group: 3592 Average 216.53
+
+Island Group: 3593 Average 258.08
+
+Island Group: 3594 Average 189.24
+
+Island Group: 3595 Average 231.47
+
+Island Group: 3596 Average 130.12
+
+Island Group: 3597 Average 235.45
+
+Island Group: 3598 Average 198.01
+
+Island Group: 3599 Average 157.97
+
+Island Group: 3600 Average 282.78
+
+Island Group: 3601 Average 368.12
+
+Island Group: 3602 Average 241.02
+
+Island Group: 3603 Average 166.98
+
+Island Group: 3604 Average 258.49
+
+Island Group: 3605 Average 199.69
+
+Island Group: 3606 Average 179.67
+
+Island Group: 3607 Average 188.63
+
+Island Group: 3608 Average 163.38
+
+Island Group: 3609 Average 212.08
+
+Island Group: 3610 Average 156.07
+
+Island Group: 3611 Average 274.31
+
+Island Group: 3612 Average 208.62
+
+Island Group: 3613 Average 210.56
+
+Island Group: 3614 Average 308.71
+
+Island Group: 3615 Average 203.97
+
+Island Group: 3616 Average 145.54
+
+Island Group: 3617 Average 171.91
+
+Island Group: 3618 Average 0.00
+
+Island Group: 3619 Average 186.92
+
+Island Group: 3620 Average 324.45
+
+Island Group: 3621 Average 202.55
+
+Island Group: 3622 Average 285.47
+
+Island Group: 3623 Average 289.92
+
+Island Group: 3624 Average 334.49
+
+Island Group: 3625 Average 336.00
+
+Island Group: 3626 Average 203.30
+
+Island Group: 3627 Average 206.31
+
+Island Group: 3628 Average 219.44
+
+Island Group: 3629 Average 199.87
+
+Island Group: 3630 Average 229.11
+
+Island Group: 3631 Average 200.14
+
+Island Group: 3632 Average 194.57
+
+Island Group: 3633 Average 158.59
+
+Island Group: 3634 Average 268.90
+
+Island Group: 3635 Average 140.51
+
+Island Group: 3636 Average 172.19
+
+Island Group: 3637 Average 0.00
+
+Island Group: 3638 Average 135.88
+
+Island Group: 3639 Average 190.09
+
+Island Group: 3640 Average 427.29
+
+Island Group: 3641 Average 612.78
+
+Island Group: 3642 Average 178.14
+
+Island Group: 3643 Average 250.70
+
+Island Group: 3644 Average 0.00
+
+Island Group: 3645 Average 167.45
+
+Island Group: 3646 Average 302.82
+
+Island Group: 3647 Average 169.38
+
+Island Group: 3648 Average 240.09
+
+Island Group: 3649 Average 221.44
+
+Island Group: 3650 Average 339.61
+
+Island Group: 3651 Average 237.53
+
+Island Group: 3652 Average 228.75
+
+Island Group: 3653 Average 205.66
+
+Island Group: 3654 Average 264.62
+
+Island Group: 3655 Average 250.35
+
+Island Group: 3656 Average 0.00
+
+Island Group: 3657 Average 174.74
+
+Island Group: 3658 Average 174.73
+
+Island Group: 3659 Average 146.65
+
+Island Group: 3660 Average 389.12
+
+Island Group: 3661 Average 165.93
+
+Island Group: 3662 Average 146.12
+
+Island Group: 3663 Average 162.27
+
+Island Group: 3664 Average 198.15
+
+Island Group: 3665 Average 157.80
+
+Island Group: 3666 Average 150.41
+
+Island Group: 3667 Average 333.49
+
+Island Group: 3668 Average 149.32
+
+Island Group: 3669 Average 165.49
+
+Island Group: 3670 Average 282.47
+
+Island Group: 3671 Average 311.92
+
+Island Group: 3672 Average 179.23
+
+Island Group: 3673 Average 241.87
+
+Island Group: 3674 Average 196.48
+
+Island Group: 3675 Average 187.91
+
+Island Group: 3676 Average 166.28
+
+Island Group: 3677 Average 247.41
+
+Island Group: 3678 Average 199.91
+
+Island Group: 3679 Average 207.92
+
+Island Group: 3680 Average 191.91
+
+Island Group: 3681 Average 163.56
+
+Island Group: 3682 Average 169.66
+
+Island Group: 3683 Average 130.19
+
+Island Group: 3684 Average 206.25
+
+Island Group: 3685 Average 287.62
+
+Island Group: 3686 Average 229.16
+
+Island Group: 3687 Average 184.66
+
+Island Group: 3688 Average 272.49
+
+Island Group: 3689 Average 202.81
+
+Island Group: 3690 Average 186.79
+
+Island Group: 3691 Average 0.00
+
+Island Group: 3692 Average 202.56
+
+Island Group: 3693 Average 152.24
+
+Island Group: 3694 Average 150.56
+
+Island Group: 3695 Average 227.58
+
+Island Group: 3696 Average 201.67
+
+Island Group: 3697 Average 217.28
+
+Island Group: 3698 Average 187.15
+
+Island Group: 3699 Average 233.83
+
+Island Group: 3700 Average 192.92
+
+Island Group: 3701 Average 197.86
+
+Island Group: 3702 Average 316.15
+
+Island Group: 3703 Average 155.25
+
+Island Group: 3704 Average 344.27
+
+Island Group: 3705 Average 204.34
+
+Island Group: 3706 Average 379.64
+
+Island Group: 3707 Average 202.54
+
+Island Group: 3708 Average 169.49
+
+Island Group: 3709 Average 174.72
+
+Island Group: 3710 Average 297.17
+
+Island Group: 3711 Average 179.86
+
+Island Group: 3712 Average 178.52
+
+Island Group: 3713 Average 311.72
+
+Island Group: 3714 Average 179.95
+
+Island Group: 3715 Average 179.52
+
+Island Group: 3716 Average 376.56
+
+Island Group: 3717 Average 137.69
+
+Island Group: 3718 Average 167.59
+
+Island Group: 3719 Average 358.38
+
+Island Group: 3720 Average 276.38
+
+Island Group: 3721 Average 198.85
+
+Island Group: 3722 Average 165.80
+
+Island Group: 3723 Average 0.00
+
+Island Group: 3724 Average 182.76
+
+Island Group: 3725 Average 270.16
+
+Island Group: 3726 Average 241.09
+
+Island Group: 3727 Average 206.06
+
+Island Group: 3728 Average 182.04
+
+Island Group: 3729 Average 158.51
+
+Island Group: 3730 Average 134.08
+
+Island Group: 3731 Average 187.45
+
+Island Group: 3732 Average 209.35
+
+Island Group: 3733 Average 311.27
+
+Island Group: 3734 Average 255.43
+
+Island Group: 3735 Average 469.79
+
+Island Group: 3736 Average 234.63
+
+Island Group: 3737 Average 536.38
+
+Island Group: 3738 Average 192.28
+
+Island Group: 3739 Average 376.94
+
+Island Group: 3740 Average 146.09
+
+Island Group: 3741 Average 238.96
+
+Island Group: 3742 Average 185.36
+
+Island Group: 3743 Average 249.04
+
+Island Group: 3744 Average 165.43
+
+Island Group: 3745 Average 473.29
+
+Island Group: 3746 Average 231.05
+
+Island Group: 3747 Average 393.25
+
+Island Group: 3748 Average 233.12
+
+Island Group: 3749 Average 226.26
+
+Island Group: 3750 Average 173.37
+
+Island Group: 3751 Average 213.24
+
+Island Group: 3752 Average 276.60
+
+Island Group: 3753 Average 191.75
+
+Island Group: 3754 Average 297.15
+
+Island Group: 3755 Average 184.14
+
+Island Group: 3756 Average 256.24
+
+Island Group: 3757 Average 318.10
+
+Island Group: 3758 Average 168.09
+
+Island Group: 3759 Average 384.66
+
+Island Group: 3760 Average 158.79
+
+Island Group: 3761 Average 172.26
+
+Island Group: 3762 Average 137.82
+
+Island Group: 3763 Average 309.50
+
+Island Group: 3764 Average 177.62
+
+Island Group: 3765 Average 142.98
+
+Island Group: 3766 Average 166.19
+
+Island Group: 3767 Average 218.10
+
+Island Group: 3768 Average 163.77
+
+Island Group: 3769 Average 230.36
+
+Island Group: 3770 Average 262.37
+
+Island Group: 3771 Average 219.35
+
+Island Group: 3772 Average 271.78
+
+Island Group: 3773 Average 285.03
+
+Island Group: 3774 Average 163.65
+
+Island Group: 3775 Average 0.00
+
+Island Group: 3776 Average 229.22
+
+Island Group: 3777 Average 214.15
+
+Island Group: 3778 Average 388.07
+
+Island Group: 3779 Average 201.11
+
+Island Group: 3780 Average 193.01
+
+Island Group: 3781 Average 166.23
+
+Island Group: 3782 Average 392.62
+
+Island Group: 3783 Average 166.40
+
+Island Group: 3784 Average 418.18
+
+Island Group: 3785 Average 169.38
+
+Island Group: 3786 Average 289.07
+
+Island Group: 3787 Average 341.51
+
+Island Group: 3788 Average 167.26
+
+Island Group: 3789 Average 163.03
+
+Island Group: 3790 Average 203.57
+
+Island Group: 3791 Average 189.56
+
+Island Group: 3792 Average 209.35
+
+Island Group: 3793 Average 368.73
+
+Island Group: 3794 Average 198.42
+
+Island Group: 3795 Average 219.38
+
+Island Group: 3796 Average 171.04
+
+Island Group: 3797 Average 166.17
+
+Island Group: 3798 Average 184.77
+
+Island Group: 3799 Average 173.85
+
+Island Group: 3800 Average 435.41
+
+Island Group: 3801 Average 151.95
+
+Island Group: 3802 Average 203.62
+
+Island Group: 3803 Average 189.56
+
+Island Group: 3804 Average 282.35
+
+Island Group: 3805 Average 476.46
+
+Island Group: 3806 Average 161.00
+
+Island Group: 3807 Average 201.69
+
+Island Group: 3808 Average 255.03
+
+Island Group: 3809 Average 326.93
+
+Island Group: 3810 Average 181.99
+
+Island Group: 3811 Average 163.93
+
+Island Group: 3812 Average 347.15
+
+Island Group: 3813 Average 164.38
+
+Island Group: 3814 Average 334.54
+
+Island Group: 3815 Average 180.91
+
+Island Group: 3816 Average 188.95
+
+Island Group: 3817 Average 274.79
+
+Island Group: 3818 Average 306.26
+
+Island Group: 3819 Average 216.82
+
+Island Group: 3820 Average 221.46
+
+Island Group: 3821 Average 153.53
+
+Island Group: 3822 Average 164.07
+
+Island Group: 3823 Average 208.81
+
+Island Group: 3824 Average 185.71
+
+Island Group: 3825 Average 220.56
+
+Island Group: 3826 Average 144.20
+
+Island Group: 3827 Average 273.07
+
+Island Group: 3828 Average 174.97
+
+Island Group: 3829 Average 157.22
+
+Island Group: 3830 Average 275.39
+
+Island Group: 3831 Average 181.63
+
+Island Group: 3832 Average 285.85
+
+Island Group: 3833 Average 274.36
+
+Island Group: 3834 Average 157.68
+
+Island Group: 3835 Average 142.58
+
+Island Group: 3836 Average 223.98
+
+Island Group: 3837 Average 192.50
+
+Island Group: 3838 Average 226.26
+
+Island Group: 3839 Average 172.05
+
+Island Group: 3840 Average 186.44
+
+Island Group: 3841 Average 214.93
+
+Island Group: 3842 Average 214.91
+
+Island Group: 3843 Average 318.52
+
+Island Group: 3844 Average 510.86
+
+Island Group: 3845 Average 252.45
+
+Island Group: 3846 Average 191.63
+
+Island Group: 3847 Average 315.73
+
+Island Group: 3848 Average 209.22
+
+Island Group: 3849 Average 403.63
+
+Island Group: 3850 Average 246.34
+
+Island Group: 3851 Average 251.73
+
+Island Group: 3852 Average 238.09
+
+Island Group: 3853 Average 164.42
+
+Island Group: 3854 Average 357.85
+
+Island Group: 3855 Average 125.30
+
+Island Group: 3856 Average 217.80
+
+Island Group: 3857 Average 621.87
+
+Island Group: 3858 Average 215.33
+
+Island Group: 3859 Average 348.63
+
+Island Group: 3860 Average 262.16
+
+Island Group: 3861 Average 157.79
+
+Island Group: 3862 Average 371.86
+
+Island Group: 3863 Average 189.94
+
+Island Group: 3864 Average 341.78
+
+Island Group: 3865 Average 231.20
+
+Island Group: 3866 Average 263.31
+
+Island Group: 3867 Average 172.64
+
+Island Group: 3868 Average 236.00
+
+Island Group: 3869 Average 178.75
+
+Island Group: 3870 Average 180.57
+
+Island Group: 3871 Average 200.81
+
+Island Group: 3872 Average 257.87
+
+Island Group: 3873 Average 216.50
+
+Island Group: 3874 Average 219.31
+
+Island Group: 3875 Average 223.38
+
+Island Group: 3876 Average 229.64
+
+Island Group: 3877 Average 333.47
+
+Island Group: 3878 Average 144.48
+
+Island Group: 3879 Average 299.91
+
+Island Group: 3880 Average 140.05
+
+Island Group: 3881 Average 256.05
+
+Island Group: 3882 Average 179.77
+
+Island Group: 3883 Average 319.97
+
+Island Group: 3884 Average 233.83
+
+Island Group: 3885 Average 172.99
+
+Island Group: 3886 Average 270.09
+
+Island Group: 3887 Average 223.23
+
+Island Group: 3888 Average 163.25
+
+Island Group: 3889 Average 182.80
+
+Island Group: 3890 Average 176.35
+
+Island Group: 3891 Average 0.00
+
+Island Group: 3892 Average 253.16
+
+Island Group: 3893 Average 211.80
+
+Island Group: 3894 Average 203.69
+
+Island Group: 3895 Average 173.79
+
+Island Group: 3896 Average 280.26
+
+Island Group: 3897 Average 224.25
+
+Island Group: 3898 Average 148.52
+
+Island Group: 3899 Average 351.41
+
+Island Group: 3900 Average 378.52
+
+Island Group: 3901 Average 200.11
+
+Island Group: 3902 Average 217.49
+
+Island Group: 3903 Average 290.78
+
+Island Group: 3904 Average 167.59
+
+Island Group: 3905 Average 219.48
+
+Island Group: 3906 Average 0.00
+
+Island Group: 3907 Average 268.63
+
+Island Group: 3908 Average 210.70
+
+Island Group: 3909 Average 248.83
+
+Island Group: 3910 Average 150.62
+
+Island Group: 3911 Average 156.83
+
+Island Group: 3912 Average 166.55
+
+Island Group: 3913 Average 199.66
+
+Island Group: 3914 Average 170.66
+
+Island Group: 3915 Average 286.60
+
+Island Group: 3916 Average 160.30
+
+Island Group: 3917 Average 209.13
+
+Island Group: 3918 Average 180.29
+
+Island Group: 3919 Average 141.89
+
+Island Group: 3920 Average 200.19
+
+Island Group: 3921 Average 0.00
+
+Island Group: 3922 Average 167.47
+
+Island Group: 3923 Average 176.96
+
+Island Group: 3924 Average 174.40
+
+Island Group: 3925 Average 229.55
+
+Island Group: 3926 Average 199.24
+
+Island Group: 3927 Average 175.03
+
+Island Group: 3928 Average 358.25
+
+Island Group: 3929 Average 405.88
+
+Island Group: 3930 Average 180.88
+
+Island Group: 3931 Average 252.16
+
+Island Group: 3932 Average 229.48
+
+Island Group: 3933 Average 174.65
+
+Island Group: 3934 Average 202.55
+
+Island Group: 3935 Average 333.28
+
+Island Group: 3936 Average 199.90
+
+Island Group: 3937 Average 236.15
+
+Island Group: 3938 Average 236.08
+
+Island Group: 3939 Average 228.69
+
+Island Group: 3940 Average 203.51
+
+Island Group: 3941 Average 214.37
+
+Island Group: 3942 Average 162.15
+
+Island Group: 3943 Average 265.19
+
+Island Group: 3944 Average 432.38
+
+Island Group: 3945 Average 141.14
+
+Island Group: 3946 Average 191.18
+
+Island Group: 3947 Average 203.64
+
+Island Group: 3948 Average 171.91
+
+Island Group: 3949 Average 278.07
+
+Island Group: 3950 Average 155.71
+
+Island Group: 3951 Average 250.14
+
+Island Group: 3952 Average 181.82
+
+Island Group: 3953 Average 162.06
+
+Island Group: 3954 Average 138.86
+
+Island Group: 3955 Average 191.95
+
+Island Group: 3956 Average 269.72
+
+Island Group: 3957 Average 236.17
+
+Island Group: 3958 Average 212.92
+
+Island Group: 3959 Average 214.90
+
+Island Group: 3960 Average 144.07
+
+Island Group: 3961 Average 288.74
+
+Island Group: 3962 Average 266.79
+
+Island Group: 3963 Average 158.91
+
+Island Group: 3964 Average 179.99
+
+Island Group: 3965 Average 395.02
+
+Island Group: 3966 Average 174.15
+
+Island Group: 3967 Average 248.94
+
+Island Group: 3968 Average 188.13
+
+Island Group: 3969 Average 225.31
+
+Island Group: 3970 Average 247.24
+
+Island Group: 3971 Average 313.12
+
+Island Group: 3972 Average 161.40
+
+Island Group: 3973 Average 75.00
+
+Island Group: 3974 Average 237.22
+
+Island Group: 3975 Average 194.25
+
+Island Group: 3976 Average 200.61
+
+Island Group: 3977 Average 174.42
+
+Island Group: 3978 Average 183.58
+
+Island Group: 3979 Average 279.20
+
+Island Group: 3980 Average 228.65
+
+Island Group: 3981 Average 234.74
+
+Island Group: 3982 Average 153.43
+
+Island Group: 3983 Average 144.20
+
+Island Group: 3984 Average 150.58
+
+Island Group: 3985 Average 247.36
+
+Island Group: 3986 Average 270.39
+
+Island Group: 3987 Average 247.91
+
+Island Group: 3988 Average 176.88
+
+Island Group: 3989 Average 272.88
+
+Island Group: 3990 Average 0.00
+
+Island Group: 3991 Average 171.42
+
+Island Group: 3992 Average 181.90
+
+Island Group: 3993 Average 279.24
+
+Island Group: 3994 Average 175.73
+
+Island Group: 3995 Average 186.58
+
+Island Group: 3996 Average 226.89
+
+Island Group: 3997 Average 255.77
+
+Island Group: 3998 Average 247.60
+
+Island Group: 3999 Average 287.70
+
+Island Group: 4000 Average 319.22
+
+Island Group: 4001 Average 170.87
+
+Island Group: 4002 Average 191.77
+
+Island Group: 4003 Average 227.74
+
+Island Group: 4004 Average 177.84
+
+Island Group: 4005 Average 177.00
+
+Island Group: 4006 Average 240.65
+
+Island Group: 4007 Average 183.25
+
+Island Group: 4008 Average 257.82
+
+Island Group: 4009 Average 145.50
+
+Island Group: 4010 Average 175.27
+
+Island Group: 4011 Average 284.40
+
+Island Group: 4012 Average 256.90
+
+Island Group: 4013 Average 156.68
+
+Island Group: 4014 Average 217.24
+
+Island Group: 4015 Average 232.71
+
+Island Group: 4016 Average 170.31
+
+Island Group: 4017 Average 345.06
+
+Island Group: 4018 Average 173.86
+
+Island Group: 4019 Average 199.87
+
+Island Group: 4020 Average 220.87
+
+Island Group: 4021 Average 187.55
+
+Island Group: 4022 Average 174.22
+
+Island Group: 4023 Average 160.14
+
+Island Group: 4024 Average 233.28
+
+Island Group: 4025 Average 144.11
+
+Island Group: 4026 Average 324.13
+
+Island Group: 4027 Average 196.92
+
+Island Group: 4028 Average 168.53
+
+Island Group: 4029 Average 175.75
+
+Island Group: 4030 Average 162.58
+
+Island Group: 4031 Average 223.19
+
+Island Group: 4032 Average 252.46
+
+Island Group: 4033 Average 238.32
+
+Island Group: 4034 Average 220.47
+
+Island Group: 4035 Average 181.07
+
+Island Group: 4036 Average 335.41
+
+Island Group: 4037 Average 212.48
+
+Island Group: 4038 Average 256.42
+
+Island Group: 4039 Average 301.86
+
+Island Group: 4040 Average 208.29
+
+Island Group: 4041 Average 183.30
+
+Island Group: 4042 Average 266.33
+
+Island Group: 4043 Average 186.65
+
+Island Group: 4044 Average 185.98
+
+Island Group: 4045 Average 194.41
+
+Island Group: 4046 Average 344.41
+
+Island Group: 4047 Average 255.54
+
+Island Group: 4048 Average 181.85
+
+Island Group: 4049 Average 159.25
+
+Island Group: 4050 Average 273.04
+
+Island Group: 4051 Average 296.81
+
+Island Group: 4052 Average 159.78
+
+Island Group: 4053 Average 172.66
+
+Island Group: 4054 Average 211.70
+
+Island Group: 4055 Average 144.45
+
+Island Group: 4056 Average 0.00
+
+Island Group: 4057 Average 172.27
+
+Island Group: 4058 Average 150.98
+
+Island Group: 4059 Average 179.76
+
+Island Group: 4060 Average 154.57
+
+Island Group: 4061 Average 243.91
+
+Island Group: 4062 Average 596.47
+
+Island Group: 4063 Average 188.52
+
+Island Group: 4064 Average 183.82
+
+Island Group: 4065 Average 204.05
+
+Island Group: 4066 Average 213.53
+
+Island Group: 4067 Average 209.75
+
+Island Group: 4068 Average 179.99
+
+Island Group: 4069 Average 147.29
+
+Island Group: 4070 Average 189.26
+
+Island Group: 4071 Average 212.80
+
+Island Group: 4072 Average 161.41
+
+Island Group: 4073 Average 139.93
+
+Island Group: 4074 Average 256.68
+
+Island Group: 4075 Average 193.06
+
+Island Group: 4076 Average 149.33
+
+Island Group: 4077 Average 159.45
+
+Island Group: 4078 Average 187.58
+
+Island Group: 4079 Average 198.92
+
+Island Group: 4080 Average 183.17
+
+Island Group: 4081 Average 162.34
+
+Island Group: 4082 Average 179.79
+
+Island Group: 4083 Average 264.01
+
+Island Group: 4084 Average 203.55
+
+Island Group: 4085 Average 182.95
+
+Island Group: 4086 Average 267.95
+
+Island Group: 4087 Average 199.83
+
+Island Group: 4088 Average 166.36
+
+Island Group: 4089 Average 177.63
+
+Island Group: 4090 Average 163.14
+
+Island Group: 4091 Average 183.52
+
+Island Group: 4092 Average 224.60
+
+Island Group: 4093 Average 273.70
+
+Island Group: 4094 Average 189.41
+
+Island Group: 4095 Average 153.65
+
+Island Group: 4096 Average 180.07
+
+Island Group: 4097 Average 317.07
+
+Island Group: 4098 Average 250.82
+
+Island Group: 4099 Average 164.08
+
+Island Group: 4100 Average 237.52
+
+Island Group: 4101 Average 140.43
+
+Island Group: 4102 Average 177.74
+
+Island Group: 4103 Average 140.75
+
+Island Group: 4104 Average 240.83
+
+Island Group: 4105 Average 226.06
+
+Island Group: 4106 Average 148.43
+
+Island Group: 4107 Average 192.11
+
+Island Group: 4108 Average 211.29
+
+Island Group: 4109 Average 493.16
+
+Island Group: 4110 Average 191.31
+
+Island Group: 4111 Average 196.08
+
+Island Group: 4112 Average 227.71
+
+Island Group: 4113 Average 198.65
+
+Island Group: 4114 Average 354.06
+
+Island Group: 4115 Average 183.43
+
+Island Group: 4116 Average 195.77
+
+Island Group: 4117 Average 320.87
+
+Island Group: 4118 Average 157.83
+
+Island Group: 4119 Average 187.43
+
+Island Group: 4120 Average 165.05
+
+Island Group: 4121 Average 183.15
+
+Island Group: 4122 Average 173.24
+
+Island Group: 4123 Average 197.64
+
+Island Group: 4124 Average 163.51
+
+Island Group: 4125 Average 213.50
+
+Island Group: 4126 Average 291.92
+
+Island Group: 4127 Average 189.73
+
+Island Group: 4128 Average 203.91
+
+Island Group: 4129 Average 250.97
+
+Island Group: 4130 Average 185.52
+
+Island Group: 4131 Average 580.05
+
+Island Group: 4132 Average 186.80
+
+Island Group: 4133 Average 190.67
+
+Island Group: 4134 Average 204.87
+
+Island Group: 4135 Average 172.93
+
+Island Group: 4136 Average 224.71
+
+Island Group: 4137 Average 197.56
+
+Island Group: 4138 Average 214.03
+
+Island Group: 4139 Average 228.06
+
+Island Group: 4140 Average 195.58
+
+Island Group: 4141 Average 179.15
+
+Island Group: 4142 Average 306.62
+
+Island Group: 4143 Average 251.81
+
+Island Group: 4144 Average 195.11
+
+Island Group: 4145 Average 151.48
+
+Island Group: 4146 Average 166.67
+
+Island Group: 4147 Average 202.49
+
+Island Group: 4148 Average 221.86
+
+Island Group: 4149 Average 170.37
+
+Island Group: 4150 Average 230.99
+
+Island Group: 4151 Average 145.47
+
+Island Group: 4152 Average 212.02
+
+Island Group: 4153 Average 159.97
+
+Island Group: 4154 Average 198.60
+
+Island Group: 4155 Average 258.49
+
+Island Group: 4156 Average 254.84
+
+Island Group: 4157 Average 138.76
+
+Island Group: 4158 Average 186.07
+
+Island Group: 4159 Average 152.79
+
+Island Group: 4160 Average 144.81
+
+Island Group: 4161 Average 198.47
+
+Island Group: 4162 Average 167.31
+
+Island Group: 4163 Average 169.00
+
+Island Group: 4164 Average 672.80
+
+Island Group: 4165 Average 165.94
+
+Island Group: 4166 Average 172.15
+
+Island Group: 4167 Average 411.11
+
+Island Group: 4168 Average 153.49
+
+Island Group: 4169 Average 296.39
+
+Island Group: 4170 Average 603.12
+
+Island Group: 4171 Average 270.61
+
+Island Group: 4172 Average 175.32
+
+Island Group: 4173 Average 366.24
+
+Island Group: 4174 Average 198.02
+
+Island Group: 4175 Average 0.00
+
+Island Group: 4176 Average 472.89
+
+Island Group: 4177 Average 212.47
+
+Island Group: 4178 Average 212.13
+
+Island Group: 4179 Average 181.45
+
+Island Group: 4180 Average 155.60
+
+Island Group: 4181 Average 148.05
+
+Island Group: 4182 Average 197.84
+
+Island Group: 4183 Average 196.75
+
+Island Group: 4184 Average 194.36
+
+Island Group: 4185 Average 190.49
+
+Island Group: 4186 Average 205.23
+
+Island Group: 4187 Average 180.23
+
+Island Group: 4188 Average 173.78
+
+Island Group: 4189 Average 238.20
+
+Island Group: 4190 Average 315.23
+
+Island Group: 4191 Average 266.38
+
+Island Group: 4192 Average 175.89
+
+Island Group: 4193 Average 195.82
+
+Island Group: 4194 Average 187.26
+
+Island Group: 4195 Average 193.49
+
+Island Group: 4196 Average 185.95
+
+Island Group: 4197 Average 310.27
+
+Island Group: 4198 Average 276.16
+
+Island Group: 4199 Average 220.52
+
+Island Group: 4200 Average 159.27
+
+Island Group: 4201 Average 305.89
+
+Island Group: 4202 Average 243.57
+
+Island Group: 4203 Average 302.79
+
+Island Group: 4204 Average 194.37
+
+Island Group: 4205 Average 350.95
+
+Island Group: 4206 Average 187.07
+
+Island Group: 4207 Average 164.01
+
+Island Group: 4208 Average 192.89
+
+Island Group: 4209 Average 159.34
+
+Island Group: 4210 Average 374.67
+
+Island Group: 4211 Average 185.31
+
+Island Group: 4212 Average 184.75
+
+Island Group: 4213 Average 147.22
+
+Island Group: 4214 Average 163.80
+
+Island Group: 4215 Average 214.07
+
+Island Group: 4216 Average 199.10
+
+Island Group: 4217 Average 210.61
+
+Island Group: 4218 Average 220.56
+
+Island Group: 4219 Average 210.45
+
+Island Group: 4220 Average 402.22
+
+Island Group: 4221 Average 211.94
+
+Island Group: 4222 Average 212.92
+
+Island Group: 4223 Average 294.75
+
+Island Group: 4224 Average 156.79
+
+Island Group: 4225 Average 257.25
+
+Island Group: 4226 Average 193.83
+
+Island Group: 4227 Average 545.95
+
+Island Group: 4228 Average 176.72
+
+Island Group: 4229 Average 250.30
+
+Island Group: 4230 Average 154.16
+
+Island Group: 4231 Average 193.35
+
+Island Group: 4232 Average 162.31
+
+Island Group: 4233 Average 183.83
+
+Island Group: 4234 Average 194.59
+
+Island Group: 4235 Average 205.25
+
+Island Group: 4236 Average 225.97
+
+Island Group: 4237 Average 263.75
+
+Island Group: 4238 Average 196.03
+
+Island Group: 4239 Average 360.64
+
+Island Group: 4240 Average 204.37
+
+Island Group: 4241 Average 179.41
+
+Island Group: 4242 Average 240.34
+
+Island Group: 4243 Average 115.45
+
+Island Group: 4244 Average 166.27
+
+Island Group: 4245 Average 0.00
+
+Island Group: 4246 Average 177.73
+
+Island Group: 4247 Average 237.64
+
+Island Group: 4248 Average 213.67
+
+Island Group: 4249 Average 261.28
+
+Island Group: 4250 Average 182.05
+
+Island Group: 4251 Average 468.37
+
+Island Group: 4252 Average 129.42
+
+Island Group: 4253 Average 155.39
+
+Island Group: 4254 Average 152.03
+
+Island Group: 4255 Average 127.37
+
+Island Group: 4256 Average 180.97
+
+Island Group: 4257 Average 139.42
+
+Island Group: 4258 Average 273.31
+
+Island Group: 4259 Average 209.53
+
+Island Group: 4260 Average 158.25
+
+Island Group: 4261 Average 191.48
+
+Island Group: 4262 Average 155.16
+
+Island Group: 4263 Average 174.52
+
+Island Group: 4264 Average 184.06
+
+Island Group: 4265 Average 157.31
+
+Island Group: 4266 Average 194.43
+
+Island Group: 4267 Average 187.97
+
+Island Group: 4268 Average 198.44
+
+Island Group: 4269 Average 253.99
+
+Island Group: 4270 Average 346.59
+
+Island Group: 4271 Average 178.72
+
+Island Group: 4272 Average 220.29
+
+Island Group: 4273 Average 159.80
+
+Island Group: 4274 Average 273.00
+
+Island Group: 4275 Average 221.35
+
+Island Group: 4276 Average 0.00
+
+Island Group: 4277 Average 244.44
+
+Island Group: 4278 Average 141.80
+
+Island Group: 4279 Average 188.48
+
+Island Group: 4280 Average 239.81
+
+Island Group: 4281 Average 141.33
+
+Island Group: 4282 Average 238.00
+
+Island Group: 4283 Average 142.04
+
+Island Group: 4284 Average 451.13
+
+Island Group: 4285 Average 208.74
+
+Island Group: 4286 Average 175.34
+
+Island Group: 4287 Average 191.25
+
+Island Group: 4288 Average 150.21
+
+Island Group: 4289 Average 177.81
+
+Island Group: 4290 Average 0.00
+
+Island Group: 4291 Average 159.27
+
+Island Group: 4292 Average 223.71
+
+Island Group: 4293 Average 268.19
+
+Island Group: 4294 Average 199.29
+
+Island Group: 4295 Average 199.24
+
+Island Group: 4296 Average 196.83
+
+Island Group: 4297 Average 167.88
+
+Island Group: 4298 Average 266.73
+
+Island Group: 4299 Average 346.27
+
+Island Group: 4300 Average 214.22
+
+Island Group: 4301 Average 327.99
+
+Island Group: 4302 Average 414.35
+
+Island Group: 4303 Average 258.79
+
+Island Group: 4304 Average 207.27
+
+Island Group: 4305 Average 262.00
+
+Island Group: 4306 Average 183.23
+
+Island Group: 4307 Average 176.21
+
+Island Group: 4308 Average 229.67
+
+Island Group: 4309 Average 474.51
+
+Island Group: 4310 Average 207.39
+
+Island Group: 4311 Average 150.66
+
+Island Group: 4312 Average 370.79
+
+Island Group: 4313 Average 250.37
+
+Island Group: 4314 Average 205.00
+
+Island Group: 4315 Average 0.00
+
+Island Group: 4316 Average 298.45
+
+Island Group: 4317 Average 226.28
+
+Island Group: 4318 Average 161.73
+
+Island Group: 4319 Average 391.24
+
+Island Group: 4320 Average 165.69
+
+Island Group: 4321 Average 166.95
+
+Island Group: 4322 Average 259.69
+
+Island Group: 4323 Average 187.88
+
+Island Group: 4324 Average 218.90
+
+Island Group: 4325 Average 164.37
+
+Island Group: 4326 Average 181.80
+
+Island Group: 4327 Average 176.70
+
+Island Group: 4328 Average 266.54
+
+Island Group: 4329 Average 219.02
+
+Island Group: 4330 Average 254.95
+
+Island Group: 4331 Average 387.26
+
+Island Group: 4332 Average 158.51
+
+Island Group: 4333 Average 512.77
+
+Island Group: 4334 Average 185.67
+
+Island Group: 4335 Average 242.72
+
+Island Group: 4336 Average 198.12
+
+Island Group: 4337 Average 170.69
+
+Island Group: 4338 Average 208.79
+
+Island Group: 4339 Average 175.63
+
+Island Group: 4340 Average 235.67
+
+Island Group: 4341 Average 146.73
+
+Island Group: 4342 Average 271.68
+
+Island Group: 4343 Average 232.82
+
+Island Group: 4344 Average 264.28
+
+Island Group: 4345 Average 161.21
+
+Island Group: 4346 Average 250.76
+
+Island Group: 4347 Average 186.10
+
+Island Group: 4348 Average 347.20
+
+Island Group: 4349 Average 154.09
+
+Island Group: 4350 Average 322.36
+
+Island Group: 4351 Average 197.71
+
+Island Group: 4352 Average 341.66
+
+Island Group: 4353 Average 342.57
+
+Island Group: 4354 Average 199.40
+
+Island Group: 4355 Average 377.49
+
+Island Group: 4356 Average 328.71
+
+Island Group: 4357 Average 197.16
+
+Island Group: 4358 Average 189.47
+
+Island Group: 4359 Average 184.72
+
+Island Group: 4360 Average 249.83
+
+Island Group: 4361 Average 270.12
+
+Island Group: 4362 Average 196.62
+
+Island Group: 4363 Average 235.32
+
+Island Group: 4364 Average 238.69
+
+Island Group: 4365 Average 227.20
+
+Island Group: 4366 Average 253.67
+
+Island Group: 4367 Average 263.74
+
+Island Group: 4368 Average 195.03
+
+Island Group: 4369 Average 247.74
+
+Island Group: 4370 Average 155.27
+
+Island Group: 4371 Average 167.40
+
+Island Group: 4372 Average 166.21
+
+Island Group: 4373 Average 212.86
+
+Island Group: 4374 Average 185.03
+
+Island Group: 4375 Average 222.48
+
+Island Group: 4376 Average 153.51
+
+Island Group: 4377 Average 195.01
+
+Island Group: 4378 Average 446.29
+
+Island Group: 4379 Average 261.21
+
+Island Group: 4380 Average 178.20
+
+Island Group: 4381 Average 181.12
+
+Island Group: 4382 Average 307.08
+
+Island Group: 4383 Average 200.84
+
+Island Group: 4384 Average 152.46
+
+Island Group: 4385 Average 177.03
+
+Island Group: 4386 Average 408.51
+
+Island Group: 4387 Average 239.10
+
+Island Group: 4388 Average 65.06
+
+Island Group: 4389 Average 174.47
+
+Island Group: 4390 Average 273.65
+
+Island Group: 4391 Average 244.88
+
+Island Group: 4392 Average 293.85
+
+Island Group: 4393 Average 201.18
+
+Island Group: 4394 Average 153.30
+
+Island Group: 4395 Average 196.97
+
+Island Group: 4396 Average 229.04
+
+Island Group: 4397 Average 161.76
+
+Island Group: 4398 Average 235.03
+
+Island Group: 4399 Average 155.18
+
+Island Group: 4400 Average 301.87
+
+Island Group: 4401 Average 183.37
+
+Island Group: 4402 Average 308.56
+
+Island Group: 4403 Average 315.36
+
+Island Group: 4404 Average 286.69
+
+Island Group: 4405 Average 276.64
+
+Island Group: 4406 Average 195.57
+
+Island Group: 4407 Average 237.90
+
+Island Group: 4408 Average 294.93
+
+Island Group: 4409 Average 221.89
+
+Island Group: 4410 Average 242.67
+
+Island Group: 4411 Average 250.01
+
+Island Group: 4412 Average 162.21
+
+Island Group: 4413 Average 241.62
+
+Island Group: 4414 Average 235.92
+
+Island Group: 4415 Average 364.47
+
+Island Group: 4416 Average 220.89
+
+Island Group: 4417 Average 298.20
+
+Island Group: 4418 Average 360.88
+
+Island Group: 4419 Average 158.20
+
+Island Group: 4420 Average 273.24
+
+Island Group: 4421 Average 201.81
+
+Island Group: 4422 Average 169.93
+
+Island Group: 4423 Average 309.47
+
+Island Group: 4424 Average 199.52
+
+Island Group: 4425 Average 157.50
+
+Island Group: 4426 Average 132.96
+
+Island Group: 4427 Average 159.58
+
+Island Group: 4428 Average 245.06
+
+Island Group: 4429 Average 170.60
+
+Island Group: 4430 Average 213.00
+
+Island Group: 4431 Average 264.89
+
+Island Group: 4432 Average 238.08
+
+Island Group: 4433 Average 216.71
+
+Island Group: 4434 Average 227.63
+
+Island Group: 4435 Average 209.18
+
+Island Group: 4436 Average 233.63
+
+Island Group: 4437 Average 154.33
+
+Island Group: 4438 Average 204.34
+
+Island Group: 4439 Average 199.32
+
+Island Group: 4440 Average 140.53
+
+Island Group: 4441 Average 161.13
+
+Island Group: 4442 Average 245.97
+
+Island Group: 4443 Average 323.44
+
+Island Group: 4444 Average 316.29
+
+Island Group: 4445 Average 215.82
+
+Island Group: 4446 Average 235.13
+
+Island Group: 4447 Average 158.73
+
+Island Group: 4448 Average 211.26
+
+Island Group: 4449 Average 184.93
+
+Island Group: 4450 Average 155.30
+
+Island Group: 4451 Average 195.81
+
+Island Group: 4452 Average 240.13
+
+Island Group: 4453 Average 233.12
+
+Island Group: 4454 Average 147.77
+
+Island Group: 4455 Average 314.75
+
+Island Group: 4456 Average 141.79
+
+Island Group: 4457 Average 316.23
+
+Island Group: 4458 Average 217.62
+
+Island Group: 4459 Average 358.51
+
+Island Group: 4460 Average 286.83
+
+Island Group: 4461 Average 199.04
+
+Island Group: 4462 Average 225.99
+
+Island Group: 4463 Average 299.92
+
+Island Group: 4464 Average 180.70
+
+Island Group: 4465 Average 194.73
+
+Island Group: 4466 Average 178.27
+
+Island Group: 4467 Average 0.00
+
+Island Group: 4468 Average 405.50
+
+Island Group: 4469 Average 185.48
+
+Island Group: 4470 Average 167.80
+
+Island Group: 4471 Average 167.51
+
+Island Group: 4472 Average 174.25
+
+Island Group: 4473 Average 311.80
+
+Island Group: 4474 Average 175.83
+
+Island Group: 4475 Average 162.76
+
+Island Group: 4476 Average 227.38
+
+Island Group: 4477 Average 582.66
+
+Island Group: 4478 Average 223.87
+
+Island Group: 4479 Average 157.17
+
+Island Group: 4480 Average 297.56
+
+Island Group: 4481 Average 177.44
+
+Island Group: 4482 Average 163.56
+
+Island Group: 4483 Average 209.17
+
+Island Group: 4484 Average 147.03
+
+Island Group: 4485 Average 179.80
+
+Island Group: 4486 Average 204.19
+
+Island Group: 4487 Average 196.31
+
+Island Group: 4488 Average 167.32
+
+Island Group: 4489 Average 344.13
+
+Island Group: 4490 Average 218.90
+
+Island Group: 4491 Average 298.20
+
+Island Group: 4492 Average 205.13
+
+Island Group: 4493 Average 196.73
+
+Island Group: 4494 Average 484.45
+
+Island Group: 4495 Average 279.58
+
+Island Group: 4496 Average 267.96
+
+Island Group: 4497 Average 449.19
+
+Island Group: 4498 Average 182.39
+
+Island Group: 4499 Average 350.45
+
+Island Group: 4500 Average 187.60
+
+Island Group: 4501 Average 229.30
+
+Island Group: 4502 Average 200.86
+
+Island Group: 4503 Average 179.01
+
+Island Group: 4504 Average 161.71
+
+Island Group: 4505 Average 162.71
+
+Island Group: 4506 Average 193.68
+
+Island Group: 4507 Average 250.47
+
+Island Group: 4508 Average 245.04
+
+Island Group: 4509 Average 231.53
+
+Island Group: 4510 Average 258.85
+
+Island Group: 4511 Average 448.78
+
+Island Group: 4512 Average 197.86
+
+Island Group: 4513 Average 171.05
+
+Island Group: 4514 Average 235.04
+
+Island Group: 4515 Average 149.73
+
+Island Group: 4516 Average 178.58
+
+Island Group: 4517 Average 167.88
+
+Island Group: 4518 Average 178.12
+
+Island Group: 4519 Average 235.75
+
+Island Group: 4520 Average 201.84
+
+Island Group: 4521 Average 289.65
+
+Island Group: 4522 Average 245.95
+
+Island Group: 4523 Average 216.15
+
+Island Group: 4524 Average 203.17
+
+Island Group: 4525 Average 211.22
+
+Island Group: 4526 Average 201.41
+
+Island Group: 4527 Average 402.90
+
+Island Group: 4528 Average 429.94
+
+Island Group: 4529 Average 196.57
+
+Island Group: 4530 Average 180.22
+
+Island Group: 4531 Average 282.21
+
+Island Group: 4532 Average 311.69
+
+Island Group: 4533 Average 318.77
+
+Island Group: 4534 Average 192.81
+
+Island Group: 4535 Average 173.69
+
+Island Group: 4536 Average 214.20
+
+Island Group: 4537 Average 252.36
+
+Island Group: 4538 Average 148.27
+
+Island Group: 4539 Average 190.71
+
+Island Group: 4540 Average 176.97
+
+Island Group: 4541 Average 190.70
+
+Island Group: 4542 Average 172.59
+
+Island Group: 4543 Average 443.43
+
+Island Group: 4544 Average 175.79
+
+Island Group: 4545 Average 413.78
+
+Island Group: 4546 Average 246.87
+
+Island Group: 4547 Average 247.80
+
+Island Group: 4548 Average 196.09
+
+Island Group: 4549 Average 222.77
+
+Island Group: 4550 Average 241.08
+
+Island Group: 4551 Average 183.60
+
+Island Group: 4552 Average 195.37
+
+Island Group: 4553 Average 237.70
+
+Island Group: 4554 Average 259.09
+
+Island Group: 4555 Average 313.74
+
+Island Group: 4556 Average 185.85
+
+Island Group: 4557 Average 188.40
+
+Island Group: 4558 Average 383.21
+
+Island Group: 4559 Average 188.52
+
+Island Group: 4560 Average 155.26
+
+Island Group: 4561 Average 174.01
+
+Island Group: 4562 Average 278.17
+
+Island Group: 4563 Average 224.49
+
+Island Group: 4564 Average 202.68
+
+Island Group: 4565 Average 285.92
+
+Island Group: 4566 Average 181.31
+
+Island Group: 4567 Average 167.27
+
+Island Group: 4568 Average 239.86
+
+Island Group: 4569 Average 275.16
+
+Island Group: 4570 Average 202.42
+
+Island Group: 4571 Average 240.43
+
+Island Group: 4572 Average 182.07
+
+Island Group: 4573 Average 205.65
+
+Island Group: 4574 Average 153.28
+
+Island Group: 4575 Average 229.92
+
+Island Group: 4576 Average 168.78
+
+Island Group: 4577 Average 189.16
+
+Island Group: 4578 Average 202.46
+
+Island Group: 4579 Average 257.55
+
+Island Group: 4580 Average 211.10
+
+Island Group: 4581 Average 267.54
+
+Island Group: 4582 Average 440.02
+
+Island Group: 4583 Average 365.02
+
+Island Group: 4584 Average 251.42
+
+Island Group: 4585 Average 559.31
+
+Island Group: 4586 Average 166.16
+
+Island Group: 4587 Average 262.17
+
+Island Group: 4588 Average 150.99
+
+Island Group: 4589 Average 197.16
+
+Island Group: 4590 Average 152.41
+
+Island Group: 4591 Average 181.38
+
+Island Group: 4592 Average 281.32
+
+Island Group: 4593 Average 164.69
+
+Island Group: 4594 Average 189.19
+
+Island Group: 4595 Average 172.17
+
+Island Group: 4596 Average 396.16
+
+Island Group: 4597 Average 204.58
+
+Island Group: 4598 Average 230.84
+
+Island Group: 4599 Average 161.78
+
+Island Group: 4600 Average 208.98
+
+Island Group: 4601 Average 219.46
+
+Island Group: 4602 Average 206.70
+
+Island Group: 4603 Average 153.80
+
+Island Group: 4604 Average 303.89
+
+Island Group: 4605 Average 314.39
+
+Island Group: 4606 Average 211.26
+
+Island Group: 4607 Average 238.26
+
+Island Group: 4608 Average 160.40
+
+Island Group: 4609 Average 208.59
+
+Island Group: 4610 Average 222.94
+
+Island Group: 4611 Average 186.80
+
+Island Group: 4612 Average 225.10
+
+Island Group: 4613 Average 188.82
+
+Island Group: 4614 Average 207.88
+
+Island Group: 4615 Average 248.98
+
+Island Group: 4616 Average 188.59
+
+Island Group: 4617 Average 188.64
+
+Island Group: 4618 Average 255.10
+
+Island Group: 4619 Average 169.78
+
+Island Group: 4620 Average 214.93
+
+Island Group: 4621 Average 144.50
+
+Island Group: 4622 Average 188.18
+
+Island Group: 4623 Average 286.69
+
+Island Group: 4624 Average 186.76
+
+Island Group: 4625 Average 236.76
+
+Island Group: 4626 Average 246.92
+
+Island Group: 4627 Average 206.54
+
+Island Group: 4628 Average 243.23
+
+Island Group: 4629 Average 264.79
+
+Island Group: 4630 Average 313.29
+
+Island Group: 4631 Average 191.42
+
+Island Group: 4632 Average 378.53
+
+Island Group: 4633 Average 549.77
+
+Island Group: 4634 Average 372.65
+
+Island Group: 4635 Average 153.05
+
+Island Group: 4636 Average 203.22
+
+Island Group: 4637 Average 213.50
+
+Island Group: 4638 Average 154.21
+
+Island Group: 4639 Average 163.85
+
+Island Group: 4640 Average 161.46
+
+Island Group: 4641 Average 212.74
+
+Island Group: 4642 Average 189.63
+
+Island Group: 4643 Average 356.48
+
+Island Group: 4644 Average 169.20
+
+Island Group: 4645 Average 338.49
+
+Island Group: 4646 Average 240.83
+
+Island Group: 4647 Average 251.16
+
+Island Group: 4648 Average 272.20
+
+Island Group: 4649 Average 217.54
+
+Island Group: 4650 Average 189.95
+
+Island Group: 4651 Average 182.38
+
+Island Group: 4652 Average 182.68
+
+Island Group: 4653 Average 336.84
+
+Island Group: 4654 Average 221.33
+
+Island Group: 4655 Average 167.20
+
+Island Group: 4656 Average 197.76
+
+Island Group: 4657 Average 168.50
+
+Island Group: 4658 Average 198.02
+
+Island Group: 4659 Average 210.52
+
+Island Group: 4660 Average 314.91
+
+Island Group: 4661 Average 259.52
+
+Island Group: 4662 Average 216.96
+
+Island Group: 4663 Average 205.28
+
+Island Group: 4664 Average 177.10
+
+Island Group: 4665 Average 222.41
+
+Island Group: 4666 Average 175.28
+
+Island Group: 4667 Average 198.35
+
+Island Group: 4668 Average 297.82
+
+Island Group: 4669 Average 227.13
+
+Island Group: 4670 Average 171.43
+
+Island Group: 4671 Average 209.08
+
+Island Group: 4672 Average 180.93
+
+Island Group: 4673 Average 293.12
+
+Island Group: 4674 Average 184.16
+
+Island Group: 4675 Average 283.38
+
+Island Group: 4676 Average 196.95
+
+Island Group: 4677 Average 474.01
+
+Island Group: 4678 Average 152.59
+
+Island Group: 4679 Average 206.96
+
+Island Group: 4680 Average 406.85
+
+Island Group: 4681 Average 189.12
+
+Island Group: 4682 Average 244.89
+
+Island Group: 4683 Average 180.41
+
+Island Group: 4684 Average 157.44
+
+Island Group: 4685 Average 244.61
+
+Island Group: 4686 Average 220.01
+
+Island Group: 4687 Average 178.73
+
+Island Group: 4688 Average 173.96
+
+Island Group: 4689 Average 169.78
+
+Island Group: 4690 Average 204.81
+
+Island Group: 4691 Average 249.74
+
+Island Group: 4692 Average 189.09
+
+Island Group: 4693 Average 275.18
+
+Island Group: 4694 Average 166.43
+
+Island Group: 4695 Average 271.96
+
+Island Group: 4696 Average 180.16
+
+Island Group: 4697 Average 299.70
+
+Island Group: 4698 Average 186.85
+
+Island Group: 4699 Average 161.66
+
+Island Group: 4700 Average 218.78
+
+Island Group: 4701 Average 168.69
+
+Island Group: 4702 Average 252.10
+
+Island Group: 4703 Average 171.81
+
+Island Group: 4704 Average 200.41
+
+Island Group: 4705 Average 267.74
+
+Island Group: 4706 Average 219.58
+
+Island Group: 4707 Average 166.34
+
+Island Group: 4708 Average 163.27
+
+Island Group: 4709 Average 255.59
+
+Island Group: 4710 Average 220.32
+
+Island Group: 4711 Average 230.25
+
+Island Group: 4712 Average 253.61
+
+Island Group: 4713 Average 206.20
+
+Island Group: 4714 Average 179.55
+
+Island Group: 4715 Average 205.17
+
+Island Group: 4716 Average 257.10
+
+Island Group: 4717 Average 317.39
+
+Island Group: 4718 Average 177.62
+
+Island Group: 4719 Average 196.99
+
+Island Group: 4720 Average 471.79
+
+Island Group: 4721 Average 444.74
+
+Island Group: 4722 Average 198.73
+
+Island Group: 4723 Average 144.36
+
+Island Group: 4724 Average 215.65
+
+Island Group: 4725 Average 158.33
+
+Island Group: 4726 Average 144.13
+
+Island Group: 4727 Average 236.46
+
+Island Group: 4728 Average 198.83
+
+Island Group: 4729 Average 223.33
+
+Island Group: 4730 Average 223.58
+
+Island Group: 4731 Average 840.49
+
+Island Group: 4732 Average 201.93
+
+Island Group: 4733 Average 211.83
+
+Island Group: 4734 Average 309.82
+
+Island Group: 4735 Average 194.32
+
+Island Group: 4736 Average 139.52
+
+Island Group: 4737 Average 233.88
+
+Island Group: 4738 Average 182.73
+
+Island Group: 4739 Average 144.88
+
+Island Group: 4740 Average 210.68
+
+Island Group: 4741 Average 155.38
+
+Island Group: 4742 Average 265.45
+
+Island Group: 4743 Average 411.95
+
+Island Group: 4744 Average 243.24
+
+Island Group: 4745 Average 206.40
+
+Island Group: 4746 Average 205.31
+
+Island Group: 4747 Average 185.11
+
+Island Group: 4748 Average 170.71
+
+Island Group: 4749 Average 225.64
+
+Island Group: 4750 Average 179.50
+
+Island Group: 4751 Average 75.14
+
+Island Group: 4752 Average 162.05
+
+Island Group: 4753 Average 170.08
+
+Island Group: 4754 Average 239.27
+
+Island Group: 4755 Average 203.75
+
+Island Group: 4756 Average 203.34
+
+Island Group: 4757 Average 203.93
+
+Island Group: 4758 Average 385.66
+
+Island Group: 4759 Average 187.70
+
+Island Group: 4760 Average 176.15
+
+Island Group: 4761 Average 282.55
+
+Island Group: 4762 Average 687.44
+
+Island Group: 4763 Average 291.31
+
+Island Group: 4764 Average 220.15
+
+Island Group: 4765 Average 325.27
+
+Island Group: 4766 Average 171.11
+
+Island Group: 4767 Average 222.73
+
+Island Group: 4768 Average 152.52
+
+Island Group: 4769 Average 210.68
+
+Island Group: 4770 Average 326.07
+
+Island Group: 4771 Average 149.55
+
+Island Group: 4772 Average 229.00
+
+Island Group: 4773 Average 184.40
+
+Island Group: 4774 Average 208.02
+
+Island Group: 4775 Average 149.54
+
+Island Group: 4776 Average 248.90
+
+Island Group: 4777 Average 191.59
+
+Island Group: 4778 Average 209.19
+
+Island Group: 4779 Average 184.45
+
+Island Group: 4780 Average 145.39
+
+Island Group: 4781 Average 267.83
+
+Island Group: 4782 Average 324.17
+
+Island Group: 4783 Average 0.72
+
+Island Group: 4784 Average 185.65
+
+Island Group: 4785 Average 172.48
+
+Island Group: 4786 Average 247.76
+
+Island Group: 4787 Average 189.56
+
+Island Group: 4788 Average 218.45
+
+Island Group: 4789 Average 247.43
+
+Island Group: 4790 Average 211.93
+
+Island Group: 4791 Average 198.31
+
+Island Group: 4792 Average 192.34
+
+Island Group: 4793 Average 256.82
+
+Island Group: 4794 Average 180.74
+
+Island Group: 4795 Average 341.56
+
+Island Group: 4796 Average 185.43
+
+Island Group: 4797 Average 312.69
+
+Island Group: 4798 Average 197.66
+
+Island Group: 4799 Average 0.00
+
+Island Group: 4800 Average 260.19
+
+Island Group: 4801 Average 188.24
+
+Island Group: 4802 Average 187.54
+
+Island Group: 4803 Average 187.42
+
+Island Group: 4804 Average 306.85
+
+Island Group: 4805 Average 172.84
+
+Island Group: 4806 Average 258.90
+
+Island Group: 4807 Average 164.47
+
+Island Group: 4808 Average 194.68
+
+Island Group: 4809 Average 171.48
+
+Island Group: 4810 Average 161.61
+
+Island Group: 4811 Average 344.27
+
+Island Group: 4812 Average 181.94
+
+Island Group: 4813 Average 151.49
+
+Island Group: 4814 Average 219.02
+
+Island Group: 4815 Average 226.60
+
+Island Group: 4816 Average 188.81
+
+Island Group: 4817 Average 357.77
+
+Island Group: 4818 Average 136.69
+
+Island Group: 4819 Average 301.35
+
+Island Group: 4820 Average 165.83
+
+Island Group: 4821 Average 0.00
+
+Island Group: 4822 Average 319.84
+
+Island Group: 4823 Average 207.60
+
+Island Group: 4824 Average 257.77
+
+Island Group: 4825 Average 154.71
+
+Island Group: 4826 Average 164.89
+
+Island Group: 4827 Average 260.29
+
+Island Group: 4828 Average 249.48
+
+Island Group: 4829 Average 184.39
+
+Island Group: 4830 Average 193.02
+
+Island Group: 4831 Average 141.95
+
+Island Group: 4832 Average 191.64
+
+Island Group: 4833 Average 201.64
+
+Island Group: 4834 Average 341.68
+
+Island Group: 4835 Average 168.63
+
+Island Group: 4836 Average 221.29
+
+Island Group: 4837 Average 163.14
+
+Island Group: 4838 Average 196.29
+
+Island Group: 4839 Average 198.48
+
+Island Group: 4840 Average 173.92
+
+Island Group: 4841 Average 166.42
+
+Island Group: 4842 Average 203.79
+
+Island Group: 4843 Average 182.51
+
+Island Group: 4844 Average 220.54
+
+Island Group: 4845 Average 249.85
+
+Island Group: 4846 Average 160.01
+
+Island Group: 4847 Average 169.97
+
+Island Group: 4848 Average 308.86
+
+Island Group: 4849 Average 190.81
+
+Island Group: 4850 Average 239.96
+
+Island Group: 4851 Average 193.52
+
+Island Group: 4852 Average 313.79
+
+Island Group: 4853 Average 163.65
+
+Island Group: 4854 Average 294.38
+
+Island Group: 4855 Average 184.38
+
+Island Group: 4856 Average 256.64
+
+Island Group: 4857 Average 320.64
+
+Island Group: 4858 Average 306.42
+
+Island Group: 4859 Average 131.85
+
+Island Group: 4860 Average 291.98
+
+Island Group: 4861 Average 185.31
+
+Island Group: 4862 Average 176.06
+
+Island Group: 4863 Average 231.40
+
+Island Group: 4864 Average 232.25
+
+Island Group: 4865 Average 210.88
+
+Island Group: 4866 Average 314.75
+
+Island Group: 4867 Average 141.86
+
+Island Group: 4868 Average 165.19
+
+Island Group: 4869 Average 216.98
+
+Island Group: 4870 Average 203.78
+
+Island Group: 4871 Average 282.06
+
+Island Group: 4872 Average 169.49
+
+Island Group: 4873 Average 350.73
+
+Island Group: 4874 Average 373.10
+
+Island Group: 4875 Average 129.63
+
+Island Group: 4876 Average 259.62
+
+Island Group: 4877 Average 172.85
+
+Island Group: 4878 Average 244.21
+
+Island Group: 4879 Average 230.62
+
+Island Group: 4880 Average 183.20
+
+Island Group: 4881 Average 482.98
+
+Island Group: 4882 Average 269.82
+
+Island Group: 4883 Average 207.83
+
+Island Group: 4884 Average 266.06
+
+Island Group: 4885 Average 138.95
+
+Island Group: 4886 Average 176.70
+
+Island Group: 4887 Average 413.21
+
+Island Group: 4888 Average 213.19
+
+Island Group: 4889 Average 224.13
+
+Island Group: 4890 Average 164.84
+
+Island Group: 4891 Average 401.76
+
+Island Group: 4892 Average 221.16
+
+Island Group: 4893 Average 168.79
+
+Island Group: 4894 Average 192.41
+
+Island Group: 4895 Average 159.27
+
+Island Group: 4896 Average 170.95
+
+Island Group: 4897 Average 403.09
+
+Island Group: 4898 Average 280.87
+
+Island Group: 4899 Average 188.09
+
+Island Group: 4900 Average 253.42
+
+Island Group: 4901 Average 216.41
+
+Island Group: 4902 Average 230.30
+
+Island Group: 4903 Average 173.20
+
+Island Group: 4904 Average 202.19
+
+Island Group: 4905 Average 341.85
+
+Island Group: 4906 Average 267.23
+
+Island Group: 4907 Average 194.76
+
+Island Group: 4908 Average 520.15
+
+Island Group: 4909 Average 217.50
+
+Island Group: 4910 Average 170.26
+
+Island Group: 4911 Average 180.93
+
+Island Group: 4912 Average 253.49
+
+Island Group: 4913 Average 340.09
+
+Island Group: 4914 Average 177.28
+
+Island Group: 4915 Average 171.14
+
+Island Group: 4916 Average 198.50
+
+Island Group: 4917 Average 206.23
+
+Island Group: 4918 Average 442.25
+
+Island Group: 4919 Average 660.45
+
+Island Group: 4920 Average 209.65
+
+Island Group: 4921 Average 155.50
+
+Island Group: 4922 Average 192.88
+
+Island Group: 4923 Average 180.28
+
+Island Group: 4924 Average 240.94
+
+Island Group: 4925 Average 222.99
+
+Island Group: 4926 Average 190.55
+
+Island Group: 4927 Average 160.05
+
+Island Group: 4928 Average 158.43
+
+Island Group: 4929 Average 167.99
+
+Island Group: 4930 Average 217.58
+
+Island Group: 4931 Average 244.31
+
+Island Group: 4932 Average 146.83
+
+Island Group: 4933 Average 217.03
+
+Island Group: 4934 Average 260.65
+
+Island Group: 4935 Average 273.57
+
+Island Group: 4936 Average 244.82
+
+Island Group: 4937 Average 343.00
+
+Island Group: 4938 Average 327.96
+
+Island Group: 4939 Average 272.80
+
+Island Group: 4940 Average 162.59
+
+Island Group: 4941 Average 304.60
+
+Island Group: 4942 Average 217.17
+
+Island Group: 4943 Average 218.75
+
+Island Group: 4944 Average 152.42
+
+Island Group: 4945 Average 261.53
+
+Island Group: 4946 Average 176.09
+
+Island Group: 4947 Average 263.97
+
+Island Group: 4948 Average 195.81
+
+Island Group: 4949 Average 268.03
+
+Island Group: 4950 Average 144.99
+
+Island Group: 4951 Average 117.52
+
+Island Group: 4952 Average 436.82
+
+Island Group: 4953 Average 177.01
+
+Island Group: 4954 Average 230.19
+
+Island Group: 4955 Average 493.54
+
+Island Group: 4956 Average 352.66
+
+Island Group: 4957 Average 223.69
+
+Island Group: 4958 Average 245.17
+
+Island Group: 4959 Average 200.37
+
+Island Group: 4960 Average 168.30
+
+Island Group: 4961 Average 185.37
+
+Island Group: 4962 Average 227.09
+
+Island Group: 4963 Average 151.79
+
+Island Group: 4964 Average 212.61
+
+Island Group: 4965 Average 234.85
+
+Island Group: 4966 Average 172.23
+
+Island Group: 4967 Average 286.82
+
+Island Group: 4968 Average 221.17
+
+Island Group: 4969 Average 226.63
+
+Island Group: 4970 Average 391.37
+
+Island Group: 4971 Average 238.58
+
+Island Group: 4972 Average 205.11
+
+Island Group: 4973 Average 187.80
+
+Island Group: 4974 Average 341.12
+
+Island Group: 4975 Average 253.18
+
+Island Group: 4976 Average 155.66
+
+Island Group: 4977 Average 0.00
+
+Island Group: 4978 Average 280.74
+
+Island Group: 4979 Average 173.35
+
+Island Group: 4980 Average 250.75
+
+Island Group: 4981 Average 200.09
+
+Island Group: 4982 Average 205.12
+
+Island Group: 4983 Average 161.75
+
+Island Group: 4984 Average 285.37
+
+Island Group: 4985 Average 247.21
+
+Island Group: 4986 Average 381.93
+
+Island Group: 4987 Average 179.33
+
+Island Group: 4988 Average 239.21
+
+Island Group: 4989 Average 319.47
+
+Island Group: 4990 Average 392.58
+
+Island Group: 4991 Average 215.13
+
+Island Group: 4992 Average 0.00
+
+Island Group: 4993 Average 151.94
+
+Island Group: 4994 Average 196.59
+
+Island Group: 4995 Average 254.85
+
+Island Group: 4996 Average 220.83
+
+Island Group: 4997 Average 176.67
+
+Island Group: 4998 Average 193.99
+
+Island Group: 4999 Average 190.49
+
+Island Group: 5000 Average 252.07
+

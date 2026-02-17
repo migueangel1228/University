@@ -1,0 +1,606 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+\usepackage{hyperref}
+
+\title{Informe Proyecto Final \\[1ex] \large ``A - Zlatan Galactic Summit''}
+
+\author{Miguel Angel Padilla}
+\date{Entrega: Noviembre 12, 2025 \\[1ex] Universidad Pontificia Javeriana Cali \\[1ex] Árboles y Grafos \\[1ex] Profesor: Carlos Ramírez}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+\section{Descripción general del problema}
+
+El problema exige encontrar la ciudad optima y el mínimo costo total de llegar a esa ciudad por todos los diferentes lideres del imperio, Siendo una ciudad optima aquella donde deben reunirse los lideres de las civilizaciones aliadas de manera que el costo total de energía de todos los viajes sea mínimo y, ademas, todos los lideres puedan llegar dentro del limite máximo de movimientos permitidos.
+
+Los sectores están distribuidos en una cuadrícula cuadrada llamada El Imperio Galáctico de Zlatan. Cada sector (coordenada de la cuadricula) tiene un \textbf{coste de energía} asociado que representa lo que cuesta llegar a esa ciudad.
+
+Los líderes, cada uno ubicado en una Ciudad distinta, pueden desplazarse en las cuatro direcciones cardinales (norte, sur, este, oeste). Cada vez que un líder llega a una Ciudad, paga la energía correspondiente a esa Ciudad; además, por motivos de seguridad y logística, \textbf{ningún líder puede desplazarse más de los movimientos máximos propuestos inicialmente} para llegar al punto de encuentro elegido.
+
+El coste energético del sector que se elija como sede lo asume Zlatan, así que \textbf{ese coste no entra en la suma que queremos minimizar} (los líderes no pagan la energía del sector anfitrión al llegar).
+
+Si no hay ninguna casilla a la que todos puedan llegar cumpliendo con el límite máximo de movimientos propuestos, la solución es “imposible”.
+
+
+\section{Especificación del problema}
+
+\subsection{Entrada}
+Recibe tres números \(N\), \(F\) y \(T\), donde
+    \begin{itemize}
+      \item \(N \in \mathbb{N}\) es el numero de filas y de columnas de la cuadricula.
+      \item \(F \in \mathbb{N}\) es el número de líderes.
+      \item \( T\in \mathbb{N}\) es el número máximo de movimientos permitidos por líder.
+    \end{itemize}
+
+
+Sea un conjunto de sectores representado por un grafo no dirigido \(G = (V, E)\), donde los vértices \(V\) corresponden a las ciudades del Imperio y las aristas \(E\) representan las conexiones entre sectores adyacentes (norte, sur, este y oeste).
+
+Este grafo se modela mediante una matriz de costos de energía:
+
+\[
+M[0..N)[0..N) =
+\begin{bmatrix}
+a_{0,0} & \cdots & a_{0,N-1} \\
+a_{1,0} & \cdots & a_{1,N-1} \\
+\vdots & \ddots & \vdots \\
+a_{N-1,0} & \cdots & a_{N-1,N-1}
+\end{bmatrix}
+\qquad
+\]
+
+donde cada elemento \(a_{i,j}\) representa el coste de energía del sector en las coordenadas \((i,j)\) dentro de la cuadrícula.  
+Cada posición corresponde a una ciudad y su valor indica la energía necesaria para permanecer o desplazarse desde ese punto.
+
+Además, se recibe una lista:
+
+\[
+A = [a_0, a_1, \dots, a_{F-1}]
+\qquad \text{tal que} \qquad
+\forall\, a_k \in A,\; a_k = (x_k, y_k)
+\]
+
+donde cada \(a_k\) representa la posición inicial del líder \(k\) dentro de la matriz \(M\).
+
+
+\subsection{Salida}
+Si existe al menos una casilla \(M[r][c]\) alcanzable por \emph{todos} los \(F\) líderes en \(\le T\) movimientos, devuelve la pareja \((x',y')\) y \(X\), tal que   \(M[x'][y']\)  es el sector optimo que minimiza el \textbf{costo total} de los \(F\) líderes, hasta una de las casillas alcanzables, y  donde \(X\) es el \textbf{costo total} hasta el sector \((x',y')\) 
+\begin{itemize}
+  \item Si no existe ninguna casilla alcanzable por todos los líderes cumpliendo \(T\), devolver  \(-1\)
+
+\end{itemize}
+
+\subsection{Cálculo de Coste total }
+Sea un líder que parte de \((x_i,y_i)\) y llega a una casilla sede \((r,c)\) mediante un camino con \(L\) movimientos.
+
+\begin{itemize}
+  \item El coste del viaje de ese líder es la suma de los costes \(c_{u,v}\) de todas las casillas que atraviesa, \emph{incluyendo la casilla de origen} \((x_i,y_i)\) y todas las intermedias, pero \emph{excluyendo la casilla destino} \((r,c)\).
+  \item El camino elegido debe cumplir \(L \le T\).  Siendo \(L\) la cantidad mínima de pasos hasta la casilla \((r,c)\). Si para algún líder no existe un camino con \(L \le T\) hasta \((r,c)\), 
+  entonces la casilla \((r,c)\) no es válida.
+\end{itemize}
+
+Así, el coste total de reunir a todos los líderes en la sede \((r,c)\) se define como:
+\[
+X(r,c) = \sum_{i=1}^{F} \text{CosteMínimoExcluyendoDestino}(x_i, y_i, r, c)
+\]
+donde \(\text{CosteMínimoExcluyendoDestino}\) representa la mínima suma posible de los costes de energía del recorrido desde el líder \(i\) hasta \((r,c)\), cumpliendo la restricción de movimientos y \emph{sin contar el coste del sector anfitrión}.
+
+\section{Casos de Prueba}
+
+\subsection{Caso 1: \textbf{Varias soluciones con el mismo costo}}
+
+\textbf{Descripción:}  
+Este caso representa una situación sencilla donde existen varias opciones óptimas con el mismo costo total. El propósito es mostrar cómo el algoritmo resuelve empates utilizando el criterio de orden lexicográfico, seleccionando el sector con las coordenadas mayores cuando hay más de una solución igualmente buena.
+
+\textbf{Entrada:}
+
+\begin{verbatim}
+4 2 2
+4 1 4 6
+1 1 2 5
+1 1 1 2
+4 6 11 7
+1 1 3 1
+0 0 0
+\end{verbatim}
+
+\textbf{Resultado esperado:}
+
+\begin{verbatim}
+The Galactic Summit will be held at sector (3,1) with total energy cost = 2
+\end{verbatim}
+\textbf{Explicación:}  
+Tenemos una cuadrícula de $3\times3$ con los siguientes costos de energía:
+
+\[
+\begin{bmatrix}
+1 & 2 & 4 \\
+1 & 1 & 2 \\
+1 & 3 & 1
+\end{bmatrix}
+\]
+
+Los dos líderes se encuentran en las posiciones:
+- Líder 1: $(1,1)$  
+- Líder 2: $(3,1)$  
+
+Cada líder puede moverse hasta $T=2$ pasos.
+Con \(T=2\) las posiciones alcanzables son:
+
+\begin{itemize}
+  \item Desde \((1,1)\): \((1,1),(1,2),(1,3),(2,1),(2,2),(3,1)\).
+  \item Desde \((3,1)\): \((3,1),(3,2),(3,3),(2,1),(2,2),(1,1)\).
+\end{itemize}
+
+Ambos líderes pueden reunirse en distintas celdas dentro de su rango de movimiento, y hay más de una celda donde el costo total es mínimo. Específicamente, las celdas $(1,1)$  , $(2,1)$, $(2,2)$ y $(3,1)$ generan el mismo costo total mínimo.
+
+Para romper el empate, se selecciona el sector con el \textbf{mayor orden lexicográfico}, es decir, aquel cuya fila o columna sea mayor cuando los costos son iguales.  
+Por tanto, entre  $(1,1)$  , $(2,1)$, $(2,2)$ y $(3,1)$, el algoritmo elige $(3,1$).
+
+\textbf{Salida:}
+
+\[
+(3,1),\quad  2
+\]
+\textbf{Razonamiento del resultado:}  
+- Desde $(1,1)$ a $(3,1)$, el líder 1 puede llegar en 2 movimientos (por ejemplo, $(1,1)\to(2,1)\to(3,1)$) con un costo acumulado de $1+1=2$. Porque, dado que la ultima ciudad es la host, el costo de esa ciudad no se cuenta. 
+- Desde $(3,1)$ a $(3,1)$, el líder 2 gasta $0$.  
+- Costo total = $2 +0 = 2$.  
+
+\subsection{Caso 2: \textbf{Único candidato}}
+
+\textbf{Descripción:}  
+Caso en el que, debido a la restricción de movimientos \(T\), sólo existe un sector que es alcanzable por \emph{todos} los líderes; por tanto, la solución es única.
+
+\textbf{Entrada:}
+
+\begin{verbatim}
+4 2 1
+5 1 5 3
+3 4 17 6
+10 8 6 7
+4 11 9 2
+1 1 1 3
+0 0 0
+\end{verbatim}
+
+\textbf{Resultado esperado:}
+\begin{verbatim}
+The Galactic Summit will be held at sector (1,2) with total energy cost = 10
+\end{verbatim}
+\textbf{Explicación:}  
+La cuadrícula \(3\times3\) es
+\[
+\begin{bmatrix}
+5 & 1 & 5 & 3\\
+3 & 4 & 17 & 6\\
+10 & 8 & 6& 7 \\
+4 & 11 & 9& 2
+\end{bmatrix}
+\]
+Los líderes están en:
+- Líder 1: \((1,1)\)  
+- Líder 2: \((1,3)\)
+
+Cada líder puede moverse a lo sumo \(T=1\) pasos.  
+Con \(T=1\) las posiciones alcanzables son:
+
+\begin{itemize}
+  \item Desde \((1,1)\): \((1,1),(1,2),(2,1)\).
+  \item Desde \((1,3)\): \((1,3),(1,2),(2,3)\).
+\end{itemize}
+
+La intersección (sectores alcanzables por ambos) es únicamente \((1,2)\). Por tanto, solo hay un candidato válido y se debe elegir \((1,2)\).
+
+\textbf{Cálculo del coste total siguiendo la especificación:}
+- Camino mínimo desde \((1,1)\) hasta \((1,2)\) en \(\le T\) movimientos: \((1,1)\to(1,2)\). Coste aportado = coste de la casilla de origen = \(M[1][1]=5\).
+- Camino mínimo desde \((1,3)\) hasta \((1,2)\) en \(\le T\) movimientos: \((1,3)\to(1,2)\). Coste aportado = coste de la casilla de origen = \((M[1][3])=5\).
+
+Costo total \(X = 5 + 5 = 10\).
+
+\textbf{Salida:}
+
+\[
+(1,2),\quad  10
+\]
+\subsection{Caso 3: \textbf{Sin solución posible}}
+
+\textbf{Descripción:}  
+Este caso ilustra una situación en la que, debido a la distribución de los líderes y el límite de movimientos \(T\), \textbf{no existe ninguna ciudad que sea alcanzable por todos los líderes}.  
+El propósito es mostrar cómo el algoritmo debe identificar correctamente que no hay intersección entre las posiciones accesibles de los líderes y, por tanto, devolver \(-1\).
+
+\textbf{Entrada:}
+
+\begin{verbatim}
+4 2 2
+2 4 1 6
+5 7 12 3
+18 21 9 4
+3 4 1 13
+1 4 4 1
+0 0 0
+\end{verbatim}
+
+\textbf{Resultado esperado:}
+
+\begin{verbatim}
+Zlatan is disappointed
+\end{verbatim}
+
+\textbf{Explicación:}  
+La cuadrícula \(4\times4\) es:
+
+\[
+\begin{bmatrix}
+2 & 4 & 1 & 6 \\
+5 & 7 & 12 & 3 \\
+18 & 21 & 9 & 4 \\
+3 & 4 & 1 & 13
+\end{bmatrix}
+\]
+
+Los líderes se encuentran en:
+- Líder 1: \((1,4)\)
+- Líder 2: \((4,1)\)
+
+Cada líder puede moverse a lo sumo \(T = 2\) pasos.  
+Con ese límite, las posiciones alcanzables son:
+
+- Desde \((1,4)\): \((1,4)\), \((1,3)\), \((2,4)\), \((1,2)\), \((2,3)\), \((3,4)\).
+- Desde \((4,1)\): \((4,1)\), \((3,1)\), \((4,2)\), \((2,1)\), \((3,2)\), \((4,3)\).
+
+Al comparar ambos conjuntos, se observa que **no hay ninguna intersección**.  
+Es decir, no existe ninguna casilla del imperio a la que ambos líderes puedan llegar respetando el número máximo de movimientos \(T = 2\).
+
+Por tanto, el problema no tiene solución válida para este escenario.
+
+\textbf{Salida:}
+
+\[
+-1
+\]
+
+\section{Explicación general de la estrategia de solución}
+
+\subsection{Primera estrategia de solución}
+
+La idea inicial consiste en diseñar un algoritmo (aún en proceso de definición) que reciba como entrada la matriz completa de costos de energía, la posición inicial de todos los líderes y el número máximo de pasos \(T\) que cada uno puede realizar.  
+
+El objetivo del algoritmo será determinar todas las coordenadas \((r, c)\) que puedan ser alcanzadas por \textbf{todos} los líderes utilizando como máximo \(T\) movimientos.  
+
+Una vez identificadas las posiciones candidatas, se ejecutará un algoritmo de búsqueda de caminos mínimos (\textit{Dijkstra}) sobre el grafo implícito definido por la matriz. Este proceso se aplicará desde cada líder hacia todas las posiciones candidatas, con el fin de obtener el \textbf{camino de costo mínimo} cumpliendo la restricción de \(L \leq T\).
+
+Para calcular el \textbf{costo total}, se considera que un líder parte desde \((x_i, y_i)\) y llega a una posible sede \((r, c)\) mediante un camino de longitud \(L\).  
+El costo individual del viaje de dicho líder será la suma de los costos de las casillas recorridas, incluyendo la casilla de origen e intermedias, pero \textbf{excluyendo la casilla destino}.  
+
+Formalmente, el costo total de reunir a todos los líderes en una sede \((r, c)\) se define como:
+
+\[
+X(r, c) = \sum_{i=1}^{F} \text{CosteMínimoExcluyendoDestino}(x_i, y_i, r, c)
+\]
+
+donde \(\text{CosteMínimoExcluyendoDestino}\) representa la mínima suma posible de energía del recorrido desde el líder \(i\) hasta \((r, c)\), cumpliendo la restricción de movimientos \(L \leq T\).
+
+Si para algún líder no existe un camino válido hasta \((r, c)\), esa casilla se descarta como posible sede.  
+Finalmente, se evalúan todas las posiciones candidatas válidas y se selecciona aquella con el \textbf{menor costo total} \(X(r, c)\).
+
+\subsubsection*{Aspectos a perfeccionar}
+\begin{itemize}
+    \item Determinar el método más eficiente para generar las posiciones candidatas alcanzables por todos los líderes sin necesidad de exploración redundante.
+    \item Analizar cómo limitar la búsqueda a \(T\) pasos sin afectar la exactitud de los caminos mínimos.
+\end{itemize}
+
+
+\subsection{Estrategia final de solución}
+
+La solución definitiva retoma la idea inicial de usar caminos mínimos, pero la concreta en un esquema sistemático que combina tres componentes principales:
+
+\begin{enumerate}
+    \item Modelar la cuadrícula como un grafo implícito con pesos en los vértices.
+    \item Ejecutar, para cada líder, un algoritmo de Dijkstra acotado a un máximo de \(T\) movimientos.
+    \item Agregar de forma global la información de costos y alcanzabilidad, para elegir finalmente la sede óptima con un criterio de desempate bien definido.
+\end{enumerate}
+
+\subsubsection*{Modelado del problema como grafo}
+
+Cada sector del imperio es una celda \((i,j)\) de la matriz de costos de energía. Estas celdas se interpretan como vértices de un grafo no dirigido \(G = (V,E)\), donde:
+
+\begin{itemize}
+    \item Cada vértice representa un sector \((i,j)\) de la cuadrícula.
+    \item Hay una arista entre dos vértices si los sectores correspondientes son adyacentes en una de las cuatro direcciones cardinales (norte, sur, este, oeste).
+\end{itemize}
+
+A diferencia de modelos donde el peso se asigna a las aristas, aquí el costo de un camino se define como la suma de los costos de las celdas visitadas, incluyendo la celda de origen y todas las intermedias, pero excluyendo la celda sede. En términos prácticos, esto se maneja manteniendo, para cada líder, una matriz de \emph{costo mínimo acumulado} hasta cada celda, y descontando el costo de la celda sede únicamente al momento de sumar el costo global de una posible reunión.
+
+\subsubsection*{Cálculo de rutas mínimas para cada líder}
+
+Para cada líder se calcula, de manera independiente, el costo mínimo de energía para llegar a cada celda de la cuadrícula, sujeto a la restricción de no usar más de \(T\) movimientos. Para ello se utiliza una variante del algoritmo de Dijkstra sobre el grafo implícito descrito anteriormente.
+
+La idea es la siguiente:
+
+\begin{enumerate}
+    \item Para un líder situado en \((x_i, y_i)\), se inicializa una matriz de costos mínimos con valor infinito en todas las celdas, salvo en la posición inicial, donde el costo se fija igual al costo de energía del sector de partida (pues el líder “paga” su ciudad de origen).
+    \item Se utiliza una estructura de datos tipo \textbf{cola de prioridad} que almacena estados de la forma:
+    \[
+       (\text{número de pasos}, \text{costo acumulado}, \text{fila}, \text{columna}),
+    \]
+    ordenados primero por el número de pasos y, en caso de empate, por el costo acumulado. Esto asegura que:
+    \begin{itemize}
+        \item Nunca se continúa expandiendo un estado que ya ha superado el límite de pasos \(T\).
+        \item Entre estados con la misma cantidad de pasos, se propaga primero aquel que lleva menor costo acumulado.
+    \end{itemize}
+    \item Mientras la cola de prioridad no esté vacía, se extrae el estado con mejor prioridad. Si ese estado no mejora el mejor costo conocido para su celda, se descarta. En caso contrario:
+    \begin{itemize}
+        \item Si el número de pasos usados es menor que \(T\), se generan los vecinos alcanzables (arriba, abajo, izquierda, derecha), siempre que estén dentro de la cuadrícula.
+        \item Para cada vecino válido se calcula el nuevo costo como
+        \[
+        \text{costo nuevo} = \text{costo actual} + \text{costo del vecino},
+        \]
+        y el número de pasos aumenta en una unidad. Si este nuevo costo mejora el mejor costo conocido para esa celda vecina, se actualiza la matriz de costos y se inserta el nuevo estado en la cola de prioridad.
+    \end{itemize}
+\end{enumerate}
+
+Al finalizar este proceso para un líder concreto, se dispone de una matriz que indica, para cada sector alcanzable en \(\leq T\) movimientos, cuál es el costo mínimo de energía que ese líder tendría que invertir para llegar allí.
+
+\subsubsection*{Agregación global de costos y verificación de alcanzabilidad}
+
+Una vez se han calculado las matrices de costos para todos los líderes, se combinan sus resultados mediante una estructura de agregación global (conceptualmente, un \emph{mapa} o diccionario) cuya clave es la coordenada \((r,c)\) de un sector y cuyo valor almacena dos datos:
+
+\begin{itemize}
+    \item Un \textbf{marcador de alcanzabilidad}, que acumula la “contribución” de cada líder que logra llegar a ese sector.
+    \item Un \textbf{costo total acumulado}, que suma los costos mínimos individuales de todos los líderes que pueden alcanzar esa coordenada, siempre excluyendo el costo del propio sector sede.
+\end{itemize}
+
+El procedimiento para combinar la información de cada líder es:
+
+\begin{itemize}
+    \item Se recorre la matriz de costos mínimos de ese líder. Para cada celda \((r,c)\) cuya entrada no sea infinita, se sabe que el líder puede llegar a ese sector dentro del límite de movimientos.
+    \item Para esa celda se actualiza el marcador de alcanzabilidad sumando un identificador asociado a ese líder (por ejemplo, un número único del \(1\) al \(F\)).
+    \item Además, se suma al costo total acumulado el costo mínimo desde la posición del líder hasta \((r,c)\), pero descontando el costo del propio sector sede, dado que ese costo lo asume Zlatan.
+\end{itemize}
+
+Si se asume que los líderes tienen identificadores \(1,2,\dots,F\), entonces la suma esperada de identificadores, en caso de que \emph{todos} los líderes alcancen una celda, es:
+
+\[
+\text{SumaEsperada} = \sum_{i=1}^{F}i = 1 + 2 + \cdots + F = \frac{F(F+1)}{2}.
+\]
+
+Una coordenada \((r,c)\) se considera candidata válida a sede si, y sólo si, el marcador de alcanzabilidad en esa celda coincide con \(\text{SumaEsperada}\). En otras palabras, sólo se tienen en cuenta como posibles sedes aquellas ciudades a las que todos los líderes pueden llegar respetando el límite de \(T\) movimientos.
+
+\subsubsection*{Selección de la sede óptima y criterio de desempate}
+
+La sede final del “Galactic Summit” se elige recorriendo todas las celdas candidatas válidas (es decir, aquellas cuyo marcador de alcanzabilidad indica que son accesibles por todos los líderes):
+
+\begin{enumerate}
+    \item Entre todas las celdas candidatas \((r,c)\), se selecciona inicialmente la que tenga el \textbf{menor costo total acumulado} de energía.
+    \item Si existe más de una celda con el mismo costo total mínimo, se aplica un criterio de desempate basado en el orden lexicográfico de las coordenadas:
+    \begin{itemize}
+        \item Se elige la celda con la \textbf{mayor fila} \(r\).
+        \item Si hay empate en la fila, se elige la que tenga la \textbf{mayor columna} \(c\).
+    \end{itemize}
+    De este modo, cuando existen varias sedes igualmente buenas en términos de costo, se escoge la coordenada “más grande” en el sentido del orden lexicográfico.
+\end{enumerate}
+
+Si al final del proceso no existe ninguna celda que haya sido marcada como alcanzable por todos los líderes, se concluye que no hay una ciudad en la que todos puedan reunirse cumpliendo el límite de movimientos \(T\), y el problema no tiene solución: en ese caso, el resultado corresponde al mensaje de que Zlatan queda decepcionado.
+\section{Desarrollo paso a paso de un caso de prueba representativo}
+
+Para ilustrar el funcionamiento de la estrategia final, se presenta a continuación un caso de prueba sencillo pero representativo, en el que:
+
+\begin{itemize}
+    \item Hay varios líderes.
+    \item Existe más de una ciudad candidata con el mismo costo total mínimo.
+    \item Es necesario aplicar el criterio de desempate lexicográfico para elegir la sede final.
+\end{itemize}
+
+\subsection{Descripción de la instancia}
+
+Consideremos una cuadrícula de tamaño \(N = 3\), con \(F = 2\) líderes y un máximo de \(T = 2\) movimientos por líder. Los costos de energía de los sectores son:
+
+\[
+M =
+\begin{bmatrix}
+1 & 2 & 4 \\
+1 & 1 & 2 \\
+1 & 3 & 1
+\end{bmatrix}
+\]
+
+Numeramos filas y columnas desde \(1\) hasta \(3\). Las posiciones iniciales de los líderes son:
+
+\begin{itemize}
+    \item Líder 1 en \((1,1)\).
+    \item Líder 2 en \((3,1)\).
+\end{itemize}
+
+Cada líder puede moverse como máximo \(T = 2\) pasos en la cuadrícula (arriba, abajo, izquierda, derecha). El objetivo es encontrar un sector \((r,c)\) al que ambos puedan llegar respetando este límite de movimientos, de modo que el costo total de energía sea mínimo, sin contar el costo del sector anfitrión.
+
+\subsection{Paso 1: cálculo de rutas mínimas para el Líder 1}
+
+Se aplica el algoritmo de Dijkstra desde la posición inicial \((1,1)\):
+
+\begin{enumerate}
+    \item \textbf{Inicialización:}
+    \[
+        \text{costo mínimo a } (1,1) = M_{1,1} = 1, \quad
+        \text{costo mínimo al resto de celdas} = +\infty.
+    \]
+    \item \textbf{Primera expansión (1 paso):} desde \((1,1)\) se pueden visitar:
+    \begin{itemize}
+        \item \((1,2)\): costo \(1 + M_{1,2} = 1 + 2 = 3\).
+        \item \((2,1)\): costo \(1 + M_{2,1} = 1 + 1 = 2\).
+    \end{itemize}
+    \item \textbf{Segunda expansión (2 pasos):} se expanden las celdas alcanzadas con 1 paso:
+    \begin{itemize}
+        \item Desde \((1,2)\):
+        \begin{itemize}
+            \item \((1,3)\): costo \(3 + M_{1,3} = 3 + 4 = 7\).
+            \item \((2,2)\): costo \(3 + M_{2,2} = 3 + 1 = 4\).
+        \end{itemize}
+        \item Desde \((2,1)\):
+        \begin{itemize}
+            \item \((3,1)\): costo \(2 + M_{3,1} = 2 + 1 = 3\).
+            \item \((2,2)\): costo \(2 + M_{2,2} = 2 + 1 = 3\), mejorando el valor anterior \(4\).
+        \end{itemize}
+    \end{itemize}
+\end{enumerate}
+
+Las celdas alcanzables por el Líder 1 en \(\leq 2\) movimientos, junto con su costo mínimo (incluyendo origen e intermedias), son:
+
+\[
+\begin{array}{c|c}
+\text{Celda} & \text{Costo mínimo desde el Líder 1} \\
+\hline
+(1,1) & 1 \\
+(1,2) & 3 \\
+(2,1) & 2 \\
+(1,3) & 7 \\
+(2,2) & 3 \\
+(3,1) & 3 \\
+\end{array}
+\]
+
+\subsection{Paso 2: cálculo de rutas mínimas para el Líder 2}
+
+Se repite el procedimiento para el Líder 2, ubicado en \((3,1)\):
+
+\begin{enumerate}
+    \item \textbf{Inicialización:}
+    \[
+        \text{costo mínimo a } (3,1) = M_{3,1} = 1, \quad
+        \text{costo mínimo al resto} = +\infty.
+    \]
+    \item \textbf{Primera expansión (1 paso):} desde \((3,1)\) se pueden visitar:
+    \begin{itemize}
+        \item \((2,1)\): costo \(1 + M_{2,1} = 1 + 1 = 2\).
+        \item \((3,2)\): costo \(1 + M_{3,2} = 1 + 3 = 4\).
+    \end{itemize}
+    \item \textbf{Segunda expansión (2 pasos):}
+    \begin{itemize}
+        \item Desde \((2,1)\):
+        \begin{itemize}
+            \item \((1,1)\): costo \(2 + M_{1,1} = 2 + 1 = 3\).
+            \item \((2,2)\): costo \(2 + M_{2,2} = 2 + 1 = 3\).
+        \end{itemize}
+        \item Desde \((3,2)\):
+        \begin{itemize}
+            \item \((3,3)\): costo \(4 + M_{3,3} = 4 + 1 = 5\).
+        \end{itemize}
+    \end{itemize}
+\end{enumerate}
+
+Las celdas alcanzables por el Líder 2 en \(\leq 2\) movimientos son:
+
+\[
+\begin{array}{c|c}
+\text{Celda} & \text{Costo mínimo desde el Líder 2} \\
+\hline
+(3,1) & 1 \\
+(2,1) & 2 \\
+(3,2) & 4 \\
+(1,1) & 3 \\
+(2,2) & 3 \\
+(3,3) & 5 \\
+\end{array}
+\]
+
+\subsection{Paso 3: sectores alcanzables por todos los líderes}
+
+El conjunto de celdas alcanzables por el Líder 1 es:
+\[
+\{(1,1), (1,2), (2,1), (1,3), (2,2), (3,1)\},
+\]
+y el del Líder 2 es:
+\[
+\{(3,1), (2,1), (3,2), (1,1), (2,2), (3,3)\}.
+\]
+
+La intersección de ambos conjuntos (sectores alcanzables por \emph{los dos} líderes dentro de \(T = 2\) movimientos) es:
+\[
+\{(1,1), (2,1), (2,2), (3,1)\}.
+\]
+
+Sólo estas cuatro celdas pueden ser candidatas a sede del \emph{Galactic Summit}.
+
+\subsection{Paso 4: cálculo del costo total para cada candidata}
+
+Para cada celda candidata se calcula el costo total de reunir a ambos líderes en ella. Recordemos que:
+
+\begin{itemize}
+    \item El costo de un líder es la suma de los costos de las celdas recorridas, incluyendo la casilla de origen y las intermedias.
+    \item El costo del sector sede \((r,c)\) se \textbf{excluye} de la suma global.
+\end{itemize}
+
+Denotemos por \(C_1(r,c)\) y \(C_2(r,c)\) los costos mínimos (incluyendo destino) desde el Líder 1 y el Líder 2, respectivamente. Los valores relevantes son:
+
+\[
+\begin{array}{c|cc}
+\text{Celda} & C_1(r,c) & C_2(r,c) \\
+\hline
+(1,1) & 1 & 3 \\
+(2,1) & 2 & 2 \\
+(2,2) & 3 & 3 \\
+(3,1) & 3 & 1 \\
+\end{array}
+\]
+
+El costo del sector sede es \(M_{r,c}\). Como en este ejemplo \(M_{1,1} = M_{2,1} = M_{2,2} = M_{3,1} = 1\), el costo total de reunir a ambos líderes en \((r,c)\) es:
+
+\[
+X(r,c) = \big( C_1(r,c) - M_{r,c} \big) + \big( C_2(r,c) - M_{r,c} \big).
+\]
+
+Calculando:
+
+\[
+\begin{array}{c|ccc}
+\text{Celda} & C_1(r,c) - M_{r,c} & C_2(r,c) - M_{r,c} & X(r,c) \\
+\hline
+(1,1) & 1 - 1 = 0 & 3 - 1 = 2 & 0 + 2 = 2 \\
+(2,1) & 2 - 1 = 1 & 2 - 1 = 1 & 1 + 1 = 2 \\
+(2,2) & 3 - 1 = 2 & 3 - 1 = 2 & 2 + 2 = 4 \\
+(3,1) & 3 - 1 = 2 & 1 - 1 = 0 & 2 + 0 = 2 \\
+\end{array}
+\]
+
+Por tanto, las celdas \((1,1)\), \((2,1)\) y \((3,1)\) tienen el mismo costo total mínimo \(X = 2\), mientras que \((2,2)\) es peor con costo total \(X = 4\).
+
+\subsection{Paso 5: aplicación del criterio de desempate}
+
+Como existen varias sedes con el mismo costo total mínimo \(X = 2\), se aplica el criterio de desempate establecido:
+
+\begin{enumerate}
+    \item Se elige la celda con la \textbf{mayor fila} \(r\).
+    \item Si hay empate en la fila, se elige la celda con la \textbf{mayor columna} \(c\).
+\end{enumerate}
+
+Entre las celdas empatadas:
+\[
+(1,1), \quad (2,1), \quad (3,1),
+\]
+la de mayor fila es \((3,1)\). Por tanto, el sector \((3,1)\) es seleccionado como sede óptima del \emph{Zlatan Galactic Summit} para esta instancia, con un costo total de energía:
+
+\[
+X(3,1) = 2.
+\]
+
+\subsection{Conclusión del caso representativo}
+
+En este caso de prueba se observa claramente cómo el algoritmo:
+
+\begin{itemize}
+    \item Respeta el límite de movimientos \(T\) al calcular las rutas mínimas para cada líder.
+    \item Identifica las celdas que son alcanzables por todos.
+    \item Calcula el costo total excluyendo el costo del sector anfitrión.
+    \item Resuelve empates mediante un criterio lexicográfico sobre las coordenadas.
+\end{itemize}
+
+Este mismo esquema se aplica de manera análoga a instancias más grandes, con más líderes y mayores dimensiones de la cuadrícula.
+
+\end{document}

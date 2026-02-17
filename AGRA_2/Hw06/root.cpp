@@ -3,41 +3,45 @@
 using namespace std;
 
 /*
-Complejidad del algoritmo:
+    AGRA  Tarea 6
+Fecha  : 18/11/25
+Nombre : Miguel Angel Padilla Rosero
+Cod    : 8988878
+Problem  root.cpp
 
-- Obtener los centros (peeling de hojas tipo topological trim):
-    O(n)  — cada arista y nodo se procesa una sola vez.
-- BFS desde cada centro:
-    Si hay 1 o 2 centros (propiedad de los árboles), son 1–2 BFS.
-    Cada BFS = O(n)
-    Total BFS = O(n)
+"Big-O":
 
-Complejidad total:
-    O(n)
+Pasos del algoritmo:
 
-Es óptimo para árboles grandes.
+1. Calcular grados ady de todos los nodos: O(n)
+2. Meter a la cola las hojas : O(n)
+3. BFS eliminando hojas capa por capa:
+   - Cada nodo se procesa exactamente una vez
+   - Cada arista se examina exactamente una vez
+   - Total: O(n + aristas) = O(n) para arboles (aristas = n-1)
 
---------------------------------------------------------------------
+Función nodosMalos (BFS desde centros):
 
-1.  Obtengo centros, dado que los centros son los best nodes
-2.  Hago un bfs desde cada centros marcando la distancia desde cada
-    centro a los demas nodos y obtengo la distancia maxima desde el 
-    centro a una hoja
-3.  Guardo como un WorstNode cada nodo cuya distancia a un centro
-    sea la distancia maxima de ese centro
+Para cada centro encontrado (maximo 2 centros):
+- BFS completo: O(n + aristas) = O(n)
+- Identificar nodos a distancia maxima: O(n)
+- Total: O(k × n) donde k ≤ 2, entonces O(n)
+
+Complejidad global:
+    Tiempo: O(n)
+        - Obtener centros: O(n)
+        - BFS desde centros (maximo 2): O(n)
+        - Total: O(n) + O(n) = O(n)
+  
+    Espacio: O(n)
+        - Listas de adyacencia: O(n)
+        - Vectores auxiliares (nivel, grado, visitado): O(n)
+        - Cola BFS: O(n) en el peor caso
 */
-/*
-1.  Obtengo centros, dado que los centros son los best nodes
-2.  Hago un bfs desde cada centros marcanco la distancia desde cada
-    centros a los demas nodesy obtengo la distancia maxima desde el 
-    centro a una hoja
-3.  Guardo como un WorstNode, cada nodos que su distantcia a un centro
-    sea la distancia maxima de ese centro
 
 
-*/
-unordered_set<int> centers(vector<vector<int>> &G){
-    unordered_set<int> centers;
+set<int> centers(vector<vector<int>> &G){
+    set<int> centers;
     int n = G.size() - 1;
     vector<int> nivel(n + 1, 0);
     vector<int> grado(n + 1, 0);
@@ -104,11 +108,11 @@ int bfsAux(vector<vector<int>> &G,vector<bool> &vis,vector<int> &nivel,int u){
     return maxLevel;
 }
 
-unordered_set<int> nodosMalos(vector<vector<int>> &G, unordered_set<int> &centers){
+set<int> nodosMalos(vector<vector<int>> &G, set<int> &centers){
 
     int n = G.size() - 1;
-    unordered_set<int> nodosMalos;
-    unordered_set<int>::iterator it;
+    set<int> nodosMalos;
+    set<int>::iterator it;
     int max;
 
     for (it = centers.begin();it != centers.end();it++){
@@ -126,7 +130,6 @@ unordered_set<int> nodosMalos(vector<vector<int>> &G, unordered_set<int> &center
     return nodosMalos;
 }
 
-
 int main(){
 
     int n;
@@ -140,25 +143,24 @@ int main(){
             for (int  j = 0; j < numNodes; j++){
                 cin >> nodeAdj;
                 G[i].push_back(nodeAdj);
-            }  
+            }
         }
-        unordered_set<int> centersSet;
-        unordered_set<int> leafsSet;
+        set<int> centersSet;
+        set<int> leafsSet;
 
         centersSet = centers(G);
         leafsSet = nodosMalos(G,centersSet);
-        sort(centersSet.begin(),centersSet.end());
-        sort(leafsSet.begin(),leafsSet.end());
         
-        cout << "Best Roots : ";
-        for (unordered_set<int>::iterator it = centersSet.begin(); it != centersSet.end(); ++it) {
+        cout << "Best Roots  :";
+        for (set<int>::iterator it = centersSet.begin(); it != centersSet.end(); ++it) {
             cout << " " << *it;
         }
         cout << endl;
-        cout << "Worst Roots : ";
-        for (unordered_set<int>::iterator it = leafsSet.begin(); it != leafsSet.end(); ++it) {
+        cout << "Worst Roots :";
+        for (set<int>::iterator it = leafsSet.begin(); it != leafsSet.end(); ++it) {
             cout << " " << *it;
-            }
+        }
+        cout << endl;
 
     }
 
@@ -188,5 +190,4 @@ Best Roots : 1
 Worst Roots : 4 5 6 7
 Best Roots : 1
 Worst Roots : 4 5 7
-
 */

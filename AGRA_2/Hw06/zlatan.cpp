@@ -2,38 +2,49 @@
 
 using namespace std;
 
+/*
+    AGRA  Tarea 6
+Fecha  : 15/11/25
+Nombre : Miguel Angel Padilla Rosero
+Cod    : 8988878
+Problem   zlatan.cpp
+
+Complejidad computacional "Big-O":
+
+Algoritmo en 5 pasos principales:
+
+1. Identificar Estados (Tarjan SCC): O(ciudades + carreteras)
+   - Componentes fuertemente conexas del grafo
+
+2. Capital de cada Estado (Dijkstra múltiple): O(ciudades × (ciudades + carreteras) log ciudades)
+   - Para cada estado, probar todos sus nodos como capital candidata
+   - Ejecutar Dijkstra desde cada candidato
+
+3. Grafo de Estados: O(carreteras × log carreteras)
+   - Crear DAG con aristas entre estados diferentes
+
+4. Capital Imperial (Tree Centers): O(estados + carreteras_entre_estados)
+   - Agregar aristas bidireccionales (doble costo) entre estados
+   - Tree trimming para encontrar centro(s) del grafo
+
+5. Costos Totales (Dijkstra final): O((ciudades + carreteras) log ciudades)
+   - Desde capital imperial a todas las demás capitales
+
+Complejidad global:
+    Tiempo: O(ciudades × (ciudades + carreteras) log ciudades)
+        Dominado por el paso 2 (Dijkstra múltiple)
+  
+    Espacio: O(ciudades + carreteras)
+        Grafos, estructuras auxiliares y priority queues
+
+*/
+
 int MAX = INT_MAX;
 
-vector<vector<int>> warshall(vector<vector<int>> &M) {
-    int n = M.size();
-    vector<vector<int>> d = M;
-
-    // Inicializamos la diagonal a 0
-    for (int i = 0; i < n; ++i) {
-        d[i][i] = 0;
-    }
-
-    for (int k = 0; k < n; ++k) {
-        for (int i = 0; i < n; ++i) {
-            for (int j = 0; j < n; ++j) {
-                if (d[i][k] != MAX && d[k][j] != MAX) {
-
-                    if (d[i][k] > MAX - d[k][j]) {
-                    }
-                    else {
-                        int nueva_distancia = d[i][k] + d[k][j];
-                        d[i][j] = min(d[i][j], nueva_distancia);
-                    }
-                }
-            }
-        }
-    }
-    return d;
-}
-
-void tarjanAux(vector<vector<pair<int,int>>> &G,vector<int> &vis,vector<int> &low,vector<bool> &enP,
+void tarjanAux(vector<vector<tuple<int,int>>> &G,vector<int> &vis,vector<int> &low,vector<bool> &enP,
     stack<int> &p,vector<vector<int>> &sccNodos,int &t,int &numSCC,int v,vector<int> &sccIdx){
 
+        
     int w;
     vis[v] = low[v] = ++t;
     p.push(v);
@@ -64,7 +75,7 @@ void tarjanAux(vector<vector<pair<int,int>>> &G,vector<int> &vis,vector<int> &lo
     }
 }
 
-vector<int> tarjan(vector<vector<pair<int,int>>> &G,vector<int> &vis,vector<int> &low,vector<bool> &enP,stack<int> &p,vector<vector<int>> &sccNodos){
+vector<int> tarjan(vector<vector<tuple<int,int>>> &G,vector<int> &vis,vector<int> &low,vector<bool> &enP,stack<int> &p,vector<vector<int>> &sccNodos){
     int n = G.size();
     int numSCC = 0, t = 0;
     vector<int> sccIdx(n);
@@ -78,32 +89,60 @@ set<int> centers(vector<vector<int>> &G){
     set<int> centers;
     int n = G.size();
     vector<int> nivel(n, 0);
-    vector<int> grado(n, 0);
+    vector<int> gradoTotal(n, 0);
+    vector<int> gradoEntrada(n, 0);
+    vector<vector<int>> grafoInverso(n); // Lista de adyacencia inversa
     queue<int> colita;
     int nivelMax = 0;
 
+    // Calcular grado de salida, entrada y construir grafo inverso
     for (int i = 0; i < n; i++){
-        grado[i] = G[i].size();
+        gradoTotal[i] = G[i].size(); // grado de salida
+        for (int j = 0; j < G[i].size(); j++){
+            int vecino = G[i][j];
+            gradoEntrada[vecino]++;
+            grafoInverso[vecino].push_back(i); // i apunta a vecino, entonces vecino <- i
+        }
     }
-    // hojas
+    // Sumar grado total (entrada + salida)
     for (int i = 0; i < n; i++){
-        if (grado[i] == 1){
+        gradoTotal[i] += gradoEntrada[i];
+    }
+    // hojas (nodos con grado total <= 1)
+    for (int i = 0; i < n; i++){
+        if (gradoTotal[i] <= 1){
             colita.push(i);   
         }
     }
-    // BFS
-    while (!colita.empty()){
+    // Si no hay hojas, todos son centros (grafo fuertemente conexo)
+    bool hayHojas = !colita.empty();
+    if (!hayHojas){
+        for (int i = 0; i < n; i++){
+            centers.insert(i);
+        }
+    }
+    // BFS pelando capas
+    while (hayHojas && !colita.empty()){
         int v = colita.front();
         colita.pop();
-
+        // Decrementar grado de vecinos salientes (v -> w)
         for (int i = 0; i < (int)G[v].size(); i++) {
             int w = G[v][i];
-
-            grado[w]--;
-            if (grado[w] == 1) {
+            gradoTotal[w]--;
+            if (gradoTotal[w] == 1) {
                 colita.push(w);
                 nivel[w] = nivel[v] + 1;
                 nivelMax = max(nivelMax, nivel[w]);
+            }
+        }
+        // Decrementar grado de vecinos entrantes (i -> v)
+        for (int i = 0; i < (int)grafoInverso[v].size(); i++){
+            int u = grafoInverso[v][i];
+            gradoTotal[u]--;
+            if (gradoTotal[u] == 1) {
+                colita.push(u);
+                nivel[u] = nivel[v] + 1;
+                nivelMax = max(nivelMax, nivel[u]);
             }
         }
     }
@@ -113,11 +152,9 @@ set<int> centers(vector<vector<int>> &G){
             centers.insert(i);
         }
     }
-
     return centers;
 }
-
-vector<vector<int>> crearGrafoDeComponentes(vector<vector<pair<int,int>>> &G, vector<vector<int>> &SCCNodos, vector<int> &sccIdx){
+vector<vector<int>> crearGrafoDeComponentes(vector<vector<tuple<int,int>>> &G, vector<vector<int>> &SCCNodos, vector<int> &sccIdx){
     int n = SCCNodos.size();
     vector<vector<int>> grafoSCC(n);
     vector<set<int>> vis(n);
@@ -137,37 +174,178 @@ vector<vector<int>> crearGrafoDeComponentes(vector<vector<pair<int,int>>> &G, ve
 
     return grafoSCC;
 }
-/*
-def dijkstra(G, s):
-  dist = [INF for _ in range(len(G))] ; dist[s] = 0
-  pred = [-1 for _ in range(len(G))]
-  pqueue = list()
-  #for u in range(len(G)): heappush(pqueue, (dist[u], u))
-  heappush(pqueue, (dist[s], s))
-  
-  while len(pqueue)!=0:
-    du,u = heappop(pqueue)
-    if dist[u] == du:
-      for v,duv in G[u]:
-        if du+duv<dist[v]:
-          dist[v] = du+duv
-          pred[v] = u
-          heappush(pqueue, (dist[v], v))
-  return dist
-*/
 
-vector<int> dijkstra(vector<vector<pair<int,int>>> &G,int s){
+
+void debugGrafoSCC(vector<vector<int>> &grafoSCC, vector<vector<int>> &sccNodos, vector<int> &capitales){
+    cout << "Numero de componentes: " << grafoSCC.size() << endl;
+    
+    // Mostrar nodos de cada componente
+    cout << " Nodos por componente " << endl;
+    for (int i = 0; i < sccNodos.size(); i++){
+        cout << "SCC " << i << endl;
+        for (int j = 0; j < sccNodos[i].size(); j++){
+            cout << sccNodos[i][j];
+            if (j < sccNodos[i].size() - 1) cout << " ";
+        }
+    }
+    
+    // Mostrar aristas del grafo SCC
+    cout << " Aristas entre componentes " << endl;
+    int totalAristas = 0;
+    for (int i = 0; i < grafoSCC.size(); i++){
+        if (grafoSCC[i].size() > 0){
+            cout << "SCC " << i << " ";
+            for (int j = 0; j < grafoSCC[i].size(); j++){
+                cout << grafoSCC[i][j];
+                if (j < grafoSCC[i].size() - 1) cout << " ";
+                totalAristas++;
+            }
+            cout << endl;
+        }
+    }
+    cout << "Total de aristas: " << totalAristas << endl;
+    
+    // Calcular grados
+    cout << " Grados de cada componente " << endl;
+    vector<int> gradoEntrada(grafoSCC.size(), 0);
+    vector<int> gradoSalida(grafoSCC.size(), 0);
+    
+    for (int i = 0; i < grafoSCC.size(); i++){
+        gradoSalida[i] = grafoSCC[i].size();
+        for (int j = 0; j < grafoSCC[i].size(); j++){
+            gradoEntrada[grafoSCC[i][j]]++;
+        }
+    }
+    
+    for (int i = 0; i < grafoSCC.size(); i++){
+        cout << "SCC " << i << "entrada" << gradoEntrada[i] << "salida " << gradoSalida[i] << endl;
+    }
+    
+}
+
+void debugCapitales(vector<int> &capitales, vector<vector<int>> &sccNodos, vector<vector<tuple<int,int>>> &G){
+    cout << " DEBUG CAPITALES " << endl;
+    cout << "Numero de estados SCCs " << capitales.size() << endl;
+    
+    cout << " Capital de cada estado " << endl;
+    for (int i = 0; i < capitales.size(); ++i){
+        cout << "Estado " << i << " Capital:  " << capitales[i];
+        cout << " Nodos: " << sccNodos[i].size() << endl;
+    } 
+}
+
+void debugAristasInversas(vector<tuple<tuple<int,int>, int>> &aristasInversas){
+    cout << " DEBUG ARISTAS INVERSAS "  << endl;
+    cout << "Numero de aristas inversas agregadas: " << aristasInversas.size() << endl;
+    
+    for (int idx = 0; idx < aristasInversas.size(); idx++) {
+        int u = aristasInversas[idx].first.first;
+        int v = aristasInversas[idx].first.second;
+        int peso = aristasInversas[idx].second;
+        cout << u << " -> " << v << " " << peso << endl;
+    }
+}
+
+void debugCentros(vector<vector<int>> &grafoSCC, set<int> &centros, vector<int> &capitales){
+    cout << " DEBUG CENTROS " << endl;
+    cout << "Numero de centros encontrados: " << centros.size() << endl;
+    // AYUDA
+    // Calcular niveles usando BFS desde hojas
+    int n = grafoSCC.size();
+    vector<int> nivel(n, 0);
+    vector<int> grado(n, 0);
+    queue<int> colita;
+    
+    for (int i = 0; i < n; i++){
+        grado[i] = grafoSCC[i].size();
+    }
+    
+    // Identificar hojas
+    cout << " Hojas (grado 1) " << endl;
+    for (int i = 0; i < n; i++){
+        if (grado[i] == 1){
+            cout << "SCC " << i << endl;
+            colita.push(i);   
+        }
+    }
+    
+    // BFS para calcular niveles
+    int nivelMax = 0;
+    while (!colita.empty()){
+        int v = colita.front();
+        colita.pop();
+
+        for (int i = 0; i < (int)grafoSCC[v].size(); i++) {
+            int w = grafoSCC[v][i];
+            grado[w]--;
+            if (grado[w] == 1) {
+                colita.push(w);
+                nivel[w] = nivel[v] + 1;
+                nivelMax = max(nivelMax, nivel[w]);
+            }
+        }
+    }
+    
+    // Mostrar niveles de todos los nodos
+    cout << " Niveles de cada componente " << endl;
+    for (int i = 0; i < n; i++){
+        cout << "SCC " << i << " Capital: " << capitales[i] << " nivel" << nivel[i];
+        if (nivel[i] == nivelMax) cout << " CENTRO";
+        cout << endl;
+    }
+    
+    cout << "Nivel maximo: " << nivelMax << endl;
+    //JUPUTAAAAAAAAAAAAAAAA
+    // Mostrar centros
+    cout << " Centros del grafo " << endl;
+    for (set<int>::iterator it = centros.begin(); it != centros.end(); it++){
+        cout << "SCC " << *it << " Capital: " << capitales[*it] << endl;
+    }
+    
+    // Encontrar el centro con capital :;(())
+    int capitalImperial = MAX;
+    int sccImperial = -1;
+    for (set<int>::iterator it = centros.begin(); it != centros.end(); it++){
+        if (capitales[*it] < capitalImperial){
+            capitalImperial = capitales[*it];
+            sccImperial = *it;
+        }
+    }
+    
+    if (sccImperial != -1){
+        cout << "Capital Imperial seleccionada: " << capitalImperial 
+             << " SCC " << sccImperial << "" << endl;
+    }
+    
+    
+}
+void debugResultadoFinal(int capitalImperial, vector<int> &distancias, vector<int> &capitales){
+    //cout << "Capital Imperial seleccionada: " << capitalImperial << endl;
+    //cout << "distancias desde Capital Imperial" << endl;
+    int sumaTotal = 0;
+    for (int i = 0; i < capitales.size(); i++){
+        int dist = distancias[capitales[i]];
+        //cout << "Hacia capital del Estado " << i << ;
+        if (dist == INT_MAX){
+            //cout << "INALCANZABLE" << endl;
+        } else {
+            //cout << dist << endl;
+            sumaTotal += dist;
+        }
+    }
+    cout << capitalImperial << " " << sumaTotal <<  endl;
+}
+vector<int> dijkstra(vector<vector<tuple<int,int>>> &G,int s){
     int n = G.size(); 
     vector<int> dist(n,MAX);
     dist[s] = 0;
-    priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
+    priority_queue<tuple<int,int>, vector<tuple<int,int>>, greater<tuple<int,int>>> pq;
     pq.push(make_pair(0, s));
     int u, du,v,duv;
     while (!pq.empty()){
         du = pq.top().first;
         u = pq.top().second;
         pq.pop();
-        
         if(dist[u] == du){ // Ya procesamos este nodo con una distancia menor
             for (int i = 0; i < G[u].size(); i++){
                 v = G[u][i].first;
@@ -182,12 +360,6 @@ vector<int> dijkstra(vector<vector<pair<int,int>>> &G,int s){
     }
     return dist;
 }
-
-
-
-
-
-
 int main(){
     int casitos;
     cin >> casitos;
@@ -197,7 +369,7 @@ int main(){
         cin >> n >> m;
         
         // Inicializacion grafo
-        vector<vector<pair<int,int>>> G(n);
+        vector<vector<tuple<int,int>>> G(n);
 
         for(int i = 0; i < m; i++){
             int u, v, w;
@@ -213,85 +385,57 @@ int main(){
         vector<int> sccIdx;
         
         sccIdx = tarjan(G,vis,low,enP,p,sccNodos);
-        // Generar caminos minimos de todos a todos (warshall)
         
-            // Convertir grafo a matriz de adj
-        vector<vector<int>> M(n,vector<int>(n,INT_MAX));
-        
-            // Costo a ir a uno mismo
-        for (int i = 0; i < n; ++i){
-            M[i][i] = 0;
-        } 
-            // copia de listAdj -> matrizAdj
-        for (int i = 0; i < G.size(); i++){
-            for (int j = 0; j < G[i].size(); j++){
-                M[i][G[i][j].first] = G[i][j].second;
-            }
-        }
-
-        vector<vector<int>> matrizWarshall;
-
-        matrizWarshall = warshall(M);
-        // Test matrizWarshall
-        cout << "matrizWarshall "  << endl;
-        for (int i = 0; i < matrizWarshall.size(); ++i){
-            for (int j = 0; j < matrizWarshall[i].size(); ++j){
-
-                int cost = matrizWarshall[i][j];
-                if (cost != INT_MAX && i != j)
-                    cout << i << " " << j << " " << cost << endl;
-            }
-        }
-        // Obtener ciudad capital de cada state(fila minima de la matriz de todos a todos (warshall))
+        // Obtener ciudad capital de cada SCC usando Dijkstra individual
         vector<int> capitales(sccNodos.size());
+        
         for (int i = 0; i < sccNodos.size(); i++){
-            int min = MAX;
-            int capital;
-
-            for (int u = 0; u < sccNodos[i].size(); u++){ 
-                int cnt = 0; 
-                for (int v = 0; v < sccNodos[i].size(); v++){ 
-                    cnt += matrizWarshall[sccNodos[i][u]][sccNodos[i][v]];
-                }
-                if (cnt < min) {
-                    min = cnt;
-                    capital = sccNodos[i][u];
-                }
-                else if(cnt == min){
-                    if(capital > sccNodos[i][u]){
-                        capital = sccNodos[i][u];
+            int minSuma = MAX;
+            int capital = sccNodos[i][0];
+            
+            // Para cada nodo candidato en el SCC
+            for (int u = 0; u < sccNodos[i].size(); u++){
+                int nodoActual = sccNodos[i][u];
+                
+                // Ejecutar Dijkstra desde este nodo
+                vector<int> dist = dijkstra(G, nodoActual);
+                
+                // Sumar distancias solo a nodos del mismo SCC
+                int suma = 0;
+                bool alcanzable = true;
+                for (int v = 0; v < sccNodos[i].size() && alcanzable; v++){
+                    int nodoDestino = sccNodos[i][v];
+                    if (dist[nodoDestino] == MAX){
+                        alcanzable = false;
+                    }
+                    if (alcanzable){
+                        suma += dist[nodoDestino];
                     }
                 }
-
+                
+                // Si es alcanzable y tiene mejor suma, o mismo suma pero menor índice
+                if (alcanzable){
+                    if (suma < minSuma || (suma == minSuma && nodoActual < capital)){
+                        minSuma = suma;
+                        capital = nodoActual;
+                    }
+                }
             }
+            
             capitales[i] = capital;
         }
-        // TEST Capitales Estados
-        cout << "TEST Capitales Estados "  << endl;
-        for (int i = 0; i < capitales.size(); ++i){
-            cout << i << " " << capitales[i] << endl;
-        }
+        
+        // Debug capitales de cada estado
+        //debugCapitales(capitales, sccNodos, G);
+        
         vector<vector<int>> grafoSCC;
         grafoSCC = crearGrafoDeComponentes(G, sccNodos, sccIdx);
-        // Test grafo scc
-        cout << "Test grafo scc "  << endl;
-        for (int i = 0; i < grafoSCC.size(); ++i){
-            for (int j = 0; j < grafoSCC[i].size(); ++j){
-
-                cout << i << " " << grafoSCC[i][j] << " "  << endl;
-            }
-        }
-        // Nodos scc
-        cout << "Nodos scc "  << endl;
-        for (int i = 0; i < sccNodos.size(); ++i){
-            for (int j = 0; j < sccNodos[i].size(); ++j){
-
-                cout << i << " " << sccNodos[i][j] << " "  << endl;
-            }
-        }
-
-        // Agregar aristas inversas entre SCCs con el doble de costo
-        vector<pair<pair<int,int>, int>> aristasInversas; // Guardar las aristas ( testeo)
+        
+        // Debug completo del grafo SCC
+        //debugGrafoSCC(grafoSCC, sccNodos, capitales);
+        
+        // Identificar aristas inversas entre SCCs con el doble de costo
+        vector<tuple<tuple<int,int>, int>> aristasInversas; // Guardar las aristas ( testeo)
         
         for (int u = 0; u < n; u++) {
             int sccU = sccIdx[u];
@@ -302,9 +446,8 @@ int main(){
                 
                 // Si la arista conecta diferentes SCCs
                 if (sccU != sccV) {
-                    // Guardar la arista inversa con el doble de peso
+                    // Guardar la arista inversa con el doble de peso (NO agregarla aún)
                     aristasInversas.push_back({{v, u}, peso * 2});
-                    G[v].push_back(make_pair(u,peso * 2));
                 }
             }
         }
@@ -313,45 +456,32 @@ int main(){
             // Encontrar los centros de el grafo scc
         set<int> centritos;
         centritos = centers(grafoSCC);
+        
+        // Debug completo de los centros
+        //debugCentros(grafoSCC, centritos, capitales);
+        
         set<int>::iterator itCentros;
         // Si hay varios centros, escojer la ciudad con menor indice
         int minimoCentro = MAX;
         for(itCentros = centritos.begin(); itCentros != centritos.end();itCentros++){
-            if(*(itCentros) < minimoCentro) minimoCentro = *itCentros;
-            cout << "*itCentros: "<< *(itCentros) << endl;
+            if(capitales[*itCentros] < minimoCentro) minimoCentro = capitales[*itCentros];
         }
-        cout << "Num centritos: "<< centritos.size() << endl;
-        cout << "Capital Imperial: "<< minimoCentro << endl;        
-
+        
+        // Debug aristas inversas
+        //debugAristasInversas(aristasInversas);
+        
         // Agregar las aristas inversas al grafo
-        cout << "Aristas inversas agregadas:" << endl;
-        for (auto& arista : aristasInversas) {
-            int u = arista.first.first;
-            int v = arista.first.second;
-            int peso = arista.second;
-            G[u].push_back({v, peso});
-            cout << u << " -> " << v << " peso: " << peso << endl;
+        for (int idx = 0; idx < aristasInversas.size(); idx++) {
+            int u = aristasInversas[idx].first.first;
+            int v = aristasInversas[idx].first.second;
+            int peso = aristasInversas[idx].second;
+            G[u].push_back(make_pair(v, peso));
         }
-        cout << aristasInversas.size() << endl;
         vector<int> distancias;
         distancias = dijkstra(G,minimoCentro);
-        int cnt = 0;
-        for (int i = 0; i < capitales.size();i++ ){
-            cnt += distancias[capitales[i]];
-        }
-        cout << "catrechimba "<< cnt << endl;
-        /*
-        for(int i = 0; i < G.size(); i++){
-            for (int j = 0; j < G[i].size(); j++){
-                int u = i;
-                int v = G[i][j].first;
-                int peso = G[i][j].second;
-                G[u].push_back({v, peso});
-                cout << u << " -> " << v << " peso: " << peso << endl; 
-            }
-            
-        }
-        */
+        
+        // Debug resultado final
+        debugResultadoFinal(minimoCentro, distancias, capitales);
 
         
     }
