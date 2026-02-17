@@ -1,16 +1,35 @@
 from sys import stdin
+#Encuentra el tamano de la subcandena consecutiva mas larga de la cadena
+def solution(l):
+    anterior = l[0]
+    maximo = 1
+    cnt = 1
+    for i in range(1,len(l)):
+        aux = l[i]
+        if (not (anterior == (aux - 1)) and (not (anterior == aux))):
+            cnt = 1
+
+        elif(anterior == (aux - 1)):
+            cnt += 1
+            if cnt > maximo:
+                maximo = cnt
+        
+        anterior = aux
+
+    return maximo
 
 def main():
-    
-    numCasos = int(stdin.readline())
-    for case in range(numCasos):
-        aux = int(stdin.readline())
-        ans = []
-        for i in range(1,aux + 1):
-            ans.append(i)
-        print(*ans)
-    
+    casitos = int(stdin.readline())
+    for _ in range(casitos):
+        n = int(stdin.readline())
+        lista = list(map(int,stdin.readline().split()))
+        lista.sort()
+        ans  = solution(lista)
+        
+        print(ans)
+        
 main()
+
 
 """
 Input
