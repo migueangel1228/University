@@ -30,7 +30,7 @@ def solve(dis,vel,t):
         low = -1e9
         high = 0
         
-    while (high - low > 1e-12):
+    while (high - low > 1e-9):
         mid = (high + low) / 2
         aux = calculoTiempo(dis,vel,mid)
         if (aux < t):
