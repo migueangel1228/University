@@ -24,7 +24,6 @@ def phi(k,l,r):
             ans = min
     return ans
 
-
 def main():
     casitos = int(stdin.readline())
 
@@ -35,7 +34,6 @@ def main():
         l , r = 0 , N
         opt = phi(K,l,r)
         print(f"Case {caso + 1}: {opt}")
-
 
 main()
 
