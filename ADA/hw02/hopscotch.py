@@ -1,6 +1,6 @@
 """
-Tarea  : ADA  Tarea 1 
-Fecha  : 1 Enero 2026
+Tarea  : ADA  Tarea 2 
+Fecha  : 3 Marzo 2026
 Nombre : Miguel Angel Padilla Rosero
 Cod    : 8988878
 
@@ -68,7 +68,7 @@ def main():
     casitos = int(stdin.readline())
 
     for casos in range(casitos):
-        
+        voiD = stdin.readline()
         N, K = list(map(int,stdin.readline().split()))
         
         mapita = [[0 for _ in range(N)] for _ in range(N)]
@@ -79,6 +79,9 @@ def main():
         dictsito = {}
         LukaMaxima = phiMem(mapita,K,0,0,dictsito)
         print(LukaMaxima)
+        
+        if casos != casitos -1:
+            print()
     
         
 
@@ -88,6 +91,7 @@ main()
 """
 Sample Input
 1
+
 3 1
 1 2 5
 10 11 6
