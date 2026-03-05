@@ -21,6 +21,19 @@ def phi(A,p,L,s):
         ans = max(phi(A, p, L+1,s + A[L]), phi(A, p, L+1, s)) 
     return ans
 
+def phiMem(A,p,L,s,mem):
+    ans = 0
+    if (L,s) in mem:
+        ans = mem[(L,s)]
+    else:    
+        if (s > 50.00):
+            ans = p / s
+        elif( L == len(A)):
+            ans = 0.0
+        else:          
+            ans = max(phiMem(A, p, L+1,s + A[L],mem), phiMem(A, p, L+1, s,mem)) 
+        mem[(L,s)] = ans    
+    return ans
 
 
 def main():
@@ -33,7 +46,8 @@ def main():
                 porcentajes.append(aux)
             else:
                 p = aux
-        respuesta = phi(porcentajes,p ,0,p)
+        dictsito = {}
+        respuesta = phiMem(porcentajes, p , 0, p, dictsito)
         
         respuesta = respuesta * 100
         print(f"{respuesta:.2f}")
