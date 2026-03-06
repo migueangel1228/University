@@ -32,9 +32,9 @@ def phiMem(mem,k,l,r):
     elif l >= r:
         ans = 0
     elif r - l == 1:
-        ans = l + k
+         ans = (l + k) * 2
     elif r - l == 2:
-        ans = l + 1 + k
+         ans = (l + 1 + k) * 3
     elif r > l:
 
         min = INF
@@ -43,8 +43,9 @@ def phiMem(mem,k,l,r):
             if aux < min:
                 min = aux
             ans = min
+            mem[(l,r)] = ans
     mem[(l,r)] = ans
-    
+
     return ans
 
 
