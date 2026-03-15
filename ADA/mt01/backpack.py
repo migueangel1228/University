@@ -15,6 +15,8 @@ N = 0
 K = 0
 INF = float('inf')
 memo = []
+tab = []
+
 def phi(l, k):
     ans = INF
     if N - l < k:
@@ -29,7 +31,7 @@ def phi(l, k):
             ans = min(ans, aux)
     return ans
 
-def phimemo(l, k):
+def phiMemo(l, k):
     global memo
     
     if memo[l][k] != -1:
@@ -41,17 +43,92 @@ def phimemo(l, k):
         ans = INF
         for r in range(l + 1, N - k + 2):
             
-            aux = max(sum(distancias[l:r]), phi(r ,k - 1))
+            aux = max(sum(distancias[l:r]), phiMemo(r ,k - 1))
             
             ans = min(ans, aux)
     
     memo[l][k] = ans
     return ans
 
+def phiTab():
+    global tab
+
+    # Inicializar tab,con caso base, K = 0
+    for l in range(N, -1, -1):
+        tab[l][0] = sum(distancias[l:N + 1])
+
+    # llenar reto de tab
+    for k in range(1, K + 1):
+        for l in range(N, -1, -1):
+            if N - l < k :
+                tab[l][k] = INF
+            else:
+                ans = INF
+                for r in range(l + 1, N - k + 2):
+                    aux = max(sum(distancias[l:r]), tab[r][k - 1])
+                    ans = min(ans, aux)
+                tab[l][k] = ans
+
+    return tab[0][K]
+
+
+def phiTabOpt():
+    prev = [INF for _ in range(N + 1)]
+    curr = [INF for _ in range(N + 1)]
+
+    # Inicializar tab,con caso base, K = 0
+    for l in range(N, -1, -1):
+        prev[l] = sum(distancias[l:N + 1])
+
+    # llenar reto de tab
+    for k in range(1, K + 1):
+        for l in range(N, -1, -1):
+            if N - l < k:
+                curr[l] = INF
+            else:
+                ans = INF
+                for r in range(l + 1, N - k + 2):
+                    aux = max(sum(distancias[l:r]), prev[r])
+                    ans = min(ans, aux)
+                curr[l] = ans
+
+        prev, curr = curr, prev
+
+    return prev[0]
+
+def phiTabOpt2():
+    
+    tab = [INF for _ in range(N + 1)]
+
+    # suffix sums
+    suf = [0 for _ in range(N + 2)]
+    for i in range(N, -1, -1):
+        suf[i] = distancias[i] + suf[i + 1]
+
+    # Inicializar tab,con caso base, K = 0
+    for l in range(N, -1, -1):
+        tab[l] = suf[l]
+
+    # llenar resto de tab
+    for k in range(1, K + 1):
+        for l in range(0, N + 1):   # ascendente para no dañar tab[r]
+            if N - l < k:
+                tab[l] = INF
+            else:
+                ans = INF
+                for r in range(l + 1, N - k + 2):
+                    costo_dia = suf[l] - suf[r]
+                    aux = max(costo_dia, tab[r])
+                    ans = min(ans, aux)
+                tab[l] = ans
+
+    return tab[0]
+
+
 
 def main():
     casito = stdin.readline().strip()
-    global distancias, N, K, memo
+    global distancias, N, K, memo, tab
     
     while(casito != ""):
         N, K = list(map(int,casito.split()))
@@ -60,9 +137,7 @@ def main():
             aux = int(stdin.readline())
             distancias.append(aux)
         
-        memo = [[-1 for _ in range(N + 1) ] for _ in range(K + 1)]
-        
-        respuesta = phimemo(0,K)
+        respuesta = phiTabOpt2()
         print(respuesta)
 
         casito = stdin.readline().strip()
