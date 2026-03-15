@@ -24,16 +24,15 @@ def phiMemo(i,p):
 
     if i >= N:
         ans = 0
-    elif p >= N - i:
-        ans = (sumaPorPartes[i] - sumaPorPartes[N]) / 2
+    # elif p >= N - i + 1:
+    #     ans = (sumaPorPartes[i] - sumaPorPartes[N]) / 2
     else:
         ans = distancias[i] + phiMemo(i + 1, p + popos[i])
         if p > 0:
-            ans = min(ans, (distancias[i] / 2) + phiMemo(i + 1, p - 1 + popos[i]))
+            ans = min(ans, (distancias[i] // 2) + phiMemo(i + 1, p - 1 + popos[i]))
 
     memo[i][p] = ans
     return ans
-
 
 def main():
     global N, popos, distancias, sumaPorPartes, memo
@@ -56,7 +55,7 @@ def main():
 
         # solve
         resultado = phiMemo(0,0)
-        print(int(resultado))
+        print(resultado)
         nViajes = int(stdin.readline())
 
 main()
