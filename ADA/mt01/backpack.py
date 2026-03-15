@@ -100,14 +100,39 @@ def phiTabOpt2():
     
     tab = [INF for _ in range(N + 1)]
 
-    # suffix sums
-    suf = [0 for _ in range(N + 2)]
-    for i in range(N, -1, -1):
-        suf[i] = distancias[i] + suf[i + 1]
-
     # Inicializar tab,con caso base, K = 0
     for l in range(N, -1, -1):
-        tab[l] = suf[l]
+        tab[l] = sum(distancias[l:N + 1])
+
+    # llenar reto de tab
+    for k in range(1, K + 1):
+        for l in range(0, N + 1):   # en ascendente pa que no se me chotee
+            if N - l < k:
+                tab[l] = INF
+            else:
+                ans = INF
+                for r in range(l + 1, N - k + 2):
+                    aux = max(sum(distancias[l:r]), tab[r])
+                    ans = min(ans, aux)
+                tab[l] = ans
+
+    return tab[0]
+
+def phiTabOpt3():
+    
+    tab = [INF for _ in range(N + 1)]
+
+    # suffix sums
+    sumaPorPartes = [0 for _ in range(N + 1)]
+    for i in range(N, -1, -1):
+        if i == N:
+            sumaPorPartes[i] = N
+        else:
+            sumaPorPartes[i] = distancias[i] + sumaPorPartes[i + 1]
+
+    # caso base: k = 0
+    for l in range(N, -1, -1):
+        tab[l] = sumaPorPartes[l]
 
     # llenar resto de tab
     for k in range(1, K + 1):
@@ -117,13 +142,11 @@ def phiTabOpt2():
             else:
                 ans = INF
                 for r in range(l + 1, N - k + 2):
-                    costo_dia = suf[l] - suf[r]
-                    aux = max(costo_dia, tab[r])
+                    aux = max((sumaPorPartes[l] - sumaPorPartes[r]), tab[r])
                     ans = min(ans, aux)
                 tab[l] = ans
 
     return tab[0]
-
 
 
 def main():
@@ -137,7 +160,7 @@ def main():
             aux = int(stdin.readline())
             distancias.append(aux)
         
-        respuesta = phiTabOpt2()
+        respuesta = phiTabOpt3()
         print(respuesta)
 
         casito = stdin.readline().strip()
