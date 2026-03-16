@@ -17,32 +17,27 @@ INF = float('inf')
 memo = []
 tab = []
 
-def phiTabOpt3():
-    
-    tab = [INF for _ in range(N + 1)]
+# devuelve un bool que corresponde a "¿se puede hacer un recorrido sin que ninguna dia se walkee mas de 'w' miles?"
+def isPossible(n):
+    k, i, cnt, paila = K, 0, 0, False
 
-    sumaPorPartes = [0 for _ in range(N + 2)]
-    
-    # caso base: k = 0
-    for i in range(N, -1, -1):
-        sumaPorPartes[i] = distancias[i] + sumaPorPartes[i + 1]
-        tab[i] = sumaPorPartes[i]
-
-    # llenar resto de tab
-    for k in range(1, K + 1):
-        for l in range(0, N + 1):   # ascendente para no dañar tab[r]
-            if N - l < k:
-                tab[l] = INF
+    while (i < N + 1) and (not paila):
+        if cnt + distancias[i] > n:
+            if k > 0:
+                k -= 1
+                cnt = distancias[i]
             else:
-                ans = INF
-                for r in range(l + 1, N - k + 2):
-                    aux = max((sumaPorPartes[l] - sumaPorPartes[r]), tab[r])
-                    ans = min(ans, aux)
-                tab[l] = ans
-
-    return tab[0]
-
-
+                paila = True
+        else:
+            cnt += distancias[i]
+        
+        i += 1
+    if paila:
+        ans = False
+    else:
+        ans = True
+        
+    return ans
 def main():
     casito = stdin.readline().strip()
     global distancias, N, K, memo, tab
@@ -53,9 +48,19 @@ def main():
         for _ in range(N + 1):
             aux = int(stdin.readline())
             distancias.append(aux)
-        
-        respuesta = phiTabOpt3()
-        print(respuesta)
+            
+        r = sum(distancias)
+        l = max(distancias)
+        ans = 0
+        while r - l >= 1 :
+            candidato = (l + r) // 2
+
+            if (isPossible(candidato)):
+                r = candidato
+            else:
+                l = candidato + 1
+
+        print(l)
 
         casito = stdin.readline().strip()
 
