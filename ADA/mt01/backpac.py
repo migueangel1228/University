@@ -29,18 +29,23 @@ def phi(l, k):
         elif k == 0: ans = sum_range(l, N + 1)
         else:
             low, high = l + 1, N + 1
+            
             while high - low > 1:
                 mid = low + ((high - low) >> 1)
+                
                 s, p = sum_range(l, mid), phi(mid, k - 1)
+                
                 if p >= s: low = mid
                 else: high = mid
                 ans = min(ans, max(s, p))
+                
             if low == l + 1 or high == N + 1:
                 s = sum_range(l, low) if low == l + 1 else sum_range(l, high - 1)
                 p = phi(low, k - 1) if low == l + 1 else phi(high - 1, k - 1)
                 ans = min(ans, max(s, p))
         mem[c] = ans
     return ans
+
 
 def solve():
     calc_preffix_sum()

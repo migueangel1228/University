@@ -30,7 +30,6 @@ def isPossible(n):
                 paila = True
         else:
             cnt += distancias[i]
-        
         i += 1
     if paila:
         ans = False
@@ -54,7 +53,6 @@ def main():
         ans = 0
         while r - l >= 1 :
             candidato = (l + r) // 2
-
             if (isPossible(candidato)):
                 r = candidato
             else:
