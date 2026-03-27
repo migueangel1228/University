@@ -131,6 +131,7 @@ def KnapsackMem(i, b, platos, mem):
         ans = max(ans, prestige + KnapsackMem(i + 1, b - cost, platos, mem))  
 
     mem[(i, b)] = ans
+    
     return ans
 
 """
