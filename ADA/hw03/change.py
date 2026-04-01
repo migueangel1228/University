@@ -11,45 +11,72 @@ from sys import stdin
 
 
 INF = float('inf')
-MONEDAS = [1, 2, 4, 10, 20, 40]  # valores en unidades de 5 centavos
-LIMITE = 200
+MONEDAS = [5, 10, 20, 50, 100, 200] 
+LIMITE = 1000
 
 
 # recibe un precio con formato "d.cc" y lo convierte a unidades de 5 centavos
 def parsing(precio):
     entero, decimal = precio.split('.')
     centavos = int(entero) * 100 + int(decimal)
-    return centavos // 5
+    return centavos
 
 
-# dp ilimitado para el cambio que puede entregar el cajero
+# tabla de cambio del cajero construida con estrategia greedy
 def cambioCajero():
-    dp = [INF] * (LIMITE + 1)
-    dp[0] = 0
+    greedy = [INF] * (LIMITE + 1)
+    greedy[0] = 0
 
-    for moneda in MONEDAS:
-        for monto in range(moneda, LIMITE + 1):
-            dp[monto] = min(dp[monto], dp[monto - moneda] + 1)
+    for monto in range(1, LIMITE + 1):
+        restante = monto
+        monedasUsadas = 0
 
-    return dp
+        for moneda in reversed(MONEDAS):
+            if restante == 0:
+                break
+
+            cantidad = restante // moneda
+            monedasUsadas += cantidad
+            restante -= cantidad * moneda
+
+        if restante == 0:
+            greedy[monto] = monedasUsadas
+
+    return greedy
 
 
-# dp acotado con las monedas reales de la billetera
+# dp acotado con memoización para las monedas reales de la billetera
 def solution(cantidades, compra, dpCambio):
-    dpCliente = [INF] * (LIMITE + 1)
-    dpCliente[0] = 0
+    memo = {}
 
-    for i in range(6):
-        moneda = MONEDAS[i]
+    def dp(indice, montoRestante):
+        if montoRestante == 0:
+            return 0
 
-        for _ in range(cantidades[i]):
-            for monto in range(LIMITE, moneda - 1, -1):
-                dpCliente[monto] = min(dpCliente[monto], dpCliente[monto - moneda] + 1)
+        if indice == len(MONEDAS):
+            return INF
+
+        clave = (indice, montoRestante)
+        if clave in memo:
+            return memo[clave]
+
+        moneda = MONEDAS[indice]
+        mejor = INF
+        limite = min(cantidades[indice], montoRestante // moneda)
+
+        for usadas in range(limite + 1):
+            costo = dp(indice + 1, montoRestante - usadas * moneda)
+            if costo != INF:
+                mejor = min(mejor, costo + usadas)
+
+        memo[clave] = mejor
+        return mejor
 
     ans = INF
     for pago in range(compra, LIMITE + 1):
-        if (dpCliente[pago] != INF):
-            ans = min(ans, dpCliente[pago] + dpCambio[pago - compra])
+        monedasCliente = dp(0, pago)
+        if monedasCliente != INF:
+            ans = min(ans, monedasCliente + dpCambio[pago - compra])
 
     return int(ans)
 
@@ -64,7 +91,7 @@ def main():
         valorCompra = parsing(datos[-1])
         
         result = solution(monedasDisponibles, valorCompra, dpCambio)
-        print(f"{result:3d}")
+        print(result)
         
         caso = stdin.readline().strip()
 
@@ -77,6 +104,6 @@ Sample Input
 2 4 2 0 1 0 0.55
 0 0 0 0 0 0
 Sample Output
-  2
-  3
+2
+3
 """
