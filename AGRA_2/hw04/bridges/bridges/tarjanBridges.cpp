@@ -4,11 +4,13 @@ Autor: Carlos Ramirez
 Fecha: Abril 4 de 2020
 
  */
-
-#include <vector>
-#include <stack>
+#include <bits/stdc++.h>
+#include <algorithm>
 #include <iostream>
 #include <set>
+#include <tuple>
+#include <vector>
+#include <stack>
 
 using namespace std;
 
@@ -45,7 +47,7 @@ void bridgesAux(int v){
 
       //verificar si es un puente
       if(low[w] > visitado[v])
-	bridges.insert(make_pair(v, w));
+  bridges.insert(make_tuple(v, w));
     }
     else if(w != padre[v])
       low[v] = min(low[v], visitado[w]);
@@ -70,7 +72,7 @@ int main(){
   else{
     cout << "Total de Puentes: " << bridges.size() << endl;
     for(set<tuple<int, int> >::iterator it = bridges.begin(); it !=  bridges.end(); ++it)
-      cout << " (" << it->first << ", " << it->second << ")";
+      cout << " (" << get<0>(*it) << ", " << get<1>(*it) << ")";
     cout << endl;
   }
   
