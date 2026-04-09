@@ -4,7 +4,7 @@ Autor: Carlos Ramirez
 Fecha: Abril 4 de 2020
 
  */
-#include <bits/stdc++.h>
+
 #include <algorithm>
 #include <iostream>
 #include <set>

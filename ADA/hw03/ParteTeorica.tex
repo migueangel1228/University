@@ -1,0 +1,832 @@
+\documentclass[11pt]{article}
+
+\usepackage[spanish, es-nodecimaldot]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\geometry{letterpaper, margin=2.5cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+
+\newcommand{\curso}{ADA - Análisis y Diseño de Algoritmos (2026-1)}
+\newcommand{\tarea}{Tarea 3 - Algoritmos Voraces}
+\newcommand{\nombre}{Miguel Angel Padilla Rosero}
+\newcommand{\codigo}{8988878}
+\newcommand{\profesores}{Carlos Ramírez y Camilo Rocha}
+\newcommand{\fecha}{\today}
+\newcommand{\seccion}{\textit{Por completar}}
+\newcommand{\colaboradores}{\textit{Por completar}}
+\newcommand{\fuentes}{Kleinberg \& Tardos, Erickson y Rocha}
+
+\newcommand{\N}{\mathbb{N}}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    {\Large \textbf{\curso}\par}
+    \vspace{1cm}
+    {\huge \textbf{\tarea}\par}
+    \vspace{1.3cm}
+
+    \begin{tabular}{>{\bfseries}l l}
+        Nombre: & \nombre \\
+        Código: & \codigo \\
+        Sección: & \seccion \\
+        Profesores: & \profesores \\
+        Fecha: & \fecha \\
+        Colaboradores: & \colaboradores \\
+        Fuentes: & \fuentes \\
+    \end{tabular}
+
+    \vfill
+\end{titlepage}
+
+\section*{Problemas conceptuales}
+
+\section{Problema 1: Planificación de trabajos en El Goog}
+
+\subsection*{Resumen del problema}
+
+Se tienen \(N\) trabajos independientes. Cada trabajo \(J_i\) consta de dos etapas:
+primero debe ser procesado en una única supercomputadora, y luego debe finalizarse
+en uno de varios PCs. Si el trabajo \(J_i\) toma \(s_i\) unidades de tiempo en la
+supercomputadora y \(f_i\) unidades de tiempo en un PC, entonces el objetivo es
+determinar un orden para alimentar los trabajos a la supercomputadora que minimice
+el tiempo en que \emph{todos} los trabajos han terminado completamente.
+
+La observación clave es que los PCs trabajan en paralelo, mientras que la
+supercomputadora trabaja de manera secuencial. Por ello, conviene liberar cuanto antes
+aquellos trabajos cuyo tiempo de finalización en PC es más grande. A partir de esta
+intuición se diseña un algoritmo voraz: ordenar los trabajos descendentemente por
+\(f_i\), y luego recorrerlos en ese orden calculando el tiempo total de completación.
+
+\subsection*{Especificación del problema}
+
+\textbf{Entrada:}
+
+Un arreglo
+\[
+A[0..N), \qquad N \geq 0,
+\]
+de parejas de números naturales, tal que
+\[
+A[i] = (s_i,f_i),
+\]
+donde:
+\begin{itemize}[nosep]
+    \item \(s_i\) es el tiempo de procesamiento del trabajo \(J_i\) en la supercomputadora;
+    \item \(f_i\) es el tiempo de finalización del trabajo \(J_i\) en un PC.
+\end{itemize}
+
+\textbf{Salida:}
+
+Un orden de los trabajos que minimiza el tiempo total de completación del sistema.
+
+\subsection*{Función objetivo}
+
+Sea \(\pi\) una permutación de \(\{0,\dots,N-1\}\). Si los trabajos se ejecutan en el orden
+\[
+J_{\pi(0)}, J_{\pi(1)}, \dots, J_{\pi(N-1)},
+\]
+entonces el tiempo en que el trabajo \(J_{\pi(i)}\) termina su paso por la supercomputadora es
+\[
+S_{\pi}(i)=\sum_{j=0}^{i} s_{\pi(j)}.
+\]
+
+Como luego ese trabajo aún necesita \(f_{\pi(i)}\) unidades de tiempo en un PC, su tiempo
+de terminación total es
+\[
+C_{\pi}(i)=S_{\pi}(i)+f_{\pi(i)}.
+\]
+
+Por tanto, el tiempo de completación del orden \(\pi\) es
+\[
+T(\pi)=\max_{0\leq i<N} C_{\pi}(i)
+      =\max_{0\leq i<N}\left(\sum_{j=0}^{i} s_{\pi(j)} + f_{\pi(i)}\right).
+\]
+
+Si \(N=0\), por convención
+\[
+T(\emptyset)=0.
+\]
+
+El objetivo es calcular un orden \(\pi^\ast\) tal que
+\[
+T(\pi^\ast)=\min_{\pi} T(\pi).
+\]
+
+\subsection*{Estrategia voraz}
+
+La estrategia voraz es la siguiente:
+
+\begin{quote}
+Entre los trabajos aún no programados, escoger primero uno cuyo tiempo de
+finalización en PC sea máximo.
+\end{quote}
+
+Equivalentemente, si se ordena todo el arreglo descendentemente por la segunda
+componente \(f_i\), ese será el orden construido por la estrategia voraz.
+
+La intuición es que un trabajo con gran valor de \(f_i\) puede convertirse en el cuello de
+botella del sistema. Si se libera temprano hacia los PCs, su tiempo largo de finalización
+transcurre en paralelo con la ejecución de otros trabajos en la supercomputadora.
+
+\subsection*{Ejemplo}
+
+Considérese el arreglo:
+\[
+\begin{array}{c|cccc}
+i & 0 & 1 & 2 & 3\\
+\hline
+s_i & 2 & 5 & 1 & 4\\
+f_i & 7 & 3 & 9 & 6
+\end{array}
+\]
+
+El criterio voraz ordena los trabajos como
+\[
+J_2,\; J_0,\; J_3,\; J_1
+\]
+porque
+\[
+9 > 7 > 6 > 3.
+\]
+
+El recorrido produce:
+\[
+\begin{array}{c|cccc}
+\text{trabajo} & J_2 & J_0 & J_3 & J_1\\
+\hline
+S(i) & 1 & 3 & 7 & 12\\
+C(i)=S(i)+f_i & 10 & 10 & 13 & 15
+\end{array}
+\]
+
+Luego, el tiempo total de completación es
+\[
+\max\{10,10,13,15\}=15.
+\]
+
+\subsection*{Pseudocódigo}
+
+\[
+\begin{array}{l}
+\textsc{ElGoog}(A[0..N)):\\
+\quad \text{ordenar } A \text{ descendentemente por la segunda componente} \\
+\quad ac \gets 0 \\
+\quad ans \gets 0 \\
+\\
+\quad \textbf{for } i = 0 \textbf{ to } N-1 \textbf{ do}\\
+\quad \quad ac \gets ac + A[i][0] \\
+\quad \quad ans \gets \max(ans,\, ac + A[i][1]) \\
+\\
+\quad \textbf{return } ans
+\end{array}
+\]
+
+\subsection*{Correctitud}
+
+\paragraph{Teorema de optimización local.}
+Sea \(X\) un conjunto no vacío de trabajos y sea \(J_k \in X\) un trabajo tal que
+\[
+f_k=\max\{f_i : J_i\in X\}.
+\]
+Entonces existe un orden óptimo de los trabajos en \(X\) en el que \(J_k\) aparece en
+la primera posición.
+
+\paragraph{Demostración.}
+Sea
+\[
+B=(b_0,b_1,\dots,b_{m-1})
+\]
+un orden óptimo de los trabajos en \(X\), donde \(m=|X|\). Si \(b_0=k\), no hay nada
+que demostrar.
+
+Supóngase entonces que \(b_r=k\) para algún \(r>0\). Considérese el orden
+\[
+B'=(k,b_0,b_1,\dots,b_{r-1},b_{r+1},\dots,b_{m-1}),
+\]
+es decir, el orden obtenido al mover \(J_k\) a la primera posición y desplazar una
+posición a la derecha a los trabajos \(b_0,\dots,b_{r-1}\).
+
+Sea
+\[
+u=\sum_{j=0}^{r-1} s_{b_j}.
+\]
+
+En el orden \(B\), el tiempo total de terminación del trabajo \(J_k\) es
+\[
+C_B(k)=u+s_k+f_k.
+\]
+
+En el orden \(B'\), ese mismo trabajo termina en
+\[
+C_{B'}(k)=s_k+f_k\leq C_B(k).
+\]
+
+Ahora sea \(b_j\) un trabajo con \(0\leq j<r\). En el orden \(B'\), su tiempo total de
+terminación es
+\[
+C_{B'}(b_j)=s_k+\sum_{t=0}^{j} s_{b_t}+f_{b_j}.
+\]
+Como
+\[
+\sum_{t=0}^{j} s_{b_t}\leq u
+\qquad\text{y}\qquad
+f_{b_j}\leq f_k,
+\]
+se obtiene
+\[
+C_{B'}(b_j)\leq s_k+u+f_k=C_B(k).
+\]
+
+Finalmente, para todo trabajo que en \(B\) estaba después de la posición \(r\), la suma
+de tiempos de supercomputadora de los trabajos anteriores no cambia, porque el conjunto
+de trabajos antes de él sigue siendo el mismo. En consecuencia, su tiempo total de
+terminación permanece igual.
+
+Por tanto, todos los trabajos del bloque afectado en \(B'\) terminan a lo sumo en
+\(C_B(k)\), y los demás no empeoran. Luego
+\[
+T(B')\leq T(B).
+\]
+Como \(B\) era óptimo, \(B'\) también es óptimo. En particular, existe un orden óptimo
+con \(J_k\) en la primera posición. \(\square\)
+
+\paragraph{Teorema de optimización global.}
+Sea \(B[0..N)\) el arreglo obtenido al ordenar \(A[0..N)\) descendentemente por
+la componente \(f_i\). Entonces \(B\) es un orden óptimo.
+
+\paragraph{Demostración.}
+Se probará por inducción sobre la longitud del prefijo que, para cada
+\(t\), con \(0\leq t\leq N\), existe un orden óptimo cuyo prefijo de longitud \(t\) coincide
+con \(B[0..t)\).
+
+\textbf{Caso base:} \(t=0\). Es inmediato.
+
+\textbf{Paso inductivo:} supóngase que existe un orden óptimo cuyo prefijo de longitud
+\(t\) es
+\[
+B[0],B[1],\dots,B[t-1].
+\]
+Considérese el subproblema formado por los trabajos restantes. Por construcción del
+arreglo \(B\), el trabajo \(B[t]\) tiene tiempo de finalización en PC máximo entre los
+trabajos aún no fijados. Por el teorema de optimización local, existe un orden óptimo
+de ese subproblema en el que \(B[t]\) aparece primero. Al anteponer el prefijo ya fijado,
+se obtiene un orden óptimo global cuyo prefijo de longitud \(t+1\) coincide con
+\[
+B[0],B[1],\dots,B[t].
+\]
+
+Por inducción, existe un orden óptimo cuyo prefijo de longitud \(N\) es exactamente
+\(B[0..N)\). Por lo tanto, \(B\) es óptimo. \(\square\)
+
+\subsection*{Invariante del ciclo}
+
+Una vez el arreglo está ordenado, el recorrido lineal calcula el valor de la función
+objetivo. La invariante del ciclo es:
+
+\begin{quote}
+Al comienzo de la iteración \(i\), con \(0\leq i\leq N\),
+\[
+ac=\sum_{j=0}^{i-1} B[j][0]
+\]
+y
+\[
+ans=\max_{0\leq j<i}\left(\sum_{k=0}^{j} B[k][0] + B[j][1]\right),
+\]
+con la convención de que el máximo sobre el conjunto vacío vale \(0\).
+\end{quote}
+
+\paragraph{Demostración de la invariante.}
+Para \(i=0\), antes de entrar al ciclo,
+\[
+ac=0
+\qquad\text{y}\qquad
+ans=0,
+\]
+así que la propiedad es cierta.
+
+Supóngase que la propiedad es cierta al comienzo de la iteración \(i\), con \(0\leq i<N\).
+La instrucción
+\[
+ac \gets ac + B[i][0]
+\]
+hace que
+\[
+ac=\sum_{j=0}^{i} B[j][0].
+\]
+Luego, la instrucción
+\[
+ans \gets \max(ans,\, ac+B[i][1])
+\]
+actualiza \(ans\) al máximo entre los tiempos ya calculados para \(B[0..i)\) y el tiempo
+de terminación del trabajo \(B[i]\). Por tanto, al final de la iteración se cumple
+\[
+ans=\max_{0\leq j\leq i}\left(\sum_{k=0}^{j} B[k][0]+B[j][1]\right).
+\]
+Esto coincide exactamente con la forma requerida para la siguiente iteración.
+
+Por inducción, la invariante es cierta durante todo el ciclo. Al terminar, con \(i=N\),
+se tiene
+\[
+ans=T(B).
+\]
+Como \(B\) es óptimo por el teorema de optimización global, el algoritmo retorna el
+tiempo mínimo de completación. \(\square\)
+
+\subsection*{Complejidad}
+
+El paso dominante es el ordenamiento del arreglo:
+\[
+O(N\log N).
+\]
+El recorrido posterior es lineal:
+\[
+O(N).
+\]
+En consecuencia, la complejidad temporal total es
+\[
+O(N\log N).
+\]
+
+Si el ordenamiento se hace in situ, el espacio adicional del recorrido es
+\[
+O(1),
+\]
+o bien el correspondiente al algoritmo de ordenamiento usado.
+
+\newpage
+
+\section{Problema 2: Balanced Parentheses}
+
+\subsection*{Resumen del problema}
+
+Se da un arreglo
+\[
+w[0..n),
+\]
+tal que para cada \(i\), con \(0\leq i<n\), se cumple que \(w[i]\) es \texttt{(} o
+\texttt{)}. El problema tiene dos partes.
+
+En la primera, se debe decidir si la cadena completa está balanceada. En la segunda,
+se debe calcular la longitud de una subsecuencia balanceada más larga de la cadena.
+En ambos casos se pide una solución en tiempo lineal.
+
+Para la primera parte, basta recorrer la cadena manteniendo el balance entre aperturas
+y cierres. Para la segunda parte, la estrategia voraz consiste en recorrer la cadena de
+izquierda a derecha y emparejar cada paréntesis de cierre con algún paréntesis de
+apertura previamente disponible, siempre que esto sea posible.
+
+\subsection*{Notación auxiliar}
+
+Para cada \(i\), con \(0\leq i\leq n\), defínase:
+\[
+a(i)=\big|\{j:0\leq j<i \land w[j]=\texttt{(}\}\big|,
+\]
+\[
+c(i)=\big|\{j:0\leq j<i \land w[j]=\texttt{)}\}\big|,
+\]
+y
+\[
+b(i)=a(i)-c(i).
+\]
+
+Así, \(b(i)\) representa el balance del prefijo \(w[0..i)\).
+
+\subsection*{Parte (a): decidir si una cadena está balanceada}
+
+\paragraph{Caracterización.}
+La cadena \(w[0..n)\) está balanceada si y solo si:
+\[
+b(n)=0
+\qquad\text{y}\qquad
+\forall i\; (0\leq i\leq n \Rightarrow b(i)\geq 0).
+\]
+
+\paragraph{Demostración.}
+\textbf{(\(\Rightarrow\))} Se procede por inducción estructural sobre la definición de cadena
+balanceada.
+
+Si \(w\) es la cadena vacía, entonces \(b(0)=0\) y la propiedad es inmediata.
+
+Si \(w=(x)\), donde \(x\) es balanceada, entonces todo prefijo interno de \(x\) tiene balance
+no negativo; al agregar el par de paréntesis externos, los balances de los prefijos
+correspondientes siguen siendo no negativos y el balance total vuelve a \(0\).
+
+Si \(w=xy\), donde \(x\) y \(y\) son balanceadas, entonces todo prefijo de \(x\) tiene balance
+no negativo; y todo prefijo que se extiende dentro de \(y\) tiene balance igual a
+\[
+b(|x|)+b_y(t)=0+b_y(t)\geq 0.
+\]
+Además,
+\[
+b(|w|)=b(|x|)+b_y(|y|)=0+0=0.
+\]
+
+\textbf{(\(\Leftarrow\))} Se procede por inducción en \(n\).
+
+Si \(n=0\), la cadena vacía es balanceada.
+
+Supóngase \(n>0\). Como \(b(i)\geq 0\) para todo \(i\) y \(b(n)=0\), necesariamente
+\[
+w[0]=\texttt{(}.
+\]
+Sea \(r>0\) el menor índice tal que
+\[
+b(r)=0.
+\]
+Entonces \(w[r-1]=\texttt{)}\), y puede escribirse
+\[
+w=(x)y,
+\]
+donde
+\[
+x=w[1..r-1)
+\qquad\text{y}\qquad
+y=w[r..n).
+\]
+Por minimalidad de \(r\), los prefijos de \(x\) tienen balance no negativo y el balance
+total de \(x\) es \(0\). De igual manera, \(y\) también satisface la misma caracterización.
+Por hipótesis inductiva, \(x\) y \(y\) son balanceadas. Luego \(w=(x)y\) es balanceada.
+\(\square\)
+
+\paragraph{Pseudocódigo.}
+\[
+\begin{array}{l}
+\textsc{IsBalanced}(w[0..n)):\\
+\quad bal \gets 0 \\
+\\
+\quad \textbf{for } i = 0 \textbf{ to } n-1 \textbf{ do}\\
+\quad \quad \textbf{if } w[i] = \texttt{(} \textbf{ then}\\
+\quad \quad \quad bal \gets bal + 1\\
+\quad \quad \textbf{else}\\
+\quad \quad \quad bal \gets bal - 1\\
+\quad \quad \quad \textbf{if } bal < 0 \textbf{ then return false}\\
+\\
+\quad \textbf{return } (bal = 0)
+\end{array}
+\]
+
+\paragraph{Ejemplo.}
+Para
+\[
+w=\texttt{(()())()},
+\]
+el recorrido de balances es:
+\[
+\begin{array}{c|cccccccc}
+i & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7\\
+\hline
+w[i] & \texttt{(} & \texttt{(} & \texttt{)} & \texttt{(} & \texttt{)} & \texttt{)} & \texttt{(} & \texttt{)}\\
+b(i+1) & 1 & 2 & 1 & 2 & 1 & 0 & 1 & 0
+\end{array}
+\]
+Nunca aparece un balance negativo y el balance final es \(0\), así que la cadena es
+balanceada.
+
+\paragraph{Invariante del ciclo.}
+Si el algoritmo no ha retornado \texttt{false} antes de comenzar la iteración \(i\),
+entonces:
+\[
+bal=b(i)
+\]
+y
+\[
+\forall j\; (0\leq j\leq i \Rightarrow b(j)\geq 0).
+\]
+
+\paragraph{Demostración.}
+Para \(i=0\), antes del ciclo,
+\[
+bal=0=b(0),
+\]
+y la propiedad sobre los prefijos es inmediata.
+
+Supóngase la invariante cierta al comienzo de la iteración \(i\), con \(0\leq i<n\).
+
+Si \(w[i]=\texttt{(}\), el algoritmo incrementa \(bal\), de modo que
+\[
+bal=b(i)+1=b(i+1).
+\]
+Además, como \(b(i)\geq 0\), también
+\[
+b(i+1)\geq 0.
+\]
+
+Si \(w[i]=\texttt{)}\), el algoritmo decrementa \(bal\), y obtiene
+\[
+bal=b(i)-1=b(i+1).
+\]
+Si este valor es negativo, retorna \texttt{false}; en efecto, ya existe un prefijo con balance
+negativo. Si no es negativo, entonces la propiedad sigue siendo válida para todos los
+prefijos hasta \(i+1\).
+
+Por inducción, la invariante es cierta. Si el algoritmo retorna \texttt{true}, entonces
+no apareció ningún prefijo con balance negativo y además el balance final es \(0\).
+Por la caracterización, la cadena está balanceada. Si retorna \texttt{false}, entonces
+apareció un prefijo con balance negativo, y por la misma caracterización la cadena no
+puede estar balanceada. \(\square\)
+
+\paragraph{Complejidad.}
+El algoritmo recorre la cadena una sola vez y realiza trabajo \(O(1)\) por posición. Su
+complejidad temporal es
+\[
+O(n),
+\]
+y usa espacio adicional
+\[
+O(1).
+\]
+
+\subsection*{Parte (b): longitud de una subsecuencia balanceada más larga}
+
+\paragraph{Función objetivo.}
+Para cada \(i\), con \(0\leq i\leq n\), sea
+\[
+L(i)=\text{longitud de una subsecuencia balanceada más larga de } w[0..i).
+\]
+
+El objetivo del problema es calcular
+\[
+L(n).
+\]
+
+\paragraph{Estrategia voraz.}
+Se recorre la cadena de izquierda a derecha. Cada vez que aparece un \texttt{(}, se
+considera como una apertura disponible para emparejar en el futuro. Cada vez que
+aparece un \texttt{)}, si existe al menos una apertura disponible, se empareja de inmediato
+con una de ellas y se incrementa en \(2\) la longitud de la subsecuencia construida.
+
+La apuesta voraz es:
+
+\begin{quote}
+Si un paréntesis de cierre puede emparejarse con alguna apertura ya vista, conviene
+emparejarlo inmediatamente.
+\end{quote}
+
+\paragraph{Pseudocódigo.}
+\[
+\begin{array}{l}
+\textsc{LongestBalancedSubsequence}(w[0..n)):\\
+\quad ab \gets 0 \\
+\quad ans \gets 0 \\
+\\
+\quad \textbf{for } i = 0 \textbf{ to } n-1 \textbf{ do}\\
+\quad \quad \textbf{if } w[i] = \texttt{(} \textbf{ then}\\
+\quad \quad \quad ab \gets ab + 1\\
+\quad \quad \textbf{else if } ab > 0 \textbf{ then}\\
+\quad \quad \quad ab \gets ab - 1\\
+\quad \quad \quad ans \gets ans + 2\\
+\\
+\quad \textbf{return } ans
+\end{array}
+\]
+
+\paragraph{Ejemplo.}
+Considérese
+\[
+w=\texttt{(()))(())}.
+\]
+El algoritmo produce el siguiente recorrido:
+
+\[
+\begin{array}{c|ccccccccc}
+i & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8\\
+\hline
+w[i] & \texttt{(} & \texttt{(} & \texttt{)} & \texttt{)} & \texttt{)} & \texttt{(} & \texttt{(} & \texttt{)} & \texttt{)}\\
+ab & 1 & 2 & 1 & 0 & 0 & 1 & 2 & 1 & 0\\
+ans & 0 & 0 & 2 & 4 & 4 & 4 & 4 & 6 & 8
+\end{array}
+\]
+
+Por tanto, la longitud de una subsecuencia balanceada más larga es
+\[
+8.
+\]
+
+\paragraph{Teorema de optimización local.}
+Sea \(i\), con \(0\leq i<n\).
+
+\begin{enumerate}[label=\alph*)]
+    \item Si \(w[i]=\texttt{(}\), entonces
+    \[
+    L(i+1)=L(i).
+    \]
+
+    \item Si \(w[i]=\texttt{)}\) y
+    \[
+    a(i)=\frac{L(i)}{2},
+    \]
+    entonces
+    \[
+    L(i+1)=L(i).
+    \]
+
+    \item Si \(w[i]=\texttt{)}\) y
+    \[
+    a(i)>\frac{L(i)}{2},
+    \]
+    entonces
+    \[
+    L(i+1)=L(i)+2.
+    \]
+\end{enumerate}
+
+\paragraph{Demostración.}
+\textbf{a)} Si el símbolo nuevo es \texttt{(}, ninguna subsecuencia balanceada de
+\(w[0..i+1)\) puede aumentar su longitud usando únicamente ese símbolo al final, pues
+un paréntesis de apertura sin su cierre correspondiente no aporta una subsecuencia
+balanceada nueva. Luego
+\[
+L(i+1)=L(i).
+\]
+
+\textbf{b)} Si el símbolo nuevo es \texttt{)} y además
+\[
+a(i)=\frac{L(i)}{2},
+\]
+entonces cualquier subsecuencia balanceada de \(w[0..i+1)\) usa a lo sumo \(a(i)\)
+aperturas provenientes del prefijo \(w[0..i)\). Por tanto, su longitud es a lo sumo
+\[
+2a(i)=L(i).
+\]
+Como ya existe una subsecuencia balanceada de longitud \(L(i)\) en el prefijo anterior,
+se concluye que
+\[
+L(i+1)=L(i).
+\]
+
+\textbf{c)} Si el símbolo nuevo es \texttt{)} y además
+\[
+a(i)>\frac{L(i)}{2},
+\]
+entonces hay más aperturas en el prefijo \(w[0..i)\) que las que usa una subsecuencia
+balanceada óptima de longitud \(L(i)\). En particular, existe al menos una apertura
+disponible que puede emparejarse con el símbolo nuevo, así que se puede construir una
+subsecuencia balanceada de longitud \(L(i)+2\). Por tanto,
+\[
+L(i+1)\geq L(i)+2.
+\]
+
+Por otra parte, cualquier subsecuencia balanceada de \(w[0..i+1)\) o bien no usa el
+símbolo \(w[i]\), en cuyo caso su longitud es a lo sumo \(L(i)\), o bien sí lo usa. En
+este último caso, al eliminar de ella el par formado por \(w[i]\) y su apertura
+correspondiente, se obtiene una subsecuencia balanceada de \(w[0..i)\), cuya longitud
+es a lo sumo \(L(i)\). Por tanto, la longitud original era a lo sumo \(L(i)+2\).
+
+De las dos desigualdades se concluye:
+\[
+L(i+1)=L(i)+2.
+\]
+\(\square\)
+
+\paragraph{Invariante del ciclo.}
+Para cada \(i\), con \(0\leq i\leq n\), después de procesar el prefijo \(w[0..i)\), se cumple:
+\[
+ans=L(i)
+\]
+y
+\[
+ab=a(i)-\frac{L(i)}{2}.
+\]
+
+\paragraph{Demostración.}
+Se procede por inducción sobre \(i\).
+
+\textbf{Caso base:} \(i=0\). Antes del ciclo,
+\[
+ans=0
+\qquad\text{y}\qquad
+ab=0.
+\]
+Además,
+\[
+L(0)=0
+\qquad\text{y}\qquad
+a(0)=0.
+\]
+Luego
+\[
+ans=L(0)
+\qquad\text{y}\qquad
+ab=a(0)-\frac{L(0)}{2}.
+\]
+
+\textbf{Paso inductivo:} supóngase la propiedad cierta para algún \(i\), con \(0\leq i<n\).
+
+Si \(w[i]=\texttt{(}\), el algoritmo incrementa \(ab\) y deja \(ans\) intacto. Por el
+teorema de optimización local,
+\[
+L(i+1)=L(i).
+\]
+Además,
+\[
+a(i+1)=a(i)+1.
+\]
+Luego,
+\[
+ans=L(i)=L(i+1)
+\]
+y
+\[
+ab+1
+=
+a(i)-\frac{L(i)}{2}+1
+=
+a(i+1)-\frac{L(i+1)}{2}.
+\]
+
+Si \(w[i]=\texttt{)}\) y \(ab=0\), entonces por hipótesis inductiva
+\[
+a(i)=\frac{L(i)}{2}.
+\]
+Por el teorema de optimización local,
+\[
+L(i+1)=L(i).
+\]
+El algoritmo no modifica ni \(ab\) ni \(ans\), así que
+\[
+ans=L(i+1)
+\]
+y, como \(a(i+1)=a(i)\),
+\[
+ab=0=a(i+1)-\frac{L(i+1)}{2}.
+\]
+
+Si \(w[i]=\texttt{)}\) y \(ab>0\), entonces por hipótesis inductiva
+\[
+a(i)-\frac{L(i)}{2}>0.
+\]
+Por el teorema de optimización local,
+\[
+L(i+1)=L(i)+2.
+\]
+El algoritmo hace
+\[
+ab \gets ab-1
+\qquad\text{y}\qquad
+ans \gets ans+2.
+\]
+Por tanto,
+\[
+ans+2=L(i)+2=L(i+1),
+\]
+y como \(a(i+1)=a(i)\),
+\[
+ab-1
+=
+a(i)-\frac{L(i)}{2}-1
+=
+a(i+1)-\frac{L(i+1)}{2}.
+\]
+
+En todos los casos la invariante se preserva. Por inducción, es cierta para todo \(i\).
+Al terminar el ciclo, con \(i=n\), se tiene
+\[
+ans=L(n),
+\]
+que es exactamente la longitud de una subsecuencia balanceada más larga. \(\square\)
+
+\paragraph{Teorema de optimización global.}
+La invocación de
+\[
+\textsc{LongestBalancedSubsequence}(w)
+\]
+retorna la longitud de una subsecuencia balanceada más larga de \(w[0..n)\).
+
+\paragraph{Demostración.}
+Es una consecuencia inmediata de la invariante del ciclo para \(i=n\). \(\square\)
+
+\paragraph{Complejidad.}
+El algoritmo recorre la cadena una sola vez, realizando trabajo constante en cada
+posición. Por tanto, su complejidad temporal es
+\[
+O(n),
+\]
+y usa espacio adicional
+\[
+O(1).
+\]
+
+\section*{Conclusión}
+
+En el problema de El Goog, la estructura del sistema permite un diseño voraz clásico:
+escoger primero los trabajos con mayor tiempo de finalización en PC. La correctitud
+se demuestra mediante un teorema de optimización local por intercambio y un teorema
+de optimización global que fija el prefijo óptimo de manera inductiva.
+
+En Balanced Parentheses, la primera parte se resuelve con una verificación lineal del
+balance de prefijos, mientras que la segunda admite una estrategia voraz lineal que
+empareja cada cierre con una apertura disponible tan pronto como ello es posible.
+En ambos casos, las invariantes explícitas justifican formalmente la correctitud del
+recorrido iterativo.
+
+\end{document}
