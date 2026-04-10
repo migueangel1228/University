@@ -1,0 +1,184 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{courier}
+
+\geometry{margin=2.5cm}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    pdftitle={Informe tecnico - Algoritmo MLFQ}
+}
+
+\lstdefinestyle{plainstyle}{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    columns=fullflexible,
+    keepspaces=true,
+    showstringspaces=false
+}
+
+\title{Informe tecnico -- Algoritmo MLFQ}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Resumen ejecutivo}
+
+Este informe describe y evalua una implementacion del algoritmo \textbf{MLFQ (Multilevel Feedback Queue)}. Se presentan dos casos de prueba con configuracion de colas heterogenea y se analiza el comportamiento del planificador con base en metricas de tiempo de espera, tiempo de respuesta, tiempo de retorno y tiempo de finalizacion promedio. El objetivo es entregar una comparacion clara y fundamentada entre escenarios con distinta carga y patrones de llegada.
+
+\section{Objetivo y alcance}
+
+El objetivo es caracterizar el comportamiento de MLFQ bajo dos escenarios: (i) llegadas simultaneas y alta contencion, y (ii) llegadas escalonadas con periodos de \textit{idle}. El alcance incluye la descripcion del algoritmo, la configuracion de colas, la metodologia de prueba y un analisis comparativo basado en resultados cuantitativos.
+
+\section{Descripcion tecnica de MLFQ}
+
+MLFQ organiza la cola de listos en varios niveles de prioridad. A diferencia de \textit{MLQ}, en \textbf{MLFQ} los procesos \textbf{pueden cambiar de cola} segun su consumo de CPU. La politica de realimentacion favorece procesos cortos o interactivos y degrada procesos intensivos en CPU hacia colas inferiores.
+
+En esta implementacion:
+\begin{itemize}[leftmargin=1.5cm]
+    \item Todos los procesos inician en la cola de mayor prioridad.
+    \item Si un proceso consume su presupuesto de CPU en un nivel, se degrada al siguiente nivel.
+    \item Siempre se atiende primero la cola de mayor prioridad disponible.
+    \item Cada nivel puede tener una politica distinta.
+\end{itemize}
+
+Configuracion utilizada en los casos de prueba:
+\begin{center}
+\texttt{RR(1), RR(3), RR(4), SJF}
+\end{center}
+
+Comando de ejecucion:
+\begin{lstlisting}[style=plainstyle,language=bash]
+./scheduler.exe --algo mlfq --queues "RR:1,RR:3,RR:4,SJF" --in <archivo_entrada> --out <archivo_salida>
+\end{lstlisting}
+
+\section{Metodologia y metricas}
+
+Se utilizan archivos de entrada con formato:
+\begin{center}
+\texttt{etiqueta; burst; arrival; queue; priority}
+\end{center}
+
+Las metricas reportadas son:
+\begin{itemize}[leftmargin=1.5cm]
+    \item \textbf{WT} (Waiting Time): tiempo promedio en cola.
+    \item \textbf{RT} (Response Time): tiempo hasta la primera atencion.
+    \item \textbf{TAT} (Turnaround Time): tiempo total desde llegada hasta finalizacion.
+    \item \textbf{CT} (Completion Time): tiempo de finalizacion promedio.
+\end{itemize}
+
+\section{Casos de prueba y resultados}
+
+\subsection{Caso A: llegadas simultaneas}
+
+Archivo: \texttt{examples/mlfq\_input\_case1.txt}
+
+\begin{lstlisting}[style=plainstyle]
+# Caso 1 MLFQ
+A;6;0;1;5
+B;9;0;1;4
+C;10;0;2;3
+D;15;0;2;3
+E;8;0;3;2
+\end{lstlisting}
+
+Resultado esperado: \texttt{examples/mlfq\_expected\_case1.txt}
+
+\begin{lstlisting}[style=plainstyle]
+# archivo: mlfq_input_case1.txt
+# etiqueta; BT; AT; Q; Pr; WT; CT; RT; TAT
+A;6; 0; 1; 5; 16; 22; 0; 22
+B;9; 0; 1; 4; 30; 39; 1; 39
+C;10; 0; 2; 3; 31; 41; 2; 41
+D;15; 0; 2; 3; 33; 48; 3; 48
+E;8; 0; 3; 2; 30; 38; 4; 38
+WT=28; CT=37.6; RT=2; TAT=37.6;
+\end{lstlisting}
+
+Observaciones clave:
+\begin{itemize}[leftmargin=1.5cm]
+    \item La contencion inicial es alta al llegar todos los procesos en \(t=0\), lo que eleva el tiempo de espera promedio.
+    \item El esquema MLFQ mejora el tiempo de respuesta promedio (\(RT=2\)) al priorizar ejecuciones cortas en niveles altos.
+    \item La degradacion progresiva de procesos largos concentra su ejecucion en colas inferiores, incrementando \(WT\) y \(TAT\).
+\end{itemize}
+
+\subsection{Caso B: llegadas escalonadas e \textit{idle}}
+
+Archivo: \texttt{examples/mlfq\_input\_case2.txt}
+
+\begin{lstlisting}[style=plainstyle]
+# Caso 2 MLFQ con llegadas tardias e idle
+P1;4;0;1;2
+P2;7;2;2;3
+P3;3;5;1;1
+P4;5;10;3;2
+P5;2;10;2;4
+\end{lstlisting}
+
+Resultado esperado: \texttt{examples/mlfq\_expected\_case2.txt}
+
+\begin{lstlisting}[style=plainstyle]
+# archivo: mlfq_input_case2.txt
+# etiqueta; BT; AT; Q; Pr; WT; CT; RT; TAT
+P1;4; 0; 1; 2; 1; 5; 0; 5
+P2;7; 2; 2; 3; 11; 20; 0; 18
+P3;3; 5; 1; 1; 5; 13; 0; 8
+P4;5; 10; 3; 2; 6; 21; 0; 11
+P5;2; 10; 2; 4; 5; 17; 1; 7
+WT=5.6; CT=15.2; RT=0.2; TAT=9.8;
+\end{lstlisting}
+
+Observaciones clave:
+\begin{itemize}[leftmargin=1.5cm]
+    \item Las llegadas escalonadas reducen la contencion y, en consecuencia, disminuyen \(WT\) y \(TAT\).
+    \item El tiempo de respuesta promedio es menor (\(RT=0.2\)) porque los procesos nuevos encuentran colas altas disponibles.
+    \item El uso de RR en niveles superiores mantiene la capacidad de respuesta para procesos cortos y tardios.
+\end{itemize}
+
+\section{Analisis comparativo}
+
+La comparacion entre ambos casos evidencia el impacto del patron de llegada sobre el desempeño:
+\begin{itemize}[leftmargin=1.5cm]
+    \item \textbf{Contencion inicial}: en el Caso A, la llegada simultanea genera tiempos de espera mayores (WT=28) frente al Caso B (WT=5.6).
+    \item \textbf{Capacidad de respuesta}: MLFQ mantiene un \(RT\) bajo en ambos casos, pero mejora en escenarios con llegadas escalonadas (0.2 vs 2).
+    \item \textbf{Efecto de la configuracion de colas}: los cuantums cortos de RR en niveles altos favorecen la respuesta temprana, mientras que SJF en el ultimo nivel reduce el overhead de cambio de contexto para procesos largos ya degradados.
+    \item \textbf{Balance global}: MLFQ prioriza responsividad sin abandonar completamente la eficiencia de largo plazo; sin embargo, cuando todos los procesos llegan al mismo tiempo, la ventaja en \(RT\) no evita un \(WT\) elevado.
+\end{itemize}
+
+\section{Archivos considerados}
+
+Los archivos considerados en la carpeta \texttt{examples} son:
+\begin{itemize}[leftmargin=1.5cm]
+    \item \texttt{examples/mlfq\_input\_case1.txt}
+    \item \texttt{examples/mlfq\_expected\_case1.txt}
+    \item \texttt{examples/mlfq\_input\_case2.txt}
+    \item \texttt{examples/mlfq\_expected\_case2.txt}
+\end{itemize}
+
+\section{Video explicativo}
+
+El video explicativo de la implementacion se encuentra en la carpeta \texttt{VIDEO} y su enlace se documenta en \texttt{VIDEO/link.txt}.
+
+\section{Nota de aclaracion}
+
+Aunque en algunas partes del enunciado se menciona \textit{MLQ}, en este informe se utiliza de forma consistente el termino \textbf{MLFQ}, ya que ese es el algoritmo solicitado e implementado.
+
+\section{Conclusiones}
+
+MLFQ ofrece un compromiso efectivo entre rapidez de respuesta y eficiencia global. La configuracion con RR en niveles altos y SJF en el ultimo nivel permite atender rapidamente procesos cortos y, a la vez, procesar cargas largas con menor sobrecarga. El analisis comparativo muestra que la mejora en tiempos de respuesta es consistente, mientras que los tiempos de espera dependen fuertemente del patron de llegada y del grado de contencion inicial.
+
+\end{document}
