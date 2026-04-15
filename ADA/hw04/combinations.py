@@ -18,14 +18,13 @@ def solutionBactrack(i, cad):
     global result, r, N, cadena
     if len(cad) == r:
         result.append("".join(cad))
-        return
+        
     elif (i < N and len(cad) < r):
             
         for j in range(i, N):
             cad.append(cadena[j])
             solutionBactrack(j + 1, cad)
             cad.pop()
-
 
 def ordenarStr(cad):
     ans = []
