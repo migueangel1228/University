@@ -8,22 +8,53 @@ Problem E - Mapping the Swaps
 """ 
 
 from sys import stdin
-
-opt = 0
-
-def backtrack(n, sol, A):
-    pass
+INF = float("inf")
+opt = INF
+numOpts = 0
 
 
+def check(A):
+    ans = True
+    i = 1
+    sz = len(A)
+    while i < sz and ans:
+        if A[i] < A[i - 1]:
+            ans = False
+        i += 1
+    return ans
+
+def backtrack(sol, A):
+    global opt, numOpts
+    
+    if check(A):
+        if len(sol) == opt:
+            numOpts += 1
+        elif len(sol) < opt:
+            opt = len(sol)
+            numOpts = 1
+    elif len(sol) < opt:
+        sz = len(A)
+        anterior = sol[-1] if sol else -1
+        
+        for i in range(1, sz):
+            if A[i - 1] > A[i]:
+                sol.append(i)
+                A[i - 1], A[i] = A[i], A[i - 1]
+                backtrack(sol,A) 
+                sol.pop()
+                A[i - 1], A[i] = A[i], A[i - 1]     
+                
 def main():
-    global opt
+    global opt, numOpts
+    opt = INF
     casito = list(map(int, stdin.readline().split()))
     caseNum = 0
     while(casito != [0]):
         caseNum += 1
+        casito = casito[1:]
+        backtrack([], casito)
         
-        result = backtrack(0,[],casito)
-        print(f" There are {result} swap maps for input data set {caseNum}.")
+        print(f" There are {numOpts} swap maps for input data set {caseNum}.")
         
         casito = list(map(int, stdin.readline().split()))
         
