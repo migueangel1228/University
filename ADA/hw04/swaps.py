@@ -8,10 +8,10 @@ Problem E - Mapping the Swaps
 """ 
 
 from sys import stdin
+
 INF = float("inf")
 opt = INF
 numOpts = 0
-
 
 def check(A):
     ans = True
@@ -34,7 +34,6 @@ def backtrack(sol, A):
             numOpts = 1
     elif len(sol) < opt:
         sz = len(A)
-        anterior = sol[-1] if sol else -1
         
         for i in range(1, sz):
             if A[i - 1] > A[i]:
@@ -50,11 +49,14 @@ def main():
     casito = list(map(int, stdin.readline().split()))
     caseNum = 0
     while(casito != [0]):
+        opt = INF
+        numOpts = 0
         caseNum += 1
         casito = casito[1:]
-        backtrack([], casito)
+        if not check(casito):
+            backtrack([], casito)
         
-        print(f" There are {numOpts} swap maps for input data set {caseNum}.")
+        print(f"There are {numOpts} swap maps for input data set {caseNum}.")
         
         casito = list(map(int, stdin.readline().split()))
         
