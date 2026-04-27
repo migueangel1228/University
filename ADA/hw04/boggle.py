@@ -67,8 +67,8 @@ def main():
             line = stdin.readline().strip()
             M.append(line)
         dfs(M)
-
-        for word in sorted(words, key=lambda w: (len(w), w)):
+         
+        for word in sorted(sorted(words), key=len):
             print(word)
         if i != numCases-1:
             print()
