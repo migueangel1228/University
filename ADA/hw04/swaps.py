@@ -13,48 +13,52 @@ INF = float("inf")
 opt = INF
 numOpts = 0
 
-def check(A):
-    ans = True
-    i = 1
-    sz = len(A)
-    while i < sz and ans:
+# Verfica si ya esta ordenado y ademas cuenta el numero minimo de swaps para ordenar, con las inversiones
+def inversiones(A):
+    opt = 0
+    for i in range(len(A)):
+
         if A[i] < A[i - 1]:
             ans = False
-        i += 1
-    return ans
 
-def backtrack(sol, A):
+        for j in range(i + 1, len(A)):
+            if A[j] < A[i]:
+                opt += 1
+    return opt, ans
+
+def backtrack(n, A):
     global opt, numOpts
+    hayInversiones = False
     
-    if check(A):
-        if len(sol) == opt:
-            numOpts += 1
-        elif len(sol) < opt:
-            opt = len(sol)
-            numOpts = 1
-    elif len(sol) < opt:
+    if n < opt:
         sz = len(A)
-        
+
         for i in range(1, sz):
-            if A[i - 1] > A[i]:
-                sol.append(i)
-                A[i - 1], A[i] = A[i], A[i - 1]
-                backtrack(sol,A) 
-                sol.pop()
-                A[i - 1], A[i] = A[i], A[i - 1]     
-                
+                if A[i - 1] > A[i]:
+                    hayInversiones = True
+                    n = n + 1
+                    A[i - 1], A[i] = A[i], A[i - 1]
+                    backtrack(n, A) 
+                    n = n - 1
+                    A[i - 1], A[i] = A[i], A[i - 1]
+    if not hayInversiones:
+        if n == opt:
+            numOpts += 1
+        elif n < opt:
+            opt = n
+            numOpts = 1   
+
 def main():
     global opt, numOpts
-    opt = INF
     casito = list(map(int, stdin.readline().split()))
     caseNum = 0
     while(casito != [0]):
-        opt = INF
+        opt, flag = inversiones(casito)
         numOpts = 0
         caseNum += 1
         casito = casito[1:]
-        if not check(casito):
-            backtrack([], casito)
+        if not flag:
+            backtrack(0, casito)
         
         print(f"There are {numOpts} swap maps for input data set {caseNum}.")
         
