@@ -5,6 +5,7 @@ Daniel Alejandro Posada Noguera - 8980619
 '''
 
 from sys import stdin
+import time
 
 N, K, INF, mem = int(), int(), float('inf'), dict()
 distances, preffix = [-1 for _ in range(601)], [-1 for _  in range(601)]
@@ -62,5 +63,6 @@ def main():
             distances[i] = int(stdin.readline())
         solve()
         line = stdin.readline()
+        time.time()
 
 main()
