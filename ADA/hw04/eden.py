@@ -6,13 +6,25 @@ Cod     : 8988878
 
 Problem B - Garden of Eden
 """
+from sys import stdin
+
+def generarRules(automata):
+    dictsito = dict()
+    
 
 def backtrack():
     pass
 
 
 def main():
-    pass
+    casito = stdin.readline().strip()
+
+    while(len(casito)):
+        idAutomata, n, target = map(int, casito.split())
+
+
+        casito = stdin.readline().strip()
+
 
 
 """
@@ -26,4 +38,16 @@ GARDEN OF EDEN
 REACHABLE
 GARDEN OF EDEN
 GARDEN OF EDEN
+"""
+
+"""
+Especificacion
+    Entrada
+    Solucion
+
+Todo lo de camilo
+    Explicar porque las podas no elimina soluciones valiosa (con palabras)
+
+Analisis Complejidad
+
 """
