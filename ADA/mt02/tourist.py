@@ -6,6 +6,7 @@ Cod     : 8988878
 
 Problem D - Tour Belt
 """
+
 from sys import stdin
 
 INF = float('inf')
@@ -78,6 +79,7 @@ def kruskal(n, aristas, minimoPeso, maixmoPeso):
 
     return resultado
 
+
 def main():
     numCases = int(stdin.readline())
     for _ in range(numCases):
@@ -100,6 +102,7 @@ def main():
             
         resultado = kruskal(numNodes, aristas, pesoMin, pesoMax)
         print(resultado)
+
 
 main()
 
