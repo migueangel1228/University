@@ -7,9 +7,7 @@ Cod    : 8988878
 Problem - A - FujikoMine
 """
 
-from sys import stdin, setrecursionlimit
-
-setrecursionlimit(10**7)
+from sys import stdin
 
 INF = -10**18
 
@@ -23,10 +21,9 @@ def encontrarRoot(n, G):
     encontrado = False
 
     for u in range(n):
-        for v, w in G[u]:
+        for v, _ in G[u]:
             tienePapa[v] = True
 
-    i = 0
     while i < n and not encontrado:
         if not tienePapa[i]:
             root = i
@@ -35,25 +32,25 @@ def encontrarRoot(n, G):
     return root
 
 
-def phiMem(u, t, web, nodosTrans, mem, size):
+def phiMem(u, t, G, mem, sz):
     ans = INF
-    k = (u, t)
-    transmi = u in nodosTrans
+    estadaoActual = (u, t)
+    isTrans = u in nodosTrans
 
-    if k in mem:
-        ans = mem[k]
+    if estadaoActual in mem:
+        ans = mem[estadaoActual]
     else:
-        if len(web[u]) == 0:
-            if transmi and t == 1:
+        if len(G[u]) == 0:
+            if isTrans and t == 1:
                 ans = 0
-            elif not transmi and t == 0:
+            elif not isTrans and t == 0:
                 ans = 0
             else:
                 ans = INF
         else:
             mCases = [INF] * (t + 1)
 
-            if transmi:
+            if isTrans:
                 if t >= 1:
                     mCases[1] = 0
                     tUsed = 1
@@ -63,8 +60,8 @@ def phiMem(u, t, web, nodosTrans, mem, size):
                 mCases[0] = 0
                 tUsed = 0
 
-            for v, w in web[u]:
-                tMax = size[v]
+            for v, w in G[u]:
+                tMax = sz[v]
                 avilableNode = min(t, tUsed + tMax)
 
                 node = avilableNode
@@ -72,7 +69,7 @@ def phiMem(u, t, web, nodosTrans, mem, size):
                     cAvilableNode = min(node, tMax)
                     j = 1
                     while j <= cAvilableNode:
-                        hijo = phiMem(v, j, web, nodosTrans, mem, size)
+                        hijo = phiMem(v, j, G, mem, sz)
                         papa = mCases[node - j]
                         if hijo != INF and papa != INF:
                             posCoins = papa + hijo + w
@@ -82,11 +79,11 @@ def phiMem(u, t, web, nodosTrans, mem, size):
                     node -= 1
                 tUsed += tMax
             ans = mCases[t]
-        mem[k] = ans
+        mem[estadaoActual] = ans
 
     return ans
 
-def findTransmi(root, G, nodosTrans, tSize):
+def findTransmi(root, G, tSize):
     orden = []
     pila = [root]
 
@@ -109,10 +106,10 @@ def findTransmi(root, G, nodosTrans, tSize):
         tSize[u] = ans
         i -= 1
 
-def solve_case(n, m, G, nodosTrans, queries):
+def solve_case(n, m, G, queries):
     root = encontrarRoot(n, G)
     size = [0] * n
-    findTransmi(root, G, nodosTrans, size)
+    findTransmi(root, G, size)
 
     mem = {}
     res = []
@@ -128,7 +125,7 @@ def solve_case(n, m, G, nodosTrans, queries):
                 posStart = 0
                 while posStart < n:
                     if posStart in nodosTrans:
-                        coins = phiMem(posStart, query, G, nodosTrans, mem, size)
+                        coins = phiMem(posStart, query, G, mem, size)
                         if coins != INF and coins > maxCoins:
                             maxCoins = coins
                     posStart += 1
@@ -157,7 +154,7 @@ def main():
         nodosTrans = set(map(int, stdin.readline().split()))
         queries = list(map(int, stdin.readline().split()))
 
-        res = solve_case(n, m, grafito, nodosTrans, queries)
+        res = solve_case(n, m, grafito, queries)
         for val in res:
             print(val)
 
