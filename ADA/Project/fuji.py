@@ -13,171 +13,159 @@ setrecursionlimit(10**7)
 
 INF = -10**18
 
-children = []
-parent = []
-weight_to_parent = []
-node_type = []
-order = []
-sz = []
-f = []
-best_root = []
+nodosTrans = set()
+grafito = []
 
-def build_tree(n, edges, root_node=0):
-    global children, parent, weight_to_parent, order, sz
+def encontrarRoot(n, G):
+    tienePapa = [False] * n
+    i = 0
+    root = -1
+    encontrado = False
 
-    adj = [[] for _ in range(n)]
-    for u, v, w in edges:
-        adj[u].append((v, w))
-        adj[v].append((u, w))
+    for u in range(n):
+        for v, w in G[u]:
+            tienePapa[v] = True
 
-    children = [[] for _ in range(n)]
-    parent = [-1] * n
-    weight_to_parent = [0] * n
-    order = []
+    i = 0
+    while i < n and not encontrado:
+        if not tienePapa[i]:
+            root = i
+            encontrado = True
+        i += 1
+    return root
 
-    stack = [root_node]
-    parent[root_node] = root_node
 
-    while stack:
-        u = stack.pop()
-        order.append(u)
-        for v, w in adj[u]:
-            if v != parent[u]:
-                parent[v] = u
-                weight_to_parent[v] = w
-                children[u].append(v)
-                stack.append(v)
+def phiMem(u, t, web, nodosTrans, mem, size):
+    ans = INF
+    k = (u, t)
+    transmi = u in nodosTrans
 
-    order.reverse()
-    
-    # Precalcular la cantidad máxima de nodos de transmisión en cada subárbol
-    sz = [0] * n
-    for u in order:
-        if node_type[u] == 1:
-            sz[u] = 1
-        for v in children[u]:
-            sz[u] += sz[v]
-
-def phiTab(n, m):
-    global f, best_root
-    
-    # f[u][k] almacena el peso máximo de una rama descendente válida desde 'u'
-    f = [[INF] * (m + 1) for _ in range(n)]
-    # best_root[u][k] almacena el peso si 'u' es la raíz del Árbol de Steiner
-    best_root = [[INF] * (m + 1) for _ in range(n)]
-
-    for u in order:
-        # dp[c][k]: c = ramas usadas (0, 1, o >=2), k = nodos de transmisión
-        dp = [[INF] * (m + 1) for _ in range(3)]
-        
-        if node_type[u] == 1:
-            dp[0][1] = 0
-            current_sz = 1
-        else:
-            dp[0][0] = 0
-            current_sz = 0
-
-        for v in children[u]:
-            w = weight_to_parent[v]
-            new_dp = [row[:] for row in dp]
-
-            # Optimización O(N^2): Iterar solo hasta los nodos disponibles reales
-            limit_k = min(m, current_sz)
-            limit_j = min(m, sz[v])
-
-            for c in range(3):
-                for k in range(limit_k + 1):
-                    if dp[c][k] != INF:
-                        # Exigimos j >= 1, previniendo ramas muertas (dead-ends)
-                        for j in range(1, limit_j + 1):
-                            if f[v][j] != INF and k + j <= m:
-                                nc = min(2, c + 1)
-                                nk = k + j
-                                val = dp[c][k] + f[v][j] + w
-                                if val > new_dp[nc][nk]:
-                                    new_dp[nc][nk] = val
-
-            dp = new_dp
-            current_sz += sz[v]
-
-        for k in range(min(m, current_sz) + 1):
-            mx = max(dp[0][k], dp[1][k], dp[2][k])
-            f[u][k] = mx
-            
-            if node_type[u] == 1:
-                # Nodo transmisión: puede ser raíz conectando cualquier cantidad de ramas >= 0
-                best_root[u][k] = mx
+    if k in mem:
+        ans = mem[k]
+    else:
+        if len(web[u]) == 0:
+            if transmi and t == 1:
+                ans = 0
+            elif not transmi and t == 0:
+                ans = 0
             else:
-                # Nodo puente: PARA SER RAÍZ VÁLIDA, debe conectar estricamente >= 2 ramas
-                best_root[u][k] = dp[2][k]
-
-def solve_case(n, m, q, edges, nodeTipos, queries):
-    global node_type
-    node_type = nodeTipos
-
-    build_tree(n, edges, 0)
-    phiTab(n, m)
-
-    ans = []
-    for x in queries:
-        if x <= 1 or x > m:
-            ans.append(0)
+                ans = INF
         else:
-            best = 0
-            for v in range(n):
-                if best_root[v][x] > best:
-                    best = best_root[v][x]
+            mCases = [INF] * (t + 1)
 
-            ans.append(best)
+            if transmi:
+                if t >= 1:
+                    mCases[1] = 0
+                    tUsed = 1
+                else:
+                    tUsed = 1
+            else:
+                mCases[0] = 0
+                tUsed = 0
+
+            for v, w in web[u]:
+                tMax = size[v]
+                avilableNode = min(t, tUsed + tMax)
+
+                node = avilableNode
+                while node >= 0:
+                    cAvilableNode = min(node, tMax)
+                    j = 1
+                    while j <= cAvilableNode:
+                        hijo = phiMem(v, j, web, nodosTrans, mem, size)
+                        papa = mCases[node - j]
+                        if hijo != INF and papa != INF:
+                            posCoins = papa + hijo + w
+                            if posCoins > mCases[node]:
+                                mCases[node] = posCoins
+                        j += 1
+                    node -= 1
+                tUsed += tMax
+            ans = mCases[t]
+        mem[k] = ans
 
     return ans
 
-def main():
-    data = list(map(int, stdin.read().split()))
-    idx = 0
-    more_cases = True
+def findTransmi(root, G, nodosTrans, tSize):
+    orden = []
+    pila = [root]
 
-    while more_cases and idx + 2 < len(data):
-        n = data[idx]
-        m = data[idx + 1]
-        q = data[idx + 2]
-        idx += 3
+    while len(pila) > 0:
+        u = pila.pop()
+        orden.append(u)
+        for v, _ in G[u]:
+            pila.append(v)
 
-        edges = []
-        need = (n - 1) * 3
-        if idx + need > len(data):
-            more_cases = False
+    i = len(orden) - 1
+    while i >= 0:
+        u = orden[i]
+        ans = 1 
+        if u in nodosTrans:
+            ans = 1
         else:
-            for _ in range(n - 1):
-                u = data[idx]
-                v = data[idx + 1]
-                w = data[idx + 2]
-                edges.append((u, v, w))
-                idx += 3
+            ans = 0
+        for v, _ in G[u]:
+            ans += tSize[v]
+        tSize[u] = ans
+        i -= 1
 
-            nodeTipos = [0] * n
-            if idx + m > len(data):
-                more_cases = False
+def solve_case(n, m, G, nodosTrans, queries):
+    root = encontrarRoot(n, G)
+    size = [0] * n
+    findTransmi(root, G, nodosTrans, size)
+
+    mem = {}
+    res = []
+    i = 0
+    while i < len(queries):
+        query = queries[i]
+        maxCoins = 0
+
+        if query <= m:
+            if query <= 1:
+                maxCoins = 0
             else:
-                for _ in range(m):
-                    nodeTipos[data[idx]] = 1
-                    idx += 1
+                posStart = 0
+                while posStart < n:
+                    if posStart in nodosTrans:
+                        coins = phiMem(posStart, query, G, nodosTrans, mem, size)
+                        if coins != INF and coins > maxCoins:
+                            maxCoins = coins
+                    posStart += 1
 
-                queries = []
-                if idx + q > len(data):
-                    more_cases = False
-                else:
-                    for _ in range(q):
-                        queries.append(data[idx])
-                        idx += 1
+        res.append(maxCoins)
+        i += 1
 
-                    res = solve_case(n, m, q, edges, nodeTipos, queries)
+    return res
 
-                    for val in res:
-                        print(val)
 
-main()
+def main():
+    global nodosTrans, grafito
+    linea = stdin.readline().split()
+    while len(linea) > 0:
+        n = int(linea[0])
+        m = int(linea[1])
+        q = int(linea[2])
 
+        grafito = [[] for _ in range(n)]
+        i = 0
+        while i < n - 1:
+            n1, n2, p = map(int, stdin.readline().split())
+            grafito[n1].append((n2, p))
+            i += 1
+
+        nodosTrans = set(map(int, stdin.readline().split()))
+        queries = list(map(int, stdin.readline().split()))
+
+        res = solve_case(n, m, grafito, nodosTrans, queries)
+        for val in res:
+            print(val)
+
+        linea = stdin.readline().split()
+
+
+if __name__ == "__main__":
+    main()
 
 """
 Sample Input 1
@@ -210,7 +198,9 @@ Sample Output 1
 170
 0
 0
+"""
 
+"""
 Sample Input 2
 59 41 15
 9 54 223
@@ -273,6 +263,9 @@ Sample Input 2
 53 7 399
 13 1 21 20 25 5 24 53 28 30 19 54 35 44 55 57 10 33 8 31 41 6 4 12 42 49 45 43 26 51 58 0 46 9 22 47 27 32 3 11 16
 4 39 57 51 24 24 27 41 45 41 7 44 5 33 22
+"""
+
+"""
 Sample Output 2
 1826
 12224
