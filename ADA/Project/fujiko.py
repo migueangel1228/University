@@ -1,175 +1,279 @@
 """
 Tarea  : ADA  Proyecto 
-Fecha  : 27 Mayo 2026
+Fecha  : 1 junio 2026
 Nombre : Miguel Angel Padilla Rosero
 Cod    : 8988878
 
 Problem - A - FujikoMine
 """
 
-from sys import stdin, setrecursionlimit
+"""
+Código de honor
 
-setrecursionlimit(10**7)
+Como miembro de la comunidad académica de la Pontificia Universidad Javeriana Cali, los valores éticos y la integri-
+dad son tan importantes como la excelencia académica. En este curso se espera que los estudiantes se comporten ética
 
-INF = -10**18
+y honestamente, con los más altos niveles de integridad escolar. En particular, se asume que cada estudiante adopta el
+siguiente código de honor:
+Como miembro de la comunidad académica de la Pontificia Universidad Javeriana Cali me comprometo
+a seguir los más altos estándares de integridad académica.
+Integridad académica se refiere a ser honesto, dar crédito a quien lo merece y respetar el trabajo de los demás. Por eso
+es importante evitar plagiar, engañar, 'hacer trampa', etc. En particular, el acto de entregar un programa de computador
+ajeno como propio constituye un acto de plagio; cambiar el nombre de las variables, agregar o eliminar comentarios
+y reorganizar comandos no cambia el hecho de que se está copiando el programa de alguien más. Para más detalles
+consultar el Reglamento de Estudiantes, Sección VI.
+"""
 
-children = []
-parent = []
-pesoPadre = []
-nodeTipo = []
-order = []
-sz = []
-f = []
-bestRoot = []
+from sys import stdin
 
-def contruccion(n, edges, rnode=0):
-    global children, parent, pesoPadre, order, sz
+# Valor usado para representar un estado imposible en la DP.
+INF = -float("inf")
 
-    adj = [[] for _ in range(n)]
-    for u, v, w in edges:
-        adj[u].append((v, w))
-        adj[v].append((u, w))
+# Conjunto global que guarda los nodos de transmisión del caso actual.
+nodesTrans = set()
 
-    children = [[] for _ in range(n)]
-    parent = [-1] * n
-    pesoPadre = [0] * n
+# Lista de adyacencia del árbol del caso actual.
+graph = []
+
+# Recibe:
+#   n: número total de nodos del árbol.
+#   G: lista de adyacencia del árbol.
+# Hace:
+#   Identifica cuál nodo es la raíz del árbol.
+#   Como las aristas están dadas en dirección padre -> hijo, la raíz es el único
+#   nodo que no aparece como hijo de ningún otro.
+# Devuelve:
+#   El índice del nodo raíz.
+def find_root(n, G):
+    has_parent = [False] * n
+    i = 0
+    root = -1
+    found = False
+
+    for u in range(n):
+        for v, _ in G[u]:
+            has_parent[v] = True
+
+    while i < n and not found:
+        if not has_parent[i]:
+            root = i
+            found = True
+        i += 1
+    return root
+
+# Recibe:
+#   root: raíz del árbol.
+#   G: lista de adyacencia del árbol.
+# Hace:
+#   Genera un recorrido postorden del árbol.
+#   Esto permite procesar primero los hijos y luego el padre, que es lo
+#   necesario para construir la programación dinámica sobre árboles.
+# Devuelve:
+#   Una lista con los nodos en orden postorden.
+def generate_postorder(root, G):
     order = []
-
-    stack = [rnode]
-    parent[rnode] = rnode
-
+    stack = [root]
     while stack:
         u = stack.pop()
         order.append(u)
-        for v, w in adj[u]:
-            if v != parent[u]:
-                parent[v] = u
-                pesoPadre[v] = w
-                children[u].append(v)
-                stack.append(v)
+        for v, _ in G[u]:
+            stack.append(v)
 
-    order.reverse()
-    
-    sz = [0] * n
+    result = []
+    while order:
+        result.append(order.pop())
+    return result
+
+# Recibe:
+#   u: nodo actual.
+#   children: hijos directos de u con sus pesos.
+#   max_trans: máximo número de nodos de transmisión que se pueden usar en
+#             el subárbol de u.
+#   sizes: arreglo con la cantidad de nodos de transmisión por subárbol.
+#   tab: tabla DP ya calculada para los nodos hijos.
+# Hace:
+#   Construye la tabla DP del nodo u combinando uno por uno los resultados de
+#   sus hijos.
+#   La idea es guardar, para cada cantidad de transmisiones, la mejor ganancia
+#   posible en el subárbol conectado que contiene a u.
+# Devuelve:
+#   Una lista dp_u donde dp_u[k] es la mejor ganancia usando exactamente k
+#   transmisiones dentro del subárbol de u.
+def merge_children(u, children, max_trans, sizes, tab):
+    is_trans = u in transmission_nodes
+    dp_u = [INF] * (max_trans + 1)
+
+    if is_trans:
+        trans_used = 1
+        if max_trans >= 1:
+            dp_u[1] = 0
+    else:
+        trans_used = 0
+        dp_u[0] = 0
+
+    for v, w in children:
+        child = tab[v]
+        size_v = sizes[v]
+        total_trans = min(max_trans, trans_used + size_v)
+
+        while total_trans >= 0:
+            lim = min(size_v, total_trans)
+            j = 1
+            while j <= lim:
+                parent = dp_u[total_trans - j]
+                if child[j] != INF and parent != INF:
+                    val = parent + child[j] + w
+                    if val > dp_u[total_trans]:
+                        dp_u[total_trans] = val
+                j += 1
+            total_trans -= 1
+
+        trans_used += size_v
+
+    return dp_u
+
+# Recibe:
+#   root: raíz del árbol.
+#   G: lista de adyacencia del árbol.
+#   sizes: arreglo con el número de transmisiones por subárbol.
+# Hace:
+#   Calcula toda la tabla DP del árbol en postorden.
+#   Para cada nodo, guarda la mejor solución para cada cantidad posible de
+#   transmisiones dentro de su subárbol.
+# Devuelve:
+#   La tabla completa DP del árbol.
+def phi_tab(root, G, sizes):
+    order = generate_postorder(root, G)
+    tab = [None] * len(G)
+
     for u in order:
-        if nodeTipo[u] == 1:
-            sz[u] = 1
-        for v in children[u]:
-            sz[u] += sz[v]
+        children = G[u]
+        max_trans = sizes[u]
 
-def phiTab(n, m):
-    global f, bestRoot
-    
-    f = [[INF] * (m + 1) for _ in range(n)]
-    bestRoot = [[INF] * (m + 1) for _ in range(n)]
-
-    for u in order:
-        dp = [[INF] * (m + 1) for _ in range(3)]
-        
-        if nodeTipo[u] == 1:
-            dp[0][1] = 0
-            actualSz = 1
-        else:
-            dp[0][0] = 0
-            actualSz = 0
-
-        for v in children[u]:
-            w = pesoPadre[v]
-            newDP = [row[:] for row in dp]
-
-            limitK = min(m, actualSz)
-            limitJ = min(m, sz[v])
-
-            for c in range(3):
-                for k in range(limitK + 1):
-                    if dp[c][k] != INF:
-                        for j in range(1, limitJ + 1):
-                            if f[v][j] != INF and k + j <= m:
-                                nc = min(2, c + 1)
-                                nk = k + j
-                                val = dp[c][k] + f[v][j] + w
-                                if val > newDP[nc][nk]:
-                                    newDP[nc][nk] = val
-
-            dp = newDP
-            actualSz += sz[v]
-
-        for k in range(min(m, actualSz) + 1):
-            mx = max(dp[0][k], dp[1][k], dp[2][k])
-            f[u][k] = mx
-            
-            if nodeTipo[u] == 1:
-                bestRoot[u][k] = mx
+        if len(children) == 0:
+            tab[u] = [INF] * (max_trans + 1)
+            if u in transmission_nodes:
+                if max_trans >= 1:
+                    tab[u][1] = 0
             else:
-                bestRoot[u][k] = dp[2][k]
-
-def solve(n, m, edges, nodeTipos, queries):
-    global nodeTipo
-    nodeTipo = nodeTipos
-
-    contruccion(n, edges, 0)
-    phiTab(n, m)
-
-    ans = []
-    for x in queries:
-        if x <= 1 or x > m:
-            ans.append(0)
+                tab[u][0] = 0
         else:
-            best = 0
-            for v in range(n):
-                if bestRoot[v][x] > best:
-                    best = bestRoot[v][x]
+            tab[u] = merge_children(u, children, max_trans, sizes, tab)
 
-            ans.append(best)
+    return tab
 
-    return ans
+# Recibe:
+#   root: raíz del árbol.
+#   G: lista de adyacencia del árbol.
+#   subtree_sizes: arreglo donde se guardará el número de transmisiones de cada
+#                 subárbol.
+# Hace:
+#   Calcula cuántos nodos de transmisión hay en cada subárbol.
+#   Esta información sirve para limitar los estados de la DP y evitar calcular
+#   casos imposibles.
+# Devuelve:
+#   No devuelve nada; llena el arreglo subtree_sizes.
+def compute_transmission_sizes(root, G, subtree_sizes):
+    stack = [root]
+    order = []
 
+    while len(stack) > 0:
+        u = stack.pop()
+        order.append(u)
+        for v, _ in G[u]:
+            stack.append(v)
+
+    i = len(order) - 1
+    while i >= 0:
+        u = order[i]
+        ans = 1
+        if u in transmission_nodes:
+            ans = 1
+        else:
+            ans = 0
+        for v, _ in G[u]:
+            ans += subtree_sizes[v]
+        subtree_sizes[u] = ans
+        i -= 1
+
+# Recibe:
+#   n: número de nodos.
+#   m: número de nodos de transmisión.
+#   G: lista de adyacencia del árbol.
+#   queries: lista de consultas x.
+# Hace:
+#   Resuelve todas las consultas del caso actual.
+#   Primero calcula la raíz, luego preprocesa tamaños y la DP del árbol,
+#   y finalmente responde cada query usando la tabla ya construida.
+# Devuelve:
+#   Una lista con la respuesta para cada consulta.
+def solution(n, m, G, queries):
+    root = find_root(n, G)
+    subtree_sizes = [0] * n
+    compute_transmission_sizes(root, G, subtree_sizes)
+    results = []
+    i = 0
+
+    dp_table = phi_tab(root, G, subtree_sizes)
+
+    while i < len(queries):
+        query = queries[i]
+        max_crypto = 0
+
+        if query <= m:
+            if query <= 1:
+                max_crypto = 0
+            else:
+                start_node = 0
+                while start_node < n:
+                    if start_node in transmission_nodes and query <= subtree_sizes[start_node]:
+                        crypto = dp_table[start_node][query]
+                        if crypto != INF and crypto > max_crypto:
+                            max_crypto = crypto
+                    start_node += 1
+
+        results.append(max_crypto)
+        i += 1
+    return results
+
+# Recibe:
+#   No recibe parámetros; lee directamente de la entrada estándar.
+# Hace:
+#   Lee todos los casos de prueba.
+#   Para cada caso:
+#   1. Lee n, m y q.
+#   2. Construye el árbol.
+#   3. Lee los nodos de transmisión.
+#   4. Lee las consultas.
+#   5. Llama a solution().
+#   6. Imprime la respuesta de cada query.
+# Devuelve:
+#   No devuelve nada; solo imprime la salida del programa.
 def main():
-    data = list(map(int, stdin.read().split()))
-    idx = 0
-    flag = True
+    global transmission_nodes, graph
+    line = stdin.readline().split()
+    while len(line) > 0:
+        n = int(line[0])
+        m = int(line[1])
 
-    while flag and idx + 2 < len(data):
-        n = data[idx]
-        m = data[idx + 1]
-        q = data[idx + 2]
-        idx += 3
+        graph = [[] for _ in range(n)]
+        i = 0
 
-        edges = []
-        need = (n - 1) * 3
-        if idx + need > len(data):
-            flag = False
-        else:
-            for _ in range(n - 1):
-                u = data[idx]
-                v = data[idx + 1]
-                w = data[idx + 2]
-                edges.append((u, v, w))
-                idx += 3
+        while i < n - 1:
+            n1, n2, p = map(int, stdin.readline().split())
+            graph[n1].append((n2, p))
+            i += 1
 
-            nodeTipos = [0] * n
-            if idx + m > len(data):
-                flag = False
-            else:
-                for _ in range(m):
-                    nodeTipos[data[idx]] = 1
-                    idx += 1
+        transmission_nodes = set(map(int, stdin.readline().split()))
+        queries = list(map(int, stdin.readline().split()))
 
-                queries = []
-                if idx + q > len(data):
-                    flag = False
-                else:
-                    for _ in range(q):
-                        queries.append(data[idx])
-                        idx += 1
+        results = solution(n, m, graph, queries)
+        for val in results:
+            print(val)
 
-                    res = solve(n, m, edges, nodeTipos, queries)
-
-                    for val in res:
-                        print(val)
+        line = stdin.readline().split()
 
 main()
-
 
 """
 Sample Input 1
@@ -365,4 +469,3 @@ Sample Output 3
 0
 0
 """
-
