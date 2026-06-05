@@ -30,7 +30,7 @@ from sys import stdin
 INF = -float("inf")
 
 # Conjunto global que guarda los nodos de transmisión del caso actual.
-nodesTrans = set()
+transmission_nodes = set()
 
 # Lista de adyacencia del árbol del caso actual.
 graph = []
